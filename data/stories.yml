@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
+  - intent: affirm
+  - action: utter_affirm
+
+- story: sad path 1
+  steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
+  - intent: deny
+  - action: utter_deny
+
+- story: sad path 2
+  steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
+
+- story: buy game sad
+  steps:
+  - intent: BuyGame
+  - action: utter_BuyGame
+  - intent: deny
+  - action: utter_deny
+
+- story: buy game sad
+  steps:
+  - intent: BuyGame
+  - action: utter_BuyGame
+  - intent: affirm
+  - action: utter_affirm
+

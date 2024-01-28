@@ -1,0 +1,109 @@
+version: "3.1"
+
+intents:
+  - BuyGame
+  - ReqShowGame
+  - affirm
+  - deny
+
+entities:
+  - game_title
+  - platform
+  - genre
+  - category
+  - publisher
+  - developer
+  - release_date
+  - game_tag
+
+actions:
+  - action_recommend_game
+
+slots:
+  game_title:
+    type: text
+    influence_conversation: false
+    mappings:
+    - entity: game_title
+      type: from_entity
+      itent: BuyGame
+
+  platform:
+    type: text
+    influence_conversation: false
+    mappings:
+    - entity: platform
+      type: from_entity
+      itent: ReqShowGame
+
+  genre:
+    type: list
+    influence_conversation: false
+    mappings:
+    - entity: genre
+      type: from_entity
+      itent: ReqShowGame
+
+  category:
+    type: list
+    influence_conversation: false
+    mappings:
+    - entity: category
+      type: from_entity
+      itent: ReqShowGame
+
+  publisher:
+    type: text
+    influence_conversation: false
+    mappings:
+    - entity: publisher
+      type: from_entity
+      itent: ReqShowGame
+
+  developer:
+    type: text
+    influence_conversation: false
+    mappings:
+    - entity: developer
+      type: from_entity
+      itent: ReqShowGame
+
+  release_date:
+    type: text
+    influence_conversation: false
+    mappings:
+    - entity: release_date
+      type: from_entity
+      itent: ReqShowGame
+  
+  game_tag:
+    type: list
+    influence_conversation: false
+    mappings:
+    - entity: game_tag
+      type: from_entity
+      itent: ReqShowGame
+
+
+responses:
+  utter_BuyGame:
+  - text: "Ok, so do you wanna buy {game_title}"
+
+  utter_ReqShowGame:
+    - text: 'So do you wanna play a game with genre: {genre} publisher: {publisher} developer: {developer} release_date: {release_date} game_tag: {game_tag}'
+
+  utter_affirm:
+  - text: "Ok"
+
+  utter_deny:
+  - text: "How dare you"
+
+  uteer_recom_found:
+  - text: "You should try {game_title}, what do you think?"
+
+  uteer_recom_not_found:
+  - text: "Sorry! I do not found any game like this."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
