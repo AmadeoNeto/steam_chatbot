@@ -8,6 +8,7 @@ stories:
   - action: action_recommend_game
   - intent: affirm
   - action: utter_affirm
+  
 
 - story: sad path 1
   steps:
@@ -16,7 +17,7 @@ stories:
   - intent: deny
   - action: utter_deny
 
-- story: sad path 2
+- story: user ask another game
   steps:
   - intent: ReqShowGame
   - action: action_recommend_game

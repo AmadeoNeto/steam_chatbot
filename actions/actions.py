@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
+import utils
 import sqlite3
 
 path_to_game_info_db = r"steam_base.db"
@@ -45,7 +46,7 @@ class RecommendGame(Action):
             platform = tracker.get_slot('platform')
             genre = tracker.get_slot('genre')
             categories = tracker.get_slot('category')
-            publisher = tracker.get_slot('publisher')
+            # publisher = tracker.get_slot('publisher')
             developer = tracker.get_slot('developer')
             release_date = tracker.get_slot('release_date')
             game_tag = tracker.get_slot('game_tag')
@@ -54,43 +55,45 @@ class RecommendGame(Action):
             print('platform', platform)
             print('genre', genre)
             print('categories', categories)
-            print('publisher', publisher)
+            # print('publisher', publisher)
             print('developer', developer)
             print('release_date', release_date)
             print('game_tag', game_tag)
             print()
 
-            game_tag = game_tag[0]
-            print('Used game tag:', game_tag)
-
-            query = '''
-                SELECT name, steamspy_tags FROM game_info
-                WHERE steamspy_tags LIKE ? 
-                AND positive_ratings = (
-                    SELECT MAX(positive_ratings)
-                    FROM game_info
-                    WHERE steamspy_tags LIKE ?
-                )
-            '''
+            query = utils.query_builder(game_tag   = game_tag,
+                    platforms     = platform,
+                    genres        = genre,
+                    categories   = categories,
+                    developer    = developer,
+                    release_date = release_date)
 
             cur = conn.cursor() 
 
-            res_query = cur.execute(query, ('%' + game_tag + '%', '%' + game_tag + '%'))
+            res_query = cur.execute(query)
 
             data_row = res_query.fetchone()
+
+
+            return_slots = [SlotSet('platform', None),
+                            SlotSet('genre', None),
+                            SlotSet('category', None),
+                            SlotSet('developer', None),
+                            SlotSet('release_date', None),
+                            SlotSet('game_tag', None)]
 
             print('DB response: ',data_row)
 
             if data_row:
-                dispatcher.utter_message(f'You should try {data_row[0]}, what do you think?')
+                dispatcher.utter_message(f'You should try {data_row[1]}, what do you think?')
 
                 conn.close()
-                return [SlotSet("game_title", data_row[0])]
+                return [return_slots]
             else:
-                dispatcher.utter_message(text="uteer_recom_not_found")
+                dispatcher.utter_message(template="uteer_recom_not_found")
 
                 conn.close()
-                return []
+                return [return_slots]
 
 
 

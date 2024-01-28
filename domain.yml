@@ -29,7 +29,7 @@ slots:
       itent: BuyGame
 
   platform:
-    type: text
+    type: list
     influence_conversation: false
     mappings:
     - entity: platform
@@ -98,8 +98,8 @@ responses:
   utter_deny:
   - text: "How dare you"
 
-  uteer_recom_found:
-  - text: "You should try {game_title}, what do you think?"
+  # uteer_recom_found:
+  # - text: ""
 
   uteer_recom_not_found:
   - text: "Sorry! I do not found any game like this."
