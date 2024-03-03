@@ -5,6 +5,7 @@ intents:
   - ReqShowGame
   - affirm
   - deny
+  - ReqGameInfo
 
 entities:
   - game_title
@@ -18,6 +19,7 @@ entities:
 
 actions:
   - action_recommend_game
+  - action_request_info
 
 slots:
   game_title:
@@ -106,4 +108,4 @@ responses:
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false

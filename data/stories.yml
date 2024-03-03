@@ -8,7 +8,6 @@ stories:
   - action: action_recommend_game
   - intent: affirm
   - action: utter_affirm
-  
 
 - story: sad path 1
   steps:
@@ -36,3 +35,7 @@ stories:
   - intent: affirm
   - action: utter_affirm
 
+- story: req game info
+  steps:
+  - intent: ReqGameInfo
+  - action: action_request_info

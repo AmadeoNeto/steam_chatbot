@@ -14,8 +14,12 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import utils
 import sqlite3
+from transformers import pipeline
 
 path_to_game_info_db = r"steam_base.db"
+
+# Load the pre-trained question answering pipeline
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad", tokenizer="distilbert-base-uncased")
 
 # class ActionHelloWorld(Action):
 
@@ -96,4 +100,57 @@ class RecommendGame(Action):
                 return [return_slots]
 
 
+class RequestInfo(Action):
 
+    def name(self) -> Text:
+        return "action_request_info"
+    
+    def run(self,
+             dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+            conn = sqlite3.connect(path_to_game_info_db)
+
+            game_title = tracker.get_slot('game_title')
+
+            print('\n::SLOTS::')
+            print('game title', game_title)
+    
+            # Define question and context
+            question = tracker.latest_message.get('text')
+            context = utils.generate_qa_context(game_title, conn)
+
+            print('Question: ', question)
+            print('Context: ',context)
+    
+            if game_title is None or context == '':
+                dispatcher.utter_message(text = "Sorry, I do not get the game name!")
+                conn.close()
+                return []
+
+            # Perform question answering
+            answer_dsbert = qa_pipeline(question=question, context=context)
+            print("\nAnswer:", answer_dsbert["answer"])
+            print("\Confidence:", answer_dsbert["score"])
+
+            if context != "":
+                answer = answer_dsbert['answer']
+                answer = ", ".join(answer.split(';')).title()
+                confidence = answer_dsbert['score']
+
+                response = f'{answer}. '
+                if confidence < 0.25:
+                    response += "But I'm not sure."
+                elif confidence > 0.80:
+                    response += "For sure!"
+
+                dispatcher.utter_message(text = response)
+
+                conn.close()
+                return []
+            else:
+                dispatcher.utter_message(template="uteer_recom_not_found")
+                conn.close()
+                return []
+            
