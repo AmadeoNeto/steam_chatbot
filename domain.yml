@@ -1,11 +1,20 @@
 version: "3.1"
 
 intents:
-  - BuyGame
-  - ReqShowGame
-  - affirm
-  - deny
-  - ReqGameInfo
+  - BuyGame:
+      use_entities:
+        - game_title
+  - ReqShowGame:
+      ignore_entities:
+        - game_title
+  - affirm:
+      use_entities: []
+  - deny:
+      use_entities: []
+  - ReqGameInfo:
+      use_entities:
+        - game_title
+
 
 entities:
   - game_title
@@ -28,7 +37,10 @@ slots:
     mappings:
     - entity: game_title
       type: from_entity
-      itent: BuyGame
+      itent: BuyGame, 
+    - entity: game_title
+      type: from_entity
+      intent: ReqGameInfo
 
   platform:
     type: list

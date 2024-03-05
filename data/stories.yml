@@ -16,8 +16,24 @@ stories:
   - intent: deny
   - action: utter_deny
 
+- story: happy path 2
+  steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
+  - intent: affirm
+  - action: utter_affirm
+
+- story: sad path 2
+  steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
+  - intent: deny
+  - action: utter_deny
+
 - story: user ask another game
   steps:
+  - intent: ReqShowGame
+  - action: action_recommend_game
   - intent: ReqShowGame
   - action: action_recommend_game
 
@@ -28,12 +44,13 @@ stories:
   - intent: deny
   - action: utter_deny
 
-- story: buy game sad
+- story: buy game happy
   steps:
   - intent: BuyGame
   - action: utter_BuyGame
   - intent: affirm
   - action: utter_affirm
+
 
 - story: req game info
   steps:
