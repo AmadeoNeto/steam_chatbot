@@ -1,0 +1,1339 @@
+version: 3.1
+
+nlu
+- intent: BuyGame
+  examples: |
+    - I'm interested in buying [Grand Theft Auto V].
+    - Can I get [Red Dead Redemption 2] from your store?
+    - I'd like to purchase [The Legend of Zelda: Breath of the Wild].
+    - Could you help me buy [Minecraft]?
+    - I want to order [Cyberpunk 2077].
+    - Can I buy [Resident Evil Village]?
+    - I'm looking to purchase [Call of Duty: Black Ops Cold War].
+    - I'd like to get [Final Fantasy VII Remake].
+    - Can you assist me in buying [Animal Crossing: New Horizons]?
+    - I want to buy [Horizon Zero Dawn].
+    - Can I order [Spider-Man: Miles Morales] from your store?
+    - I'm interested in purchasing [Doom Eternal].
+    - I want to get [Hades].
+    - Can you help me buy [Valorant]?
+    - I'd like to order [Among Us].
+    - I want to purchase [Fall Guys: Ultimate Knockout].
+    - Can I buy [Ghost of Tsushima] from your store?
+    - I'm looking to get [Ori and the Will of the Wisps].
+    - Can you assist me in purchasing [Halo Infinite]?
+    - I want to order [Assassin's Creed Valhalla].
+    - Can I get [Immortals Fenyx Rising]?
+    - I'd like to buy [Watch Dogs: Legion].
+    - Could you help me purchase [Yakuza: Like a Dragon]?
+    - I want to order [Demon's Souls].
+    - Can I buy [Crash Bandicoot 4: It's About Time] from your store?
+    - I'm interested in getting [Marvel's Avengers].
+    - I want to purchase [Mafia: Definitive Edition].
+    - Can you help me buy [Baldur's Gate 3]?
+    - I'd like to order [Tony Hawk's Pro Skater 1 + 2].
+    - I want to get [Star Wars: Squadrons].
+    - Can you assist me in purchasing [Carrion]?
+    - I want to buy [Microsoft Flight Simulator].
+    - Can I order [Paper Mario: The Origami King] from your store?
+    - I'm looking to purchase [Gears Tactics].
+    - I'd like to get [XCOM: Chimera Squad].
+    - Can you help me buy [Half-Life: Alyx]?
+    - I want to order [Resident Evil 3].
+    - Can I buy [Final Fantasy XIV Online] from your store?
+    - I'm interested in purchasing [Persona 5 Royal].
+    - I want to get [Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition].
+    - Can you assist me in buying [Nioh 2]?
+    - I want to purchase [Street Fighter V: Champion Edition].
+    - Can I order [Doom 64] from your store?
+    - I'm looking to get [Animal Crossing: New Horizons - Happy Home Paradise].
+    - I'd like to buy [Super Mario 3D World + Bowser's Fury].
+    - Could you help me purchase [Hyrule Warriors: Age of Calamity]?
+    - I want to order [Monster Hunter Rise].
+    - Can I buy [Bravely Default II] from your store?
+    - I'm interested in getting [Scott Pilgrim vs. The World: The Game – Complete Edition].
+    - I want to purchase [Mass Effect Legendary Edition].
+    - Hey, I'm interested in getting [The Last of Us Part II]. Can you help me with that?
+    - I've been dying to play [Death Stranding]. Can I buy it from your store?
+    - Do you have [God of War] in stock? I'd love to purchase it.
+    - I heard great things about [Control]. Can you assist me in buying it?
+    - I'm looking to buy [Sekiro: Shadows Die Twice]. Can you help me out?
+    - I really want to play [Devil May Cry 5]. Is it available for purchase?
+    - I'm interested in getting [Apex Legends]. Can I order it from your store?
+    - Can you help me purchase [Tom Clancy's Rainbow Six Siege]?
+    - I've been wanting to play [Forza Horizon 4]. Can I buy it from you?
+    - I'm looking to get [PlayerUnknown's Battlegrounds]. Can you assist me?
+    - I'm a big fan of [Dark Souls III]. Can I order it from your store?
+    - I've heard good things about [The Outer Worlds]. Can you help me buy it?
+    - I really want to play [Borderlands 3]. Is it available for purchase?
+    - I'm interested in getting [Mortal Kombat 11]. Can you help me out?
+    - Can you assist me in purchasing [Gears 5]?
+    - I've been dying to play [Red Dead Redemption 2]. Can I buy it from your store?
+    - I'm looking to order [Jump Force]. Can you help me with that?
+    - I'm a big fan of [Dragon Ball FighterZ]. Can I purchase it from you?
+    - I've heard great things about [Kingdom Hearts III]. Can you assist me in buying it?
+    - I really want to play [Resident Evil 2]. Is it available for purchase?
+    - I'm interested in getting [Metro Exodus]. Can you help me out?
+    - Can you assist me in purchasing [Anthem]?
+    - I've been wanting to play [Days Gone]. Can I buy it from your store?
+    - I'm looking to get [Battlefield V]. Can you help me with that?
+    - I'm a big fan of [Call of Duty: Modern Warfare]. Can I order it from your store?
+    - I've heard good things about [Star Wars Jedi: Fallen Order]. Can you help me buy it?
+    - I really want to play [Code Vein]. Is it available for purchase?
+    - I'm interested in getting [Catherine: Full Body]. Can you help me out?
+    - Can you assist me in purchasing [Yoshi's Crafted World]?
+    - I've been dying to play [Super Smash Bros. Ultimate]. Can I buy it from your store?
+    - I'm looking to order [Fire Emblem: Three Houses]. Can you help me with that?
+    - I'm a big fan of [Luigi's Mansion 3]. Can I purchase it from you?
+    - I've heard great things about [Astral Chain]. Can you assist me in buying it?
+    - I really want to play [Pokémon Sword and Shield]. Is it available for purchase?
+    - I'm interested in getting [The Legend of Zelda: Link's Awakening]. Can you help me out?
+    - Can you assist me in purchasing [Dragon Quest XI S: Echoes of an Elusive Age]?
+    - I've been wanting to play [Judgment]. Can I buy it from your store?
+    - I'm looking to get [Persona 5]. Can you help me with that?
+    - I'm a big fan of [Nier: Automata]. Can I order it from your store?
+    - I've heard good things about [Yakuza 6: The Song of Life]. Can you help me buy it?
+    - I really want to play [Octopath Traveler]. Is it available for purchase?
+    - I'm interested in getting [Monster Hunter: World]. Can you help me out?
+    - Can you assist me in purchasing [Detroit: Become Human]?
+    - I've been dying to play [Marvel's Spider-Man]. Can I buy it from your store?
+    - I'm looking to order [Shadow of the Tomb Raider]. Can you help me with that?
+    - I'm a big fan of [Just Cause 4]. Can I purchase it from you?
+    - I've heard great things about [Soulcalibur VI]. Can you assist me in buying it?
+    - I really want to play [Dragon Ball Z: Kakarot]. Is it available for purchase?
+    - I'm interested in getting [Shenmue III]. Can you help me out?
+    - Can you assist me in purchasing [The Outer Worlds]?
+    - I'm eager to play [Cyberpunk 2077]. Can you help me buy it?
+    - Do you have [Assassin's Creed Valhalla] in stock? I'd like to purchase it.
+    - I'm dying to get my hands on [Halo Infinite]. Can I order it from you?
+    - I've been hearing a lot about [Ghost of Tsushima]. Can you help me buy it?
+    - I'm interested in purchasing [Watch Dogs: Legion]. Can you assist me?
+    - I really want to play [Spider-Man: Miles Morales]. Is it available for purchase?
+    - Can you help me get [Demon's Souls]? I've been wanting to play it for a while.
+    - I'm looking to buy [Ratchet & Clank: Rift Apart]. Can you help me out?
+    - I'm a big fan of [Final Fantasy VII Remake]. Can I order it from your store?
+    - I've heard great things about [Immortals Fenyx Rising]. Can you assist me in buying it?
+    - I'm really interested in [Baldur's Gate 3]. Can I purchase it from you?
+    - Can you help me get [Marvel's Avengers]? I've been dying to play it.
+    - I'm looking to buy [Scarlet Nexus]. Can you help me with that?
+    - I've been wanting to play [Resident Evil Village]. Can you assist me in purchasing it?
+    - I'm interested in [Deathloop]. Can I order it from your store?
+    - I really want to play [Far Cry 6]. Is it available for purchase?
+    - Can you help me get [Psychonauts 2]? I've heard great things about it.
+    - I'm looking to purchase [Outriders]. Can you help me out?
+    - I'm a big fan of [Mass Effect Legendary Edition]. Can I buy it from you?
+    - I've heard a lot about [Bioware's new game]. Can you assist me in purchasing it?
+    - I'm really interested in [Little Nightmares II]. Can I order it from your store?
+    - Can you help me get [Hitman 3]? I've been dying to play it.
+    - I'm looking to buy [Nioh 2]. Can you help me with that?
+    - I've been wanting to play [Monster Hunter Rise]. Can you assist me in purchasing it?
+    - I'm interested in [Bravely Default II]. Can I order it from your store?
+    - I really want to play [Persona 5 Strikers]. Is it available for purchase?
+    - Can you help me get [Yakuza: Like a Dragon]? I've heard great things about it.
+    - I'm looking to purchase [Scott Pilgrim vs. The World: The Game – Complete Edition]. Can you help me out?
+    - I'm a big fan of [Guilty Gear Strive]. Can I buy it from you?
+    - I've heard a lot about [The Medium]. Can you assist me in purchasing it?
+    - I'm really interested in [Returnal]. Can I order it from your store?
+    - Can you help me get [Ruined King: A League of Legends Story]? I've been dying to play it.
+    - I'm looking to buy [Humankind]. Can you help me with that?
+    - I've been wanting to play [Chivalry 2]. Can you assist me in purchasing it?
+    - I'm interested in [Back 4 Blood]. Can I order it from your store?
+    - I really want to play [12 Minutes]. Is it available for purchase?
+    - Can you help me get [The Ascent]? I've heard great things about it.
+    - I'm looking to purchase [Kena: Bridge of Spirits]. Can you help me out?
+    - I'm a big fan of [Lost Judgment]. Can I buy it from you?
+    - I've heard a lot about [Death Stranding Director's Cut]. Can you assist me in purchasing it?
+    - I'm really interested in [Guardians of the Galaxy]. Can I order it from your store?
+    - Can you help me get [Age of Empires IV]? I've been dying to play it.
+    - I'm looking to buy [Battlefield 2042]. Can you help me with that?
+    - I've been wanting to play [Forza Horizon 5]. Can you assist me in purchasing it?
+    - I'm interested in [Far Cry 6]. Can I order it from your store?
+    - I really want to play [Halo Infinite]. Is it available for purchase?
+    - Can you help me get [Dying Light 2 Stay Human]? I've heard great things about it.
+    - I'm looking to purchase [Gotham Knights]. Can you help me out?
+    - I'm a big fan of [Lego Star Wars: The Skywalker Saga]. Can I buy it from you?
+    - I've heard a lot about [Saints Row]. Can you assist me in purchasing it?
+    - I'm looking to buy [Assassin's Creed Valhalla] today.
+    - Could I purchase [Cyberpunk 2077] please?
+    - Is it possible to get [FIFA 22] from your store?
+    - I'm interested in purchasing [Minecraft].
+    - I'd like to buy [Super Mario Odyssey] if it's available.
+    - Can you help me order [Call of Duty: Warzone]?
+    - I'm thinking of buying [Animal Crossing: New Horizons].
+    - Would you happen to have [Overwatch] in stock?
+    - I want to get [Marvel's Spider-Man: Miles Morales].
+    - Is [Fortnite] available for purchase?
+    - Can I buy [The Witcher 3: Wild Hunt] here?
+    - I'm interested in [Among Us], do you have it?
+    - I'd like to purchase [Halo Infinite] if possible.
+    - I'm considering buying [The Last of Us Part II].
+    - Could you help me get [Resident Evil Village]?
+    - I want to order [Destiny 2], please.
+    - Can I purchase [Apex Legends]? Thanks!
+    - I'm looking for [Pokémon Sword], do you sell it?
+    - I'd like to buy [Death Stranding].
+    - I'm interested in purchasing [God of War].
+    - Could you assist me in buying [Ghost of Tsushima]?
+    - I'm thinking of getting [Genshin Impact].
+    - Can you help me order [Rust]?
+    - I'm considering buying [Rainbow Six Siege].
+    - I'd like to purchase [Valorant], please.
+    - I'm looking to buy [League of Legends].
+    - Is it possible to get [Mortal Kombat 11] from your store?
+    - I'm interested in purchasing [Dota 2].
+    - Could I buy [Counter-Strike: Global Offensive]?
+    - I'd like to purchase [World of Warcraft].
+    - Can you help me order [Rocket League]?
+    - I'm considering buying [Among Us].
+    - I'd like to buy [Fall Guys: Ultimate Knockout].
+    - I'm interested in purchasing [Among Us].
+    - Could you assist me in buying [Among Us]?
+    - I want to order [Among Us], please.
+    - Can I purchase [Among Us] from your store?
+    - I'm looking for [Among Us], do you sell it?
+    - I'd like to buy [Among Us].
+    - I'm interested in purchasing [Among Us].
+    - Could I buy [Among Us]? Thanks!
+    - I'd like to purchase [Among Us].
+    - Can you help me order [Among Us]?
+    - I'm considering buying [Among Us].
+    - I'd like to buy [Among Us].
+    - I'm interested in purchasing [Among Us].
+    - I want to buy a game. The title is [Grand Theft Auto V].
+    - I'm interested in purchasing [Red Dead Redemption 2].
+    - Can you help me buy [Cyberpunk 2077]?
+    - I would like to buy [The Last of Us Part II].
+    - I want to purchase [Ghost of Tsushima].
+    - Can you help me find [Call of Duty: Modern Warfare]?
+    - I'm looking to buy [Fortnite].
+    - I want to buy [Apex Legends].
+    - Can you help me purchase [Among Us]?
+    - I would like to buy [Minecraft].
+    - I want to purchase [Roblox].
+    - Can you help me find [The Sims 4]?
+    - I'm looking to buy [Animal Crossing: New Horizons].
+    - I want to buy [Super Mario Odyssey].
+    - Can you help me purchase [The Legend of Zelda: Breath of the Wild]?
+    - I would like to buy [Super Smash Bros. Ultimate].
+    - I want to purchase [Mario Kart 8 Deluxe].
+    - Can you help me find [Pokémon Sword and Shield]?
+    - I'm looking to buy [Luigi's Mansion 3].
+    - I want to buy [Paper Mario: The Origami King].
+    - Can you help me purchase [Hyrule Warriors: Age of Calamity]?
+    - I would like to buy [Pikmin 3 Deluxe].
+    - I want to purchase [Animal Crossing: Happy Home Paradise].
+    - Can you help me find [Mario Party Superstars]?
+    - I'm looking to buy [Metroid Dread].
+    - I want to buy [WarioWare: Get It Together!].
+    - Can you help me purchase [Shin Megami Tensei V]?
+    - I would like to buy [Fatal Frame: Maiden of Black Water].
+    - I want to purchase [The Great Ace Attorney Chronicles].
+    - Can you help me find [Guardians of the Galaxy]?
+    - I'm looking to buy [Back 4 Blood].
+    - I want to buy [Far Cry 6].
+    - Can you help me purchase [Battlefield 2042]?
+    - I would like to buy [Call of Duty: Vanguard].
+    - I want to purchase [Halo Infinite].
+    - Can you help me find [Forza Horizon 5]?
+    - I'm looking to buy [Psychonauts 2].
+    - I want to buy [Deathloop].
+    - Can you help me purchase [It Takes Two]?
+    - I would like to buy [Resident Evil Village].
+    - I want to purchase [Mass Effect Legendary Edition].
+    - Can you help me find [No Man's Sky]?
+    - I'm looking to buy [Valheim].
+    - I want to buy [Among Us].
+    - Can you help me purchase [Phasmophobia]?
+    - I would like to buy [Dead by Daylight].
+    - I want to purchase [Left 4 Dead 2].
+    - Can you help me find [Counter-Strike: Global Offensive]?
+    - I'm looking to buy [Team Fortress 2].
+    - I want to buy [Apex Legends].
+    - I want to buy [Valorant].
+    - Can you help me purchase [League of Legends]?
+    - I would like to buy [Dota 2].
+    - I want to purchase [Counter-Strike: Source].
+    - Can you help me find [Half-Life 2]?
+    - I'm looking to buy [Portal 2].
+    - I want to buy [Left 4 Dead].
+    - Can you help me purchase [Team Fortress Classic]?
+    - I would like to buy [Half-Life].
+    - I want to purchase [Counter-Strike].
+    - Can you help me find [Day of Defeat]?
+    - I'm looking to buy [Garry's Mod].
+    - I want to buy [Rust].
+    - Can you help me purchase [ARK: Survival Evolved]?
+    - I would like to buy [Conan Exiles].
+    - I want to purchase [7 Days to Die].
+    - Can you help me find [The Forest]?
+    - I'm looking to buy [Raft].
+    - I want to buy [Grounded].
+    - Can you help me purchase [Satisfactory]?
+    - I would like to buy [Factorio].
+    - I want to purchase [Oxygen Not Included].
+    - Can you help me find [RimWorld]?
+    - I'm looking to buy [Prison Architect].
+    - I want to buy [Cities: Skylines].
+    - Can you help me purchase [Planet Coaster].
+    - I would like to buy [RollerCoaster Tycoon 3].
+    - I want to purchase [Zoo Tycoon 2].
+    - Can you help me find [Jurassic World Evolution]?
+    - I'm looking to buy [Planet Zoo].
+    - I want to buy [Two Point Hospital].
+    - Can you help me purchase [Overcooked 2].
+    - I would like to buy [Cook, Serve, Delicious! 3?!].
+    - I want to purchase [Unpacking].
+    - Can you help me find [Moving Out].
+    - I'm looking to buy [House Flipper].
+    - I want to buy [PowerWash Simulator].
+    - Can you help me purchase [Lawn Mowing Simulator].
+    - I would like to buy [Farming Simulator 22].
+    - I want to purchase [Stardew Valley].
+    - Can you help me find [Animal Crossing: New Horizons].
+    - I'm looking to buy [The Sims 4].
+    - I want to buy [Cities: Skylines].
+    - Can you help me purchase [Planet Coaster].
+    - I would like to buy [RollerCoaster Tycoon 3].
+    - I want to purchase [Zoo Tycoon 2].
+    - Can you help me find [Jurassic World Evolution].
+    - I'm looking to buy [Planet Zoo].
+    - I want to buy [Two Point Hospital].
+    - Can you help me purchase [Overcooked 2]?
+    - I'm interested in purchasing [Cyberpunk 2077].
+    - Can I get [FIFA 22] from your store?
+    - I'd like to buy [Halo Infinite].
+    - I'd like to purchase [Overwatch].
+    - Could you help me purchase [Minecraft]?
+    - I want to order [Apex Legends].
+    - Can you help me purchase [Rocket League]?
+    - I would like to buy [League of Legends].
+    - I want to purchase [World of Warcraft].
+    - Can you help me find [Genshin Impact]?
+    - I'm looking to buy [Among Us].
+    - I want to buy [Among Us 2].
+    - I'd like to purchase [Among Us 2].
+    - I'm interested in purchasing [Battlefield 2042].
+    - Can I get [Deathloop] from your store?
+    - I'd like to buy [Ratchet & Clank: Rift Apart].
+    - I'd like to purchase [God of War Ragnarok].
+    - Could you help me purchase [Elden Ring]?
+    - I want to order [The Elder Scrolls VI].
+    - Can you help me find [Silent Hill]?
+    - I would like to buy [Dead Space Remake].
+    - I want to purchase [Bayonetta 3].
+    - Can you help me find [Fable 4]?
+    - I'm looking to buy [The Last of Us Part III].
+    - I want to buy [Persona 6].
+    - I'd like to purchase [Dragon Age 4].
+    - I'm interested in purchasing [Splinter Cell].
+    - Can I get [S.T.A.L.K.E.R. 2] from your store?
+    - I'd like to buy [Dying Light 2].
+    - I'd like to purchase [The Outer Worlds 2].
+    - Could you help me purchase [Star Wars Jedi: Fallen Order 2]?
+    - I want to order [Cyber Shadow].
+    - Can you help me purchase [Psychonauts 2]?
+    - I would like to buy [Age of Empires IV].
+    - I want to purchase [Hogwarts Legacy].
+    - Can you help me find [Vampire: The Masquerade - Bloodlines 2]?
+    - I'm looking to buy [Babylon's Fall].
+    - I want to buy [Back 4 Blood].
+    - I'd like to purchase [Rainbow Six Extraction].
+    - I'm interested in purchasing [Elden Ring].
+    - Can I get [Gran Turismo 7] from your store?
+    - I'd like to buy [Metroid Prime 4].
+    - I'd like to purchase [Perfect Dark].
+    - Could you help me purchase [Silent Hill]?
+    - I want to order [Mass Effect 5].
+    - Can you help me purchase [Resident Evil 4 Remake]?
+    - I would like to buy [Hogwarts Legacy].
+    - I want to purchase [The Outer Worlds 2].
+    - Can you help me find [Star Wars Jedi: Fallen Order 2]?
+    - I'm looking to buy [Cyber Shadow].
+    - I'm interested in purchasing [Assassin's Creed Valhalla].
+    - Can I get [NBA 2K22] from your store?
+    - I'd like to buy [Call of Duty: Warzone].
+    - I'd like to purchase [Rainbow Six Siege].
+    - Could you help me purchase [Fortnite]?
+    - I want to order [Valorant].
+    - Can you help me purchase [FIFA 23]?
+    - I would like to buy [DOTA 2].
+    - I want to purchase [Final Fantasy XIV].
+    - Can you help me find [Phasmophobia]?
+    - I'm looking to buy [Fall Guys].
+    - I want to buy [Among Us].
+    - I'd like to purchase [Phasmophobia].
+    - I'm interested in purchasing [Far Cry 6].
+    - Can I get [Returnal] from your store?
+    - I'd like to buy [Horizon Forbidden West].
+    - I'd like to purchase [Gran Turismo 7].
+    - Could you help me purchase [Starfield]?
+    - I want to order [Hogwarts Legacy].
+    - Can you help me find [Resident Evil 4 Remake]?
+    - I would like to buy [System Shock].
+    - I want to purchase [Metroid Prime 4].
+    - Can you help me find [Perfect Dark]?
+    - I'm looking to buy [Ghost of Tsushima 2].
+    - I want to buy [Final Fantasy XVI].
+    - I'd like to purchase [Mass Effect 5].
+    - I'm interested in purchasing [Prince of Persia].
+    - Can I get [Metro Exodus 2] from your store?
+    - I'd like to buy [Back 4 Blood].
+    - I'd like to purchase [Baldur's Gate III].
+    - Could you help me purchase [Marvel's Spider-Man 2]?
+    - I want to order [Hollow Knight: Silksong].
+    - Can you help me purchase [The Stanley Parable: Ultra Deluxe]?
+    - I would like to buy [Total War: Warhammer III].
+    - I want to purchase [The Lord of the Rings: Gollum].
+    - Can you help me find [Dying Light 2]?
+    - I'm looking to buy [Bayonetta 3].
+    - I want to buy [Overwatch 2].
+    - I'd like to purchase [Halo Infinite].
+    - I'm interested in purchasing [Horizon Forbidden West].
+    - Can I get [Final Fantasy XVI] from your store?
+    - I'd like to buy [Starfield].
+    - I'd like to purchase [Fable 4].
+    - Could you help me purchase [Dead Space Remake]?
+    - I want to order [Dragon Age 4].
+    - Can you help me purchase [Bayonetta 3]?
+    - I would like to buy [The Lord of the Rings: Gollum].
+    - I want to purchase [Baldur's Gate III].
+    - Can you help me find [Marvel's Spider-Man 2]?
+    - I'm looking to buy [Hollow Knight: Silksong].
+    - I want to purchase the Elder Scrolls V: Skyrim
+    - I'm intrigued by [Metroid Prime 4]. Is it available for purchase?
+    - Could you assist me in acquiring [Perfect Dark]?
+    - I'm eagerly seeking [Ghost of Tsushima 2]. Is it in stock?
+    - I'm really excited about [The Legend of Zelda: Breath of the Wild 2]. Can I purchase it?
+    - Is it possible to obtain [Super Mario Odyssey 2] from your store?
+    - I'm interested in [God of War Ragnarok]. Can you help me buy it?
+    - Can you assist me in purchasing [Horizon Forbidden West]?
+    - I'm considering buying [Gran Turismo 7]. Is it available?
+    - Is [Marvel's Spider-Man 2] in stock?
+    - How can I buy [Final Fantasy XVI]?
+    - I'd like to purchase [The Elder Scrolls VI]. Can you provide assistance?
+    - Can you help me find [Bayonetta 3]?
+    - I'm interested in [Silent Hill]. Can I purchase it here?
+    - I'm a huge fan of the series. Could you assist me in acquiring [Resident Evil 4 Remake]?
+    - Is it possible to purchase [Cyber Shadow] from your store?
+    - I'm looking to buy [Hogwarts Legacy]. Is it available for purchase?
+    - I'm considering buying [The Lord of the Rings: Gollum]. Can you help me with that?
+    - How can I purchase [Back 4 Blood]?
+    - Can you assist me in acquiring [Overwatch 2]?
+    - Is [Halo Infinite] available in your store?
+    - I'd like to buy [Elden Ring]. Can you help me with that?
+    - Can I purchase [The Outer Worlds 2] from your store?
+    - I'm interested in buying [Baldur's Gate III]. Can you assist me
+
+- intent: ReqShowGame
+  examples: |
+    - Tell me about games with the genres ['Simulation'](genre) and ['Indie'](genre) that support ['SteamVR Collectibles'](categories).
+
+- intent: ReqGameInfo
+  examples: |
+    - I'm interested in the genre of [Dishonored 2](game_title). Can you help? 
+    - Who's responsible for publishing [Forza Horizon 4](game_title)? 
+    - Can you tell me the release date for [Detroit: Become Human](game_title)? 
+    - What are the game tags associated with [Nier: Automata](game_title)? 
+    - Who developed [Half-Life: Alyx](game_title)? 
+    - Can you provide the category for [Divinity: Original Sin 2](game_title)? 
+    - I'm curious about the genre of [Psychonauts 2](game_title). 
+    - When was [Crash Bandicoot N. Sane Trilogy](game_title) released? 
+    - What are the game tags for [Resident Evil Village](game_title)? 
+    - Who's the developer behind [Mass Effect: Legendary Edition](game_title)? 
+    - Can you tell me who published [Immortals Fenyx Rising](game_title)? 
+    - I'd like to know the category of [Grim Dawn](game_title). 
+    - What's the release date for [Path of Exile](game_title)? 
+    - What are the game tags associated with [Factorio](game_title)? 
+    - Who developed [RimWorld](game_title)? 
+    - Who published [Subnautica](game_title)? 
+    - I'm interested in the genre of [Terraria](game_title). Can you help? 
+    - Can you provide the category for [Kerbal Space Program](game_title)? 
+    - When was [Crusader Kings III](game_title) released? 
+    - What are the game tags for [Mount & Blade II: Bannerlord](game_title)? 
+    - Who's the developer behind [Satisfactory](game_title)? 
+    - Can you tell me who published [Valheim](game_title)? 
+    - I'd like to know the genre of [Noita](game_title). 
+    - Can you provide the category for [Dyson Sphere Program](game_title)? 
+    - What's the release date for [Deep Rock Galactic](game_title)? 
+    - What are the game tags associated with [Outward](game_title)? 
+    - Who developed [SnowRunner](game_title)? 
+    - Who published [Age of Empires II: Definitive Edition](game_title)? 
+    - I'm interested in the genre of [Oxygen Not Included](game_title). Can you help? 
+    - Can you provide the category for [Slay the Spire](game_title)? 
+    - When was [Raft](game_title) released? 
+    - What are the game tags for [Helltaker](game_title)? 
+    - Who's the developer behind [Among Trees](game_title)? 
+    - Can you tell me who published [Phasmophobia](game_title)? 
+    - I'd like to know the genre of [Genshin Impact](game_title). 
+    - Can you provide the category for [Grounded](game_title)? 
+    - What's the release date for [Spelunky 2](game_title)? 
+    - What are the game tags associated with [Fall Guys: Ultimate Knockout](game_title)? 
+    - Who developed [Carrion](game_title)? 
+    - Who published [Moving Out](game_title)? 
+    - I'm interested in the genre of [Stray](game_title). Can you help? 
+    - Can you provide the category for [Little Nightmares II](game_title)? 
+    - When was [Baldur's Gate 3](game_title) released? 
+    - What are the game tags for [Cyber Shadow](game_title)? 
+    - Who's the developer behind [Humankind](game_title)? 
+    - Can you tell me who published [Temtem](game_title)? 
+    - I'd like to know the genre of [Scarlet Nexus](game_title). 
+    - Can you provide the category for [Loop Hero](game_title)? 
+    - What's the release date for [Chivalry 2](game_title)? 
+    - What are the game tags associated with [Deathloop](game_title)? 
+    - Who's the brain behind the creation of [The Witcher 3: Wild Hunt](game_title)? 
+    - Who brought [Grand Theft Auto V](game_title) to the market? 
+    - I'm curious about the category of [The Sims 4](game_title). Can you help? 
+    - What's the genre of the thrilling game [Resident Evil 2](game_title)? 
+    - Can you tell me the release date of [Final Fantasy VII Remake](game_title)? 
+    - What are the game tags for [Fortnite](game_title)? 
+    - Who developed the engaging game [Assassin's Creed Valhalla](game_title)? 
+    - Who published the popular game [Call of Duty: Warzone](game_title)? 
+    - I'd like to know the genre of [Animal Crossing: New Horizons](game_title). 
+    - Can you provide the category for [Fallout 4](game_title)? 
+    - When was [Dark Souls III](game_title) released to the public? 
+    - What are the game tags associated with [Rocket League](game_title)? 
+    - Who is the developer of [God of War](game_title)? 
+    - Can you tell me who published [Apex Legends](game_title)? 
+    - I'm interested in the genre of [Ori and the Will of the Wisps](game_title). 
+    - What's the category for [Stardew Valley](game_title)? 
+    - When did [Halo: The Master Chief Collection](game_title) come out? 
+    - Can you share the game tags for [Valorant](game_title)? 
+    - Who's the developer of [Horizon Zero Dawn](game_title)? 
+    - Who's responsible for publishing [PlayerUnknown's Battlegrounds](game_title)? 
+    - Can you tell me the genre of [Sekiro: Shadows Die Twice](game_title)? 
+    - I'm curious about the category of [Celeste](game_title). Can you help? 
+    - What's the release date for [Control](game_title)? 
+    - What are the game tags associated with [Dead by Daylight](game_title)? 
+    - Who developed [Overwatch](game_title)? 
+    - Who published [Doom Eternal](game_title)? 
+    - I'd like to know the genre of [Spider-Man](game_title). 
+    - Can you provide the category for [The Elder Scrolls V: Skyrim](game_title)? 
+    - When was [Bioshock Infinite](game_title) released? 
+    - What are the game tags for [Rainbow Six Siege](game_title)? 
+    - Who's the developer behind [Hollow Knight](game_title)? 
+    - Can you tell me who published [Borderlands 3](game_title)? 
+    - I'm interested in the genre of [Disco Elysium](game_title). 
+    - What's the category for [Undertale](game_title)? 
+    - When did [Fire Emblem: Three Houses](game_title) come out? 
+    - Can you share the game tags for [Tetris Effect](game_title)? 
+    - Who's the developer of [Life is Strange 2](game_title)? 
+    - Who's responsible for publishing [Yakuza: Like a Dragon](game_title)? 
+    - Can you tell me the genre of [Ghost of Tsushima](game_title)? 
+    - I'm curious about the category of [Papers, Please](game_title). Can you help? 
+    - What's the release date for [No Man's Sky](game_title)? 
+    - What are the game tags associated with [Journey](game_title)? 
+    - Who developed [Cuphead](game_title)? 
+    - Who published [Outer Wilds](game_title)? 
+    - I'd like to know the genre of [Hades](game_title). 
+    - Can you provide the category for [Cities: Skylines](game_title)? 
+    - When was [What Remains of Edith Finch](game_title) released? 
+    - What are the game tags for [Star Wars Jedi: Fallen Order](game_title)? 
+    - Who's the developer behind [A Plague Tale: Innocence](game_title)? 
+    - Can you tell me who published [The Outer Worlds](game_title)? 
+    - What's the genre of [Scarlet Nexus](game_title)? 
+    - Can you tell me the release date for [Humankind](game_title)? 
+    - What are the game tags associated with [Back 4 Blood](game_title)? 
+    - Who developed [Ratchet & Clank: Rift Apart](game_title)? 
+    - Can you tell me who published [Chivalry 2](game_title)? 
+    - I'd like to know the category of [Resident Evil Village](game_title). 
+    - What's the genre of [Biomutant](game_title)? 
+    - When was [Monster Hunter Rise](game_title) released? 
+    - What are the game tags for [New Pokémon Snap](game_title)? 
+    - Who's the developer behind [The Medium](game_title)? 
+    - Can you tell me who published [Hitman 3](game_title)? 
+    - I'd like to know the category of [Bravely Default II](game_title). 
+    - What's the genre of [Persona 5 Strikers](game_title)? 
+    - Can you tell me the release date for [Nioh 2](game_title)? 
+    - What are the game tags associated with [Apex Legends](game_title)? 
+    - Who developed [Hades](game_title)? 
+    - Can you tell me who published [Fall Guys: Ultimate Knockout](game_title)? 
+    - I'd like to know the category of [Among Us](game_title). 
+    - What's the genre of [Valorant](game_title)? 
+    - When was [Ghostrunner](game_title) released? 
+    - What are the game tags for [Spider-Man: Miles Morales](game_title)? 
+    - Who's the developer behind [Demon's Souls](game_title)? 
+    - Can you tell me who published [Carrion](game_title)? 
+    - I'd like to know the category of [Maneater](game_title). 
+    - What's the genre of [Ori and the Will of the Wisps](game_title)? 
+    - Can you tell me the release date for [Doom Eternal](game_title)? 
+    - What are the game tags associated with [Animal Crossing: New Horizons](game_title)? 
+    - Who developed [Half-Life: Alyx](game_title)? 
+    - Can you tell me who published [Final Fantasy VII Remake](game_title)? 
+    - I'd like to know the category of [The Legend of Zelda: Link's Awakening](game_title). 
+    - What's the genre of [The Outer Worlds](game_title)? 
+    - When was [Star Wars Jedi: Fallen Order](game_title) released? 
+    - What are the game tags for [Death Stranding](game_title)? 
+    - Who's the developer behind [Control](game_title)? 
+    - Can you tell me who published [Sekiro: Shadows Die Twice](game_title)? 
+    - I'd like to know the category of [Luigi's Mansion 3](game_title). 
+    - What's the genre of [Borderlands 3](game_title)? 
+    - Can you tell me the release date for [The Witcher 3: Wild Hunt](game_title)? 
+    - What are the game tags associated with [Red Dead Redemption 2](game_title)? 
+    - Who developed [God of War](game_title)? 
+    - Can you tell me who published [Marvel's Spider-Man](game_title)? 
+    - I'd like to know the category of [Super Smash Bros. Ultimate](game_title). 
+    - What's the genre of [Celeste](game_title)? 
+    - When was [Yakuza 6: The Song of Life](game_title) released? 
+    - What are the game tags for [PUBG: Battlegrounds](game_title)? 
+    - Who's the developer behind [Divinity: Original Sin II](game_title)? 
+    - Can you tell me who published [NieR:Automata](game_title)? 
+    - Who's the developer behind the creation of [The Witcher 3: Wild Hunt](game_title)? 
+    - Can you tell me the publisher of [Grand Theft Auto V](game_title)? 
+    - What kind of genre is [The Last of Us Part II](game_title)? 
+    - When was [Final Fantasy VII Remake](game_title) released? 
+    - What are the game tags for [Animal Crossing: New Horizons](game_title)? 
+    - Who developed the popular game [Fortnite](game_title)? 
+    - Who published [Call of Duty: Modern Warfare](game_title)? 
+    - What's the genre of [Dark Souls III](game_title)? 
+    - When was [Resident Evil 2 Remake](game_title) released? 
+    - Can you tell me the game tags for [Assassin's Creed Valhalla](game_title)? 
+    - Who's the developer of [God of War](game_title)? 
+    - Who published [PlayerUnknown's Battlegrounds](game_title)? 
+    - What's the genre of [Apex Legends](game_title)? 
+    - When was [Spider-Man](game_title) released? 
+    - What are the game tags for [Fallout 4](game_title)? 
+    - Who developed [Horizon Zero Dawn](game_title)? 
+    - Who published [Tom Clancy's Rainbow Six Siege](game_title)? 
+    - What kind of genre is [Overwatch](game_title)? 
+    - When was [Doom Eternal](game_title) released? 
+    - Can you tell me the game tags for [Forza Horizon 4](game_title)? 
+    - Who's the developer behind [Halo: The Master Chief Collection](game_title)? 
+    - Who published [Super Mario Odyssey](game_title)? 
+    - What's the genre of [Sekiro: Shadows Die Twice](game_title)? 
+    - When was [Star Wars Jedi: Fallen Order](game_title) released? 
+    - What are the game tags for [Control](game_title)? 
+    - Who developed [Death Stranding](game_title)? 
+    - Who published [Crash Bandicoot N. Sane Trilogy](game_title)? 
+    - What kind of genre is [Dishonored 2](game_title)? 
+    - When was [Watch Dogs: Legion](game_title) released? 
+    - Can you tell me the game tags for [Yakuza: Like a Dragon](game_title)? 
+    - Who's the developer of [Marvel's Avengers](game_title)? 
+    - Who published [Immortals Fenyx Rising](game_title)? 
+    - What's the genre of [Ghost of Tsushima](game_title)? 
+    - When was [Baldur's Gate 3](game_title) released? 
+    - What are the game tags for [Valorant](game_title)? 
+    - Who developed [Half-Life: Alyx](game_title)? 
+    - Who published [Pokémon Sword and Shield](game_title)? 
+    - What kind of genre is [Luigi's Mansion 3](game_title)? 
+    - When was [The Outer Worlds](game_title) released? 
+    - Can you tell me the game tags for [Borderlands 3](game_title)? 
+    - Who's the developer behind [Gears 5](game_title)? 
+    - Who published [Mortal Kombat 11](game_title)? 
+    - What's the genre of [Devil May Cry 5](game_title)? 
+    - When was [Red Dead Redemption 2](game_title) released? 
+    - What are the game tags for [Spyro Reignited Trilogy](game_title)? 
+    - Who developed [Kingdom Hearts III](game_title)? 
+    - Who published [Ace Combat 7: Skies Unknown](game_title)? 
+    - What kind of genre is [Metro Exodus](game_title)? 
+    - When was [Resident Evil 3 Remake](game_title) released? 
+    - Can you tell me the game tags for [Dragon Quest XI S: Echoes of an Elusive Age](game_title)? 
+    - Who's the developer of [Tetris Effect](game_title)? 
+    - Who published [Celeste](game_title)? 
+    - What's the genre of [Dead Cells](game_title)? 
+    - When was [Hollow Knight](game_title) released? 
+    - What are the game tags for [Cuphead](game_title)? 
+    - Who developed [Ori and the Will of the Wisps](game_title)? 
+    - Who published [Disco Elysium](game_title)? 
+    - What kind of genre is [Slay the Spire](game_title)? 
+    - When was [Outer Wilds](game_title) released? 
+    - Can you tell me the game tags for [Untitled Goose Game](game_title)? 
+    - Who's the developer behind [Sekiro: Shadows Die Twice](game_title)? 
+    - Who published [Fire Emblem: Three Houses](game_title)? 
+    - What's the genre of [A Plague Tale: Innocence](game_title)? 
+    - When was [The Legend of Zelda: Link's Awakening](game_title) released? 
+    - What are the game tags for [Control](game_title)? 
+    - Who developed [Star Wars Jedi: Fallen Order](game_title)? 
+    - Who published [The Outer Worlds](game_title)? 
+    - What kind of genre is [Astral Chain](game_title)? 
+    - When was [Death Stranding](game_title) released? 
+    - Can you tell me the game tags for [Devil May Cry 5](game_title)? 
+    - Who's the developer of [Resident Evil 2 Remake](game_title)? 
+    - Who published [Kingdom Hearts III](game_title)? 
+    - What's the genre of [Metro Exodus](game_title)? 
+    - When was [Super Smash Bros. Ultimate](game_title) released? 
+    - What are the game tags for [Divinity: Original Sin II](game_title)? 
+    - Who developed [Monster Hunter: World](game_title)? 
+    - Who published [God of War](game_title)? 
+    - What kind of genre is [Detroit: Become Human](game_title)? 
+    - When was [Sea of Thieves](game_title) released? 
+    - Can you tell me the game tags for [Yakuza 6: The Song of Life](game_title)? 
+    - Who's the developer behind [Ni no Kuni II: Revenant Kingdom](game_title)? 
+    - Who published [Dragon Ball FighterZ](game_title)? 
+    - What's the genre of [Nier: Automata](game_title)? 
+    - When was [Persona 5](game_title) released? 
+    - What are the game tags for [Hellblade: Senua's Sacrifice](game_title)? 
+    - Who developed [Prey](game_title)? 
+    - Who published [Mario + Rabbids Kingdom Battle](game_title)? 
+    - What kind of genre is [Wolfenstein II: The New Colossus](game_title)? 
+    - When was [Cuphead](game_title) released? 
+    - Can you tell me the game tags for [Horizon Zero Dawn](game_title)? 
+    - Who's the developer of [Dishonored: Death of the Outsider](game_title)? 
+    - Who published [Assassin's Creed Origins](game_title)? 
+    - What's the genre of [What Remains of Edith Finch](game_title)? 
+    - When was [PlayerUnknown's Battlegrounds](game_title) released? 
+    - What are the game tags for [Nioh](game_title)? 
+    - Who developed [Resident Evil 7: Biohazard](game_title)? 
+    - Who published [For Honor](game_title)? 
+    - What kind of genre is [The Legend of Zelda: Breath of the Wild](game_title)? 
+    - When was [Titanfall 2](game_title) released? 
+    - Can you tell me the game tags for [Watch Dogs 2](game_title)? 
+    - I want to know the developer responsible for creating [Minecraft](game_title). 
+    - Which publisher released [The Legend of Zelda: Breath of the Wild](game_title)? 
+    - Can you give me the genre of the captivating game, [Horizon Zero Dawn](game_title)? 
+    - Do you have any information on the release date for [Elden Ring](game_title)? 
+    - Could you share some game tags related to [Fortnite](game_title)? 
+    - Who is the mastermind behind the creation of [Grand Theft Auto V](game_title)? 
+    - I'm looking for the publisher of [Red Dead Redemption 2](game_title). Can you help? 
+    - What category does [The Sims 4](game_title) fall under? 
+    - I'm curious about the genre of [Resident Evil Village](game_title). Can you tell me? 
+    - When did [Final Fantasy VII Remake](game_title) hit the market? 
+    - Are there any specific game tags associated with [Apex Legends](game_title)? 
+    - Who was the developer of the popular game, [The Witcher 3: Wild Hunt](game_title)? 
+    - Can you provide the name of the publisher for [Call of Duty: Warzone](game_title)? 
+    - In which category would I find [Animal Crossing: New Horizons](game_title)? 
+    - Can you tell me the genre of the suspenseful game, [The Last of Us Part II](game_title)? 
+    - When was [Dark Souls III](game_title) made available to the public? 
+    - Are there any game tags associated with [Tom Clancy's Rainbow Six Siege](game_title)? 
+    - Who developed the thrilling game, [God of War](game_title)? 
+    - Can you tell me the publisher of [Age of Empires II: Definitive Edition](game_title)? 
+    - I'm trying to find the category for [Fallout 4](game_title). Can you help? 
+    - What's the genre of the action-packed game, [Assassin's Creed Valhalla](game_title)? 
+    - When was [Cyberpunk 2077](game_title) released to eager fans? 
+    - Can you share some game tags related to [Among Us](game_title)? 
+    - Who is the developer behind the creation of [Halo: The Master Chief Collection](game_title)? 
+    - Can you provide the name of the publisher for [Valorant](game_title)? 
+    - In which category would I find [Stardew Valley](game_title)? 
+    - I'm curious about the genre of [Ori and the Will of the Wisps](game_title). Can you tell me? 
+    - When did [Sekiro: Shadows Die Twice](game_title) come out? 
+    - Are there any game tags associated with [Dead by Daylight](game_title)? 
+    - Who developed the engaging game, [Overwatch](game_title)? 
+    - Can you tell me the publisher of [Doom Eternal](game_title)? 
+    - I'm trying to find the category for [The Elder Scrolls V: Skyrim](game_title). Can you help? 
+    - What's the genre of the atmospheric game, [Bioshock Infinite](game_title)? 
+    - When was [Hollow Knight](game_title) made available to the public? 
+    - Can you share some game tags related to [Borderlands 3](game_title)? 
+    - Who is the developer behind the creation of [Dishonored 2](game_title)? 
+    - Can you provide the name of the publisher for [Forza Horizon 4](game_title)? 
+    - In which category would I find [Cuphead](game_title)? 
+    - I'm curious about the genre of [Outer Wilds](game_title). Can you tell me? 
+    - When did [Hades](game_title) come out? 
+    - Are there any game tags associated with [Cities: Skylines](game_title)? 
+    - Who developed the intriguing game, [What Remains of Edith Finch](game_title)? 
+    - Can you tell me the publisher of [No Man's Sky](game_title)? 
+    - I'm trying to find the category for [Journey](game_title). Can you help? 
+    - What's the genre of the immersive game, [Star Wars Jedi: Fallen Order](game_title)? 
+    - When was [A Plague Tale: Innocence](game_title) made available to the public? 
+    - Can you share some game tags related to [The Outer Worlds](game_title)? 
+    - Who is the developer behind the creation of [Control](game_title)? 
+    - Can you provide the name of the publisher for [Ghost of Tsushima](game_title)? 
+    - Who developed the amazing game [The Witcher 3: Wild Hunt](game_title)? 
+    - Can you help me find out who published [Grand Theft Auto V](game_title)? 
+    - I'm interested in knowing the genre of [The Last of Us Part II](game_title). 
+    - Do you happen to know when [Final Fantasy VII Remake](game_title) hit the shelves? 
+    - I'd love to know the game tags associated with [Animal Crossing: New Horizons](game_title). 
+    - Who's the mastermind developer behind the popular game [Fortnite](game_title)? 
+    - I'm wondering who published [Call of Duty: Modern Warfare](game_title)? 
+    - Can you enlighten me on the genre of [Dark Souls III](game_title)? 
+    - Hey, do you know when [Resident Evil 2 Remake](game_title) was released? 
+    - I'm keen to know the game tags for [Assassin's Creed Valhalla](game_title). 
+    - Who's the brilliant developer behind [God of War](game_title)? 
+    - I'm trying to find out who published [PlayerUnknown's Battlegrounds](game_title). 
+    - Can you tell me what kind of genre [Apex Legends](game_title) falls under? 
+    - I'm curious about the release date of [Spider-Man](game_title). 
+    - Can you share the game tags associated with [Fallout 4](game_title)? 
+    - Who's the talented developer behind [Horizon Zero Dawn](game_title)? 
+    - I'm wondering who published [Tom Clancy's Rainbow Six Siege](game_title). 
+    - Can you give me some insight into the genre of [Overwatch](game_title)? 
+    - Hey, do you happen to know when [Doom Eternal](game_title) was released? 
+    - I'd love to know the game tags for [Forza Horizon 4](game_title). 
+    - Who's the genius developer behind [Halo: The Master Chief Collection](game_title)? 
+    - I'm curious to know who published [Super Mario Odyssey](game_title). 
+    - Can you help me identify the genre of [Sekiro: Shadows Die Twice](game_title)? 
+    - Do you happen to know when [Star Wars Jedi: Fallen Order](game_title) was released? 
+    - I'd love to know the game tags associated with [Control](game_title). 
+    - Who's the incredible developer behind [Death Stranding](game_title)? 
+    - I'm wondering who published [Crash Bandicoot N. Sane Trilogy](game_title). 
+    - Can you enlighten me on the genre of [Dishonored 2](game_title)? 
+    - Hey, do you know when [Watch Dogs: Legion](game_title) was released? 
+    - I'm keen to know the game tags for [Yakuza: Like a Dragon](game_title). 
+    - Could you tell me who developed [The Witcher 3: Wild Hunt](game_title)? 
+    - I'm curious, what's the publisher for [Grand Theft Auto V](game_title)? 
+    - When did [Red Dead Redemption 2](game_title) hit the shelves? 
+    - What are the game tags for [Fortnite](game_title)? 
+    - I'm looking for the category and genre of [Assassin's Creed Valhalla](game_title). 
+    - Who's the developer of [Overwatch](game_title) and what's its genre? 
+    - What's the release date of [The Last of Us Part II](game_title)? 
+    - Could you provide the publisher and genre of [FIFA 21](game_title)? 
+    - What category does [League of Legends](game_title) belong to, and who's the developer? 
+    - Hey, what are the game tags for [Among Us](game_title)? 
+    - When was [Apex Legends](game_title) released, and who developed it? 
+    - I'm curious about the developer and release date of [Horizon Zero Dawn](game_title). 
+    - Who's behind [Death Stranding](game_title)? 
+    - What's the publisher of [Call of Duty: Warzone](game_title)? 
+    - What's the genre of [Animal Crossing: New Horizons](game_title)? 
+    - Could you give me the release date and genre of [Ghost of Tsushima](game_title)? 
+    - When did [Cyberpunk 2077](game_title) come out, and what category does it belong to? 
+    - What are the game tags for [Rainbow Six Siege](game_title)? 
+    - Who developed [God of War (2018)](game_title)? 
+    - What's the publisher and release date of [Marvel's Spider-Man: Miles Morales](game_title)? 
+    - Can you provide the genre and game tags for [Among Us](game_title)? 
+    - When was [The Elder Scrolls V: Skyrim](game_title) released? 
+    - What's the category of [Minecraft](game_title)? 
+    - Who's the developer and publisher of [Dota 2](game_title)? 
+    - I'm curious about the genre of [Valorant](game_title). 
+    - What are the game tags for [Rocket League](game_title)? 
+    - Could you tell me when [The Legend of Zelda: Breath of the Wild](game_title) was released? 
+    - I'm looking for the developer and category of [Counter-Strike: Global Offensive](game_title). 
+    - Who's behind [Dark Souls III](game_title)? 
+    - What's the publisher of [Among Us](game_title)? 
+    - What's the genre and release date of [The Witcher 3: Wild Hunt](game_title)? 
+    - Could you provide the game tags for [Super Smash Bros. Ultimate](game_title)? 
+    - What's the category of [Genshin Impact](game_title)? 
+    - Who developed [League of Legends](game_title)? 
+    - When did [Fortnite](game_title) release? 
+    - What's the genre of [Grand Theft Auto V](game_title)? 
+    - What's the publisher and game tags for [Among Us](game_title)? 
+    - Could you tell me the release date of [The Last of Us Part II](game_title)? 
+    - Who's the developer of [Minecraft](game_title)? 
+    - What are the game tags for [Call of Duty: Warzone](game_title)? 
+    - What's the genre and category of [Red Dead Redemption 2](game_title)? 
+    - Can you provide the release date and publisher of [Apex Legends](game_title)? 
+    - I'm curious about the game tags and genre of [Overwatch](game_title). 
+    - Who developed [FIFA 21](game_title)? 
+    - What's the publisher of [Cyberpunk 2077](game_title)? 
+    - What's the genre of [Among Us](game_title)? 
+    - Could you tell me the game tags for [Assassin's Creed Valhalla](game_title)? 
+    - What's the release date and genre of [League of Legends](game_title)? 
+    - When did [Valorant](game_title) come out, and who's the developer? 
+    - What's the category and developer of [The Elder Scrolls V: Skyrim](game_title)? 
+    - What's the release date and genre of [The Witcher 3: Wild Hunt]?
+    - Who's the developer behind [Grand Theft Auto V]? What category does it belong to?
+    - Can you tell me the release date for [Red Dead Redemption 2]? What about its publisher?
+    - What are the game tags for [Among Us]? And what's its genre?
+    - Hey, when was [Assassin's Creed Valhalla](game_title) released? Also, who's the developer?I'm curious, what's the genre of [Call of Duty: Warzone]? And who published it?
+    - What category does [FIFA 21] belong to? Also, who's the developer?
+    - When's the release date for [The Elder Scrolls V: Skyrim]? And its developer?
+    - Could you provide the publisher and genre for [Overwatch]?
+    - Who's the developer of [Apex Legends]? What are its game tags?
+    - What's the release date of [Cyberpunk 2077]? Also, what's its genre?
+    - When was [Fortnite] released? What category does it fall under?
+    - Tell me, what are the game tags for [Rocket League]? And its genre?
+    - Hey, who's the publisher for [League of Legends]? What category does it belong to?
+    - What's the release date and developer for [DOOM Eternal]?
+    - Could you provide the publisher and genre for [Among Us]?
+    - Who developed [Minecraft]? Also, what are its game tags?
+    - What's the genre of [The Legend of Zelda: Breath of the Wild]? And its release date?
+    - What category does [Valorant] belong to? Also, who's the developer?
+    - Can you tell me the release date for [Stardew Valley]? What's its genre?
+    - What are the game tags for [Counter-Strike: Global Offensive]? And who's the developer?
+    - Hey, when was [Super Mario Odyssey] released? Also, who published it?
+    - What's the release date of [The Last of Us Part II]? And what's its genre?
+    - Who developed [Among Us]? Also, what category does it belong to?
+    - Tell me, what's the genre of [Genshin Impact]? And its publisher?
+    - What category does [Among Us] belong to? And what are its game tags?
+    - Can you tell me the release date for [God of War]? Also, who's the developer?
+    - When was [Among Us] released? And what's its genre?
+    - Hey, who's the developer behind [The Legend of Zelda: Breath of the Wild]? What about its publisher?
+    - What are the game tags for [Among Us]? And its release date?
+    - What's the genre of [Among Us]? And who developed it?
+    - Who's the publisher for [Among Us]? Also, what's its release date?
+    - When was [Among Us] released? And what category does it belong to?
+    - What's the release date and genre of [Among Us]?
+    - Who's the developer behind [Among Us]? What category does it belong to?
+    - What are the game tags for [Among Us]? And who's the developer?
+    - What's the genre of [Among Us]? And its publisher?
+    - Who's the publisher for [Among Us]? What's its genre?
+    - What's the release date of [Among Us]? And its developer?
+    - Can you tell me the release date for [Among Us]? What category does it belong to?
+    - Tell me, what's the genre of [Among Us]? And its release date?
+    - What category does [Among Us] belong to? What are its game tags?
+    - Hey, when was [Among Us] released? Also, who developed it?
+    - What's the release date and developer for [Among Us]?
+    - Who's the developer of [Among Us]? And what are its game tags?
+    - What's the genre of [Among Us]? Who published it?
+    - Who's the publisher for [Among Us]? What's its release date?
+    - What category does [Among Us] belong to? Who's the publisher?
+    - When was [Among Us] released? What's its genre?
+    - Can you tell me the release date for [Among Us]? Also, what's its publisher?
+    - What are the game tags for [Cyberpunk 2077]?
+    - Who's the developer behind [Grand Theft Auto V]?
+    - Can you tell me the release date for [Red Dead Redemption 2]?
+    - What category does [Among Us] belong to?
+    - Hey, when was [Assassin's Creed Valhalla] released?
+    - I'm curious, what's the genre of [Call of Duty: Warzone]?
+    - What category does [FIFA 21] belong to?
+    - When's the release date for [The Elder Scrolls V: Skyrim]?
+    - Could you provide the publisher for [Overwatch]?
+    - Who's the developer of [Apex Legends]?
+    - What's the release date of [Cyberpunk 2077]?
+    - When was [Fortnite] released?
+    - Tell me, what are the game tags for [Rocket League]?
+    - Hey, who's the publisher for [League of Legends]?
+    - What's the release date and developer for [DOOM Eternal]?
+    - Could you provide the publisher for [Among Us]?
+    - Who developed [Minecraft]?
+    - What's the genre of [The Legend of Zelda: Breath of the Wild]?
+    - What category does [Valorant] belong to?
+    - Can you tell me the release date for [Stardew Valley]?
+    - What are the game tags for [Counter-Strike: Global Offensive]?
+    - Hey, when was [Super Mario Odyssey] released?
+    - What's the release date of [The Last of Us Part II]?
+    - Who developed [Among Us]?
+    - Tell me, what's the genre of [Genshin Impact]?
+    - What category does [Among Us] belong to?
+    - Can you tell me the release date for [God of War]?
+    - When was [Among Us] released?
+    - Hey, who's the developer behind [The Legend of Zelda: Breath of the Wild]?
+    - What are the game tags for [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What's the release date of [Among Us]?
+    - What category does [Among Us] belong to?
+    - Tell me, what's the genre of [Among Us]?
+    - What category does [Among Us] belong to?
+    - Hey, when was [Among Us] released?
+    - What's the release date and developer for [Among Us]?
+    - Who's the developer of [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What category does [Among Us] belong to?
+    - When was [Among Us] released?
+    - Can you tell me the release date for [Among Us]?
+    - What are the game tags for [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What category does [Among Us] belong to?
+    - When was [Among Us] released?
+    - Can you tell me the release date for [Among Us]?
+    - Who's the developer behind [Red Dead Redemption 2]?
+    - Can you tell me the release date for [Among Us]?
+    - What category does [Assassin's Creed Valhalla] belong to?
+    - Hey, when was [Call of Duty: Warzone] released?
+    - I'm curious, what's the genre of [FIFA 21]?
+    - What category does [The Elder Scrolls V: Skyrim] belong to?
+    - When's the release date for [Overwatch]?
+    - Could you provide the publisher for [Apex Legends]?
+    - Who's the developer of [Cyberpunk 2077]?
+    - What's the release date of [Fortnite]?
+    - When was [Rocket League] released?
+    - Tell me, who's the developer behind [League of Legends]?
+    - Hey, what's the release date of [DOOM Eternal]?
+    - What's the genre of [Minecraft]?
+    - Can you tell me the release date for [The Legend of Zelda: Breath of the Wild]?
+    - Who's the publisher for [Valorant]?
+    - What category does [Stardew Valley] belong to?
+    - Hey, when was [Counter-Strike: Global Offensive] released?
+    - What's the release date and developer for [Super Mario Odyssey]?
+    - Could you provide the publisher and genre for [The Last of Us Part II]?
+    - Who's the developer of [Genshin Impact]?
+    - What's the genre of [God of War]?
+    - Can you tell me the release date for [Among Us]?
+    - Who's the developer behind [Among Us]?
+    - What are the game tags for [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What category does [Among Us] belong to?
+    - When was [Among Us] released?
+    - Tell me, who's the developer of [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - Can you tell me the release date for [Among Us]?
+    - What are the game tags for [Among Us]?
+    - What's the release date of [Among Us]?
+    - Who's the developer behind [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What category does [Among Us] belong to?
+    - When was [Among Us] released?
+    - Can you tell me the release date for [Among Us]?
+    - What are the game tags for [Among Us]?
+    - What's the genre of [Among Us]?
+    - Who's the publisher for [Among Us]?
+    - What category does [Among Us] belong to?
+    - When was [Among Us] released?
+    - What's the release date and developer for [Among Us]?
+    - Who's the developer of [Among Us]?
+    - What's the genre of [Among Us]?
+    - Yo, could you hook me up with the developer of [Grand Theft Auto V]? Thanks, fam!
+    - Excuse me, could you please tell me who developed [Red Dead Redemption 2]? Much appreciated!
+    - Hi there, I'm curious about the release date for [Among Us]. Can you help me out?
+    - Good day, could you kindly inform me of the category for [Assassin's Creed Valhalla]?
+    - Hello, I'm interested in knowing when [Call of Duty: Warzone] was released. Thank you!
+    - Hey, I'm intrigued. What's the genre of [FIFA 21]? Cheers!
+    - Greetings, can you tell me the category for [The Elder Scrolls V: Skyrim]? Thanks a bunch!
+    - Hey, I'm eagerly awaiting the release of [Overwatch]. Any idea when it's coming out?
+    - Hello, could you provide me with the publisher for [Apex Legends]? Much obliged!
+    - Hi, who's the developer behind [Cyberpunk 2077]? Thanks in advance!
+    - Hey, when did [Fortnite] hit the shelves? Appreciate the info!
+    - Good afternoon, could you please share the developer of [Rocket League]? Thanks!
+    - Hi, I'm wondering about the release date for [League of Legends]. Can you assist?
+    - Excuse me, what's the genre of [DOOM Eternal]? Appreciate your help!
+    - Hello, can you tell me the publisher of [Minecraft]? Thanks a lot!
+    - Hey, I'm eagerly waiting for [The Legend of Zelda: Breath of the Wild]. When's it releasing?
+    - Hi there, I'm curious about the publisher for [Valorant]. Can you provide that?
+    - Hello, I'm interested in knowing the category for [Stardew Valley]. Appreciate it!
+    - Hey, do you know when [Counter-Strike: Global Offensive] came out? Thanks!
+    - Greetings, could you provide both the release date and developer for [Super Mario Odyssey]?
+    - Hi, I'm intrigued. Can you share the publisher and genre for [The Last of Us Part II]?
+    - Hello, who's the developer of [Genshin Impact]? Thanks for your help!
+    - Hey, I'm wondering about the genre of [God of War]. Mind sharing that?
+    - Hi there, could you tell me the release date for [Among Us]? Thanks a bunch!
+    - Good day, who's the brilliant mind behind the creation of [Among Us]? Appreciate it!
+    - Hey, what are the game tags for [Among Us]? Thanks for your assistance!
+    - Excuse me, what genre would you assign to [Among Us]? Appreciate your input!
+    - Hi, who's publishing [Among Us]? Thanks for providing that info!
+    - Hey, I'm curious about the category for [Among Us]. Mind sharing that?
+    - Greetings, do you recall the release date for [Among Us]? Thanks a lot!
+    - Hi there, who's the developer behind [Among Us]? Thanks in advance!
+    - Good afternoon, could you tell me the genre of [Among Us]? Much appreciated!
+    - Hello, who's the publisher for [Among Us]? Thanks for your help!
+    - Hey, what category does [Among Us] belong to? Appreciate your assistance!
+    - Hi, do you happen to know when [Among Us] was released? Thanks a bunch!
+    - Excuse me, can you provide the release date and developer for [Among Us]? Thanks!
+    - Greetings, who's the developer of [Among Us]? Thanks for your help!
+    - Hey, I'm curious about the genre of [Among Us]. Mind sharing that?
+    - Hi there, who's the publisher for [Among Us]? Thanks a lot for your assistance!
+    - Good day, in what category would you place [Among Us]? Thanks for your help!
+    - Hello, when was [Among Us] first introduced to the gaming world? Thanks!
+    - Hey, could you possibly share the release date for [Among Us]? Thanks a bunch!
+    - Excuse me, what are the game tags for [Among Us]? Thanks for your help!
+    - Hi, what's the genre of [Among Us]? Thanks a lot for your assistance!
+    - Hello, who's the publisher for [Among Us]? Thanks for providing that info!
+    - Hey, what category does [Among Us] belong to? Thanks for your help!
+    - Greetings, do you recall when [Among Us] was released? Thanks a bunch!
+    - Hi, can you provide the release date and developer for [Among Us]? Thanks!
+    - Hello, who's the developer of [Among Us]? Thanks for your assistance!
+    - Hey, what's the genre of [Among Us]? Thanks a lot for your help!
+    - When did Minecraft was released?
+    - Do you know who published Hi-Fi Rush?
+    - I want to know who made Sea of Stars
+
+- intent: affirm
+  examples: |
+    - Yeah, let's get this game!
+    - Of course, I'm in!
+    - Definitely, can't wait to play it!
+    - Yep, I'm down!
+    - Absolutely, I've been wanting this game for a while now.
+    - You bet! Let's do it!
+    - Sounds good to me, let's proceed with the purchase.
+    - Yeah, I'm all for it!
+    - Sure thing, let's get it!
+    - For sure, I'm excited to play it!
+    - Yup, let's make it happen!
+    - I'm in, let's buy this game!
+    - Defo, I need this game in my life!
+    - Yaaas, let's get this game!
+    - Yeah, I'm ready to buy it!
+    - Sure, I'm good with it!
+    - Yeah, why not? Let's get it!
+    - Absolutely, let's add it to my collection!
+    - Yessir, let's buy this game!
+    - Yeah, let's do this!
+    - Sure, I'm all in!
+    - Yes, I'm excited to get started with this game!
+    - Yeah, I'm in! Let's buy it!
+    - Yup, I'm ready to purchase it!
+    - Yeah, let's make this happen!
+    - Absolutely, I'm excited to play it!
+    - Yeah, I'm down to buy this game!
+    - Yep, I'm ready to proceed with the purchase!
+    - Sure, I'm excited to add this game to my collection!
+    - Yeah, let's buy it!
+    - Definitely, I've heard great things about this game!
+    - Yeah, let's do it! I've been wanting to play this game for a while now.
+    - Sure, I'm ready to buy it!
+    - Yeah, let's get this game! I can't wait to play it!
+    - Yep, let's make it happen!
+    - Yeah, I'm in! Let's buy this game!
+    - Absolutely, I'm excited to get started with this game!
+    - Yeah, let's do it!
+    - Sure, I'm good with it! Let's proceed with the purchase.
+    - Yeah, I'm ready to buy this game!
+    - Yup, I'm all in!
+    - Yeah, let's buy it! I've heard great things about this game!
+    - Sure, let's add it to my collection!
+    - Yeah, I'm excited to play it! Let's make it happen!
+    - Yep, I'm ready to purchase it!
+    - Yeah, let's do this! I've been wanting to play this game for a while now.
+    - Absolutely, I'm ready to buy it!
+    - Yeah, let's get this game! I can't wait to add it to my collection!
+    - Yep, let's proceed with the purchase!
+    - Yeah, I'm in! Let's buy this game and get started!
+    - Yeah, let's buy it!
+    - Sure, I'm in!
+    - Definitely, let's do it!
+    - Yep, I'm down!
+    - Absolutely, I'm ready!
+    - You bet, let's proceed!
+    - Sounds good, let's get it!
+    - Yeah, I'm all in!
+    - Sure thing, let's make it happen!
+    - For sure, I'm excited!
+    - Yup, let's buy it!
+    - I'm in, let's do it!
+    - Defo, let's add it to my collection!
+    - Yaaas, let's proceed with the purchase!
+    - Yeah, I'm ready to buy it!
+    - Sure, I'm good with it!
+    - Yeah, why not? Let's get it!
+    - Absolutely, I'm excited to play it!
+    - Yessir, let's buy it!
+    - Yeah, let's do this!
+    - Sure, I'm all in!
+    - Yes, let's proceed!
+    - Yeah, I'm in! Let's buy it!
+    - Yup, I'm ready to purchase it!
+    - Yeah, let's make this happen!
+    - Absolutely, I'm excited to get started!
+    - Yeah, I'm down to buy this game!
+    - Yep, I'm ready to proceed!
+    - Sure, I'm excited to add this game to my collection!
+    - Yeah, let's buy it!
+    - Definitely, I've heard great things about this game!
+    - Yeah, let's do it! I've been wanting to play this game for a while now.
+    - Sure, I'm ready to buy it!
+    - Yeah, let's get this game! I can't wait to play it!
+    - Yep, let's make it happen!
+    - Yeah, I'm in! Let's buy this game!
+    - Absolutely, I'm excited to get started with this game!
+    - Yeah, let's do it!
+    - Sure, I'm good with it! Let's proceed with the purchase.
+    - Yeah, I'm ready to buy this game!
+    - Yup, I'm all in!
+    - Yeah, let's buy it! I've heard great things about this game!
+    - Sure, let's add it to my collection!
+    - Yeah, I'm excited to play it! Let's make it happen!
+    - Yep, I'm ready to purchase it!
+    - Yeah, let's do this! I've been wanting to play this game for a while now.
+    - Absolutely, I'm ready to buy it!
+    - Yeah, let's get this game! I can't wait to add it to my collection!
+    - Yep, let's proceed with the purchase!
+    - Yeah, I'm in! Let's buy this game and get started!
+    - Yessssss! Defo wanna grab that game!
+    - Heck yeah! Count me in for that game!
+    - Absolutely! I'm all set to buy it!
+    - Yup, I'm down for buying that game! Let's do it!
+    - Yeah, I'm totally game for it! Let's make the purchase!
+    - Sure thing! Ready to snatch that game up!
+    - For sure! Let's go ahead and buy it!
+    - Yep, I'm all good to buy that game! Let's roll!
+    - Totally onboard! Let's buy that game pronto! 
+    - Yes, I'm in! Let's buy that game right away!
+    - Absolutely, let's make that purchase happen!
+    - Yep, I'm down to buy the game! Let's go for it!
+    - Yep, I'm game! Let's buy the game!
+    - Affirmative! Ready to purchase the game!
+    - Yeah, let's do it! I'm ready to buy that game!
+    - Absolutely, I'm ready to make the purchase!
+    - Sure thing! Let's go ahead and buy it!
+    - Yeah, count me in! Let's buy that game!
+    - Yep, I'm totally cool with buying that game!
+    - Totally! Let's make the purchase happen!
+    - Yep, let's go for it! I wanna buy that game!
+    - Absolutely! I'm all set to buy it!
+    - Yup, I'm all in! Let's buy that game!
+    - Sure thing! I'm ready to make the purchase!
+    - Yeah, I'm down for buying that game! Let's do it!
+    - Yep, I'm game! Let's buy that game!
+    - For sure! I'm ready to buy it!
+    - Absolutely! Let's make that purchase!
+    - Yes, I'm totally onboard! Let's buy the game!
+    - Yep, let's do it! I'm ready to buy that game!
+    - Affirmative! Let's go ahead and buy it!
+    - Yeah, I'm all set! Let's buy that game!
+    - Totally! Ready to make the purchase!
+    - Yep, I'm all in! Let's do this!
+    - Sure thing! Count me in for buying that game!
+    - Absolutely! Let's make the purchase happen!
+    - Yes, let's go for it! I wanna buy that game!
+    - Yep, I'm totally cool with buying it! Let's do it!
+    - Totally onboard! Let's buy that game!
+    - Yeah, let's do it! I'm ready to make the purchase!
+    - Affirmative! Let's buy that game!
+    - For sure! I'm all set to buy it!
+    - Absolutely! I'm game for buying that game!
+    - Yes, count me in! Let's make that purchase!
+    - Yep, I'm all in! Let's do this!
+    - Sure thing! Let's go for it and buy the game!
+    - Yeah, I'm down! Let's buy that game!
+    - Totally! I'm ready to make the purchase!
+    - Absolutely! Let's go ahead and buy it!
+    - Yes, let's do it! I'm all set to buy that game
+
+- intent: deny
+  examples: |
+    - nah, not really feelin' it, y'know? not my vibe at all.
+    - Nope, I don't think this game is my cup of tea.
+    - lol, no way man! I aint spendin my cash on dat!
+    - Oh, I don't think this one's for me, thanks though.
+    - Naw, I'm good. This game ain't really catchin' my interest.
+    - Sorry, but it's a no from me.
+    - Ehh, I'm not really into this type of game, y'know?
+    - I appreciate the suggestion, but I don't think I'll enjoy this game.
+    - Meh, I've played better games to be honest.
+    - Nah, I'm not really feelin' this one. Can you recommend something else?
+    - I don't think this game is really up my alley.
+    - I'm gonna have to pass on this one, sorry.
+    - This game doesn't really seem like my kind of thing.
+    - No thanks, I'm not really interested in this game.
+    - I don't think I'd enjoy playing this game, to be honest.
+    - I'm not really feeling this game, can you suggest something else?
+    - This game doesn't really appeal to me, sorry.
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this type of game, sorry.
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I don't think I'm gonna go for this one, can you suggest something else?
+    - This game doesn't really appeal to me, can you recommend something else?
+    - I'm not really feeling this game, can you suggest something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - I'm not really into this game, can you recommend something else?
+    - I don't think this game is really my style, sorry.
+    - I'm not really interested in this game, can you suggest something else?
+    - I don't think I'd like this game, can you recommend something else?
+    - I'm not really a fan of this game, can you suggest something else?
+    - This game doesn't seem like something I'd enjoy, can you suggest something else?
+    - Not my style.
+    - Not feeling it.
+    - Not my thing.
+    - Not interested.
+    - Don't think I'd like it.
+    - Not a fan.
+    - Doesn't seem like something I'd enjoy.
+    - Not really into it.
+    - Not for me.
+    - Not what I'm looking for.
+    - Not my kind of game.
+    - Not my cup of tea.
+    - I'll pass.
+    - No thanks.
+    - Not really.
+    - I don't think so.
+    - I'd rather not.
+    - I'll pass on this one.
+    - No, thank you.
+    - I don't think it's for me.
+    - I don't think I'd enjoy it.
+    - I don't think it's my kind of game.
+    - I don't think I'd like it.
+    - Nah, not really interested in buying that game right now.
+    - Sorry, but I'll have to pass on purchasing that game.
+    - Nope, not feeling it, thanks though.
+    - Nah, I'm good without that game, thanks for asking.
+    - Not really vibing with the idea of buying that game, thanks.
+    - Nah, not in the mood to buy that game at the moment.
+    - Sorry, gonna have to decline on buying that game.
+    - Nah, that game isn't really catching my interest.
+    - No thanks, I'll give that game a miss.
+    - Gonna have to say no to buying that game, thanks.
+    - Nah, I'll have to skip on buying that game, thanks for offering though.
+    - Not interested in buying that game, thanks for asking anyway.
+    - No thanks, not interested in purchasing that game.
+    - Sorry, not really into buying that game right now.
+    - Gonna have to pass on buying that game, sorry.
+    - Nah, gonna take a rain check on buying that game.
+    - No thanks, gonna have to decline on purchasing that game.
+    - Not really down for buying that game, thanks.
+    - Nope, not interested in buying that game, sorry.
+    - Nah, not feeling like buying that game, thanks for asking though.
+    - Sorry, not in the market for buying that game right now.
+    - Not really in the mood to buy that game, thanks.
+    - Nah, gonna have to say no to purchasing that game.
+    - Sorry, but I'll pass on buying that game.
+    - Nah, not really looking to buy that game, thanks.
+    - Not really interested in purchasing that game, thanks though.
+    - Sorry, but I'll have to decline on buying that game.
+    - Nah, that game isn't really my cup of tea, thanks.
+    - No thanks, not interested in buying that game.
+    - Gonna have to decline on purchasing that game, thanks though.
+    - Nah, not interested in buying that game right now, thanks.
+    - Sorry, gonna have to pass on buying that game.
+    - Nah, not really up for buying that game, thanks.
+    - Not really interested in that game, thanks for asking.
+    - Nope, not feeling like buying that game, sorry.
+    - Nah, not interested in purchasing that game, thanks for asking though.
+    - Sorry, but I'll have to decline on buying that game.
+    - Nah, that game isn't really sparking my interest, thanks.
+    - No thanks, gonna have to pass on buying that game.
+    - Sorry, not interested in buying that game at the moment.
+    - Nah, not really feeling like buying that game, thanks though.
+    - Not in the mood to buy that game, sorry.
+    - Nah, gonna have to decline on purchasing that game.
+    - Sorry, but I'll have to pass on buying that game.
+    - Nah, not really interested in that game, thanks.
+    - Not really up for buying that game, thanks though.
+    - Sorry, gonna have to say no to buying that game.
+    - Nah, that game doesn't really catch my eye, thanks.
+    - No thanks, not interested in purchasing that game.
+    - Gonna have to pass on buying that game, thanks anyway
+    
