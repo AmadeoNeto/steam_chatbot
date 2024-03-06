@@ -40,14 +40,14 @@ stories:
 - story: buy game sad
   steps:
   - intent: BuyGame
-  - action: utter_BuyGame
+  - action: action_buy_game
   - intent: deny
   - action: utter_deny_buy
 
 - story: buy game happy
   steps:
   - intent: BuyGame
-  - action: utter_BuyGame
+  - action: action_buy_game
   - intent: affirm
   - action: utter_affirm_buy
 

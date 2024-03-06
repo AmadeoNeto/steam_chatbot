@@ -426,7 +426,1067 @@ nlu
 
 - intent: ReqShowGame
   examples: |
-    - Tell me about games with the genres ['Simulation'](genre) and ['Indie'](genre) that support ['SteamVR Collectibles'](categories).
+    - What [Flight](game_tag) games are there with a [Hardware](game_tag)? 
+    - Can you find [Surreal](game_tag) games with [Arcade](game_tag) mode? 
+    - Show me [Dark Fantasy](game_tag) games that are set in the [Design & Illustration](game_tag). 
+    - Show me [Military](game_tag) games with [Party-Based RPG](game_tag) on [macOS](platform). 
+    - I'm looking for [Software Genres](game_tag) games by [Tegridy Made Games](developer) on [steamOS](platform). 
+    - Got any [Walking Simulator](game_tag) games that work on [linux](platform)? 
+    - List games with the genres [Side Scroller](game_tag) and [Survival Horror](game_tag) that support [World War I](game_tag). 
+    - I'm into [Historical](game_tag) games. Any good [Game Development](game_tag) out there? 
+    - Show me [Retro Army Limited](developer) [Sexual Content](game_tag) games, especially those with [Skating](game_tag). 
+    - What are the top [Parody](game_tag) games on [steamOS](platform) that have a [Third Person](game_tag)? 
+    - Can you recommend [Mining](game_tag) games with [Jet](game_tag) mechanics? 
+    - I want a [3D Platformer](game_tag) game that's really challenging but has no [Interactive Fiction](game_tag). 
+    - Any [Side Scroller Spectacle fighter](game_tag) games out there with a [Spaceships](game_tag)? 
+    - What [Board Game](game_tag) games have the best [Time Travel](game_tag) mode? 
+    - What are the latest [FPS Swordplay](game_tag) games with [Rhythm](game_tag)? 
+    - I'm looking for [Swordplay](game_tag) with [Pool](game_tag) set in [Atmospheric](game_tag). 
+    - I need a [Basketball](game_tag) game that's easy to play with a [Deckbuilding](game_tag). 
+    - Can you find [Automation Sniper](game_tag) games for [windows](platform)? 
+    - What [Dark Comedy](game_tag) are available that have [Unforgiving](game_tag) in them? 
+    - What [Action RTS](game_tag) games released [during 2008](release_date) have the best [Turn-Based Combat](game_tag)? 
+    - What's the latest [macOS](platform) [Remake Psychological Horror](game_tag) games released [at 1982](release_date)? 
+    - Looking for [Martial Arts](game_tag) games from [河野](developer). 
+    - Hey there! Any [Space Minimalist](game_tag) games available for [windows](platform) and [linux](platform)? 
+    - Any [Submarine](game_tag) games on [linux](platform) that are also [Turn-Based Tactics](game_tag)? 
+    - I need a [Colony Sim](game_tag) game that's easy to play with a [Narrative](game_tag). 
+    - List games with the categories [PvP](game_tag) and [Social Deduction](game_tag). 
+    - I need [Co-op Campaign](game_tag) games with [Pool](game_tag). 
+    - Can you show me the latest [Philosophical](game_tag) games for [macOS](platform)? 
+    - I want to see all [360 Video](game_tag) games available on [linux](platform). 
+    - Any [Archery Players](game_tag) games with a [Shooter](game_tag) theme? 
+    - Can you find [Fantasy Agriculture](game_tag) games for [linux](platform)? 
+    - Looking for [linux](platform) [Adult Content](game_tag) games with [Dark Humor](game_tag) released [during 1997](release_date)? 
+    - I'm into [Historical](game_tag) games. Got any that were released [in 2020](release_date)? 
+    - Any [macOS](platform) [Cycling](game_tag) games with [Life Sim](game_tag) released [at 1994](release_date)? 
+    - I need a [Hunting](game_tag) game that's [Crafting](game_tag) and can be played on [macOS](platform). 
+    - Yo, got any [ATV](game_tag) games that dropped [on 2021](release_date)? 
+    - Any recent [Detective 3D Platformer](game_tag) games for [windows](platform)? 
+    - Can you find [Photo Editing](game_tag) games with [Deckbuilding](game_tag) mode? 
+    - Any [macOS](platform) [Choose Your Own Adventure](game_tag) games with [Skating](game_tag) released [on 2003](release_date)? 
+    - Any [windows](platform) [Franchises](game_tag) games with [Hardware](game_tag) released [on 2007](release_date)? 
+    - I need [Football (American)](game_tag) games with good [Science Fiction](game_tag). 
+    - I want to see all [Co-op](game_tag) games available on [steamOS](platform). 
+    - I want a [Classic](game_tag) set in a [Underground](game_tag) world. 
+    - List games with the categories [Detective](game_tag) and [Military](game_tag). 
+    - What are the best [Fighting Birds](game_tag) games available right now? 
+    - Find me [Time Attack](game_tag) games with a [Football (American)](game_tag). 
+    - I'm looking for a [Artificial Intelligence Stylized](game_tag) game with [Choices Matter](game_tag) elements. 
+    - Any [windows](platform) [Romance](game_tag) games with [Hockey](game_tag) released [after 1986](release_date)? 
+    - Recommend some [Benchmark](game_tag) games that were released [on 1982](release_date). 
+    - I need a [Cooking Card & Board Genres](game_tag) game with [Silent Protagonist](game_tag). 
+    - Heya, any [Boomer Shooter](game_tag) themed [Naval](game_tag) games on [linux](platform)? 
+    - What's new in [macOS](platform) [Grid-Based Movement](game_tag) games with [Horror](game_tag) launched [in 2023](release_date)? 
+    - I want [Management](game_tag) themed games with [Side Scroller](game_tag) options. 
+    - Yo, got any [Short](game_tag) games that dropped [before 1988](release_date)? 
+    - List games with the categories [Hockey](game_tag) and [eSports](game_tag). 
+    - Any [Twin Stick Shooter](game_tag) games that are also [Dark Fantasy](game_tag)? 
+    - List games with the genres [Relaxing](game_tag) and [Character Customization](game_tag) that support [CRPG](game_tag). 
+    - Can you find [Action RTS](game_tag) that have [Romance](game_tag)? 
+    - Any [Rogue-lite Reboot](game_tag) games with [Tanks](game_tag) mode for [windows](platform)? 
+    - Any [Great Soundtrack](game_tag) games that support [Illuminati](game_tag)? 
+    - I need a [Trading PvP](game_tag) with [Basketball](game_tag) gameplay. 
+    - Yo, looking for [Outbreak Sim Hacking](game_tag) games, but nothing too [Zombies](game_tag), you know? 
+    - Show me [BMX Themes & Moods](game_tag) games with [Nostalgia](game_tag) graphics. 
+    - What [Automobile Sim](game_tag) games are there with a [Deckbuilding](game_tag)? 
+    - Show me [Driving](game_tag) games with [Third-Person Shooter](game_tag) on [windows](platform). 
+    - Looking for a [Driving Video Production](game_tag) with [Heist](game_tag) and space exploration, any ideas? 
+    - What are the latest [Strategy RPG Military](game_tag) with [Stealth](game_tag) and [Narrative](game_tag)? 
+    - Find me [Indie](game_tag) games with a [Mechs](game_tag). 
+    - Find me [Turn-Based Themes & Moods](game_tag) games with [ATV](game_tag) and hauntings. 
+    - I need [Loot Stylized](game_tag) games for a gaming night. 
+    - Can you find [Bikes Medieval](game_tag) games for [linux](platform)? 
+    - Looking for [Quick-Time Events](game_tag) games from [Eugen Systems](developer). 
+    - Looking for [macOS](platform) [BMX](game_tag) games with [Profile Features Limited](game_tag) released [after 2023](release_date)? 
+    - Recommend some [Underwater](game_tag) games that were released [at 1998](release_date). 
+    - Looking for [linux](platform) [Miscellaneous](game_tag) games with [Narration](game_tag) released [during 2007](release_date). 
+    - What are the latest [Software](game_tag) games with [Politics](game_tag) in them? 
+    - I'm looking for a [Hunting](game_tag) with [Sports](game_tag) and [Text-Based](game_tag). 
+    - I want [Lovecraftian](game_tag) themed games with [Visuals & Viewpoint](game_tag) options. 
+    - Do you have any [Hack and Slash](game_tag) games that are also [Futuristic](game_tag)? 
+    - Any [Motorbike](game_tag) games on [windows](platform) that are also [Class-Based](game_tag)? 
+    - Find me the best [Replay Value](game_tag) games with [Sniper](game_tag) feature. 
+    - What are the latest [linux](platform) [Character Customization](game_tag) with [Martial Arts](game_tag) released [in 2004](release_date)? 
+    - Find me some [Heist Pirates](game_tag) games on [windows](platform). 
+    - Any [Pirates](game_tag) games with a [Futuristic](game_tag) style, suitable for kids? 
+    - Show me [Level Editor](game_tag) games with [Co-op Campaign](game_tag), thanks. 
+    - Looking for [macOS](platform) [Political](game_tag) games with [Science](game_tag), any new ones? 
+    - Need [linux](platform) [Audio Production](game_tag) games with [Animation & Modeling](game_tag) released [on 2022](release_date). 
+    - Can you recommend a [JRPG Martial Arts](game_tag) game with a [Tutorial](game_tag) theme? 
+    - Any [Demons Platformer](game_tag) games that came out [during 2007](release_date)? 
+    - Can you suggest a [Farming Sim](game_tag) game with [2D Fighter](game_tag)? 
+    - What are the latest [windows](platform) [Dinosaurs](game_tag) with [Souls-like](game_tag) released [at 1986](release_date)? 
+    - I'm looking for [Episodic](game_tag) games that are [Survival Horror](game_tag). Any suggestions? 
+    - Show me [Rafael Gonzalez-Otoya B](developer). [Medieval](game_tag) games, especially those with [Boxing](game_tag). 
+    - Can you list [Parkour](game_tag) games with [FMV](game_tag) elements on [windows](platform)? 
+    - Show me the latest [Violent](game_tag) games, but only those with [Fighting](game_tag). 
+    - I want [Fishing](game_tag) themed games with [Psychological](game_tag) options. 
+    - Need some [windows](platform) [Mythology](game_tag) games with [Motocross](game_tag), any recommendations? 
+    - I want [steamOS](platform) [Horses](game_tag) games with [Hockey](game_tag) released [on 2000](release_date). 
+    - I'm into [Combat Racing](game_tag) games. Any good [Web Publishing](game_tag) out there? 
+    - Lookin for [Trading Card Game](game_tag) games on [macOS](platform) that got [Martial Arts](game_tag), any ideas? 
+    - Show me [Cozy Narration](game_tag) with [Dark Humor](game_tag). 
+    - What are the latest [windows](platform) [Mahjong](game_tag) with [Tennis](game_tag) released [before 1999](release_date)? 
+    - Any [Web Publishing Mods](game_tag) games based on [Action](game_tag)? 
+    - Can you recommend [Real-Time](game_tag) games set in [Crafting](game_tag) cities? 
+    - What are the latest [macOS](platform) [Combat](game_tag) games with [Colorful](game_tag) released [after 2005](release_date)? 
+    - Any [Basketball BMX](game_tag) games based on [America](game_tag)? 
+    - What [Tile-Matching](game_tag) games released [at 2008](release_date) have the best [Massively Multiplayer](game_tag)? 
+    - Any [FMV Movie](game_tag) games with [Rugby](game_tag) mode for [linux](platform)? 
+    - What [CRPG](game_tag) games released [at 1989](release_date) have the best [Asynchronous Multiplayer](game_tag)? 
+    - I need [Mars Mechs](game_tag) games with [Heist](game_tag). 
+    - Got any [Fishing](game_tag) games where I can be a [RPG](game_tag)? 
+    - Any [Tactical RPG](game_tag) games set in space, like with [World War II](game_tag) and stuff? 
+    - I want [steamOS](platform) [Tennis](game_tag) games with [Side Scroller](game_tag) released [at 2011](release_date). 
+    - List all [Dark Humor](game_tag) games released [on 1996](release_date). 
+    - I'm looking for a [Spaceships](game_tag) game that lets you build and manage a [Noir](game_tag). 
+    - I'm looking for [Survival](game_tag) with [Score Attack](game_tag) set in [Atmospheric](game_tag). 
+    - I need [Golf](game_tag) games with good [Short](game_tag). 
+    - Show me [Lovecraftian](game_tag) games with [Archery](game_tag), thanks. 
+    - Any [Snowboarding Dark](game_tag) games for [linux](platform) released [in 2003](release_date)? 
+    - Can you recommend [Drama](game_tag) games with [Zombies](game_tag) mechanics? 
+    - Any [windows](platform) [Conspiracy](game_tag) games with [Movie](game_tag) launched [before 2016](release_date)? 
+    - Show me all the [World War II](game_tag) games that were released [during 2005](release_date). 
+    - What [Loot](game_tag) games released [at 1988](release_date) have the best [Shop Keeper](game_tag)? 
+    - I need a [Physics](game_tag) game that's easy to play with a [Puzzle](game_tag). 
+    - Any cool [windows](platform) [Turn-Based Tactics](game_tag) with [Skating](game_tag) launched [before 1986](release_date)? 
+    - I'm a fan of [響雨互動娛樂](developer). List their games, please. 
+    - Got any [steamOS](platform) [2D Fighter](game_tag) games with [Actions & Activities](game_tag) that came out [after 2017](release_date)? 
+    - Any [Top-Down](game_tag) games that are also [Time Management](game_tag)? 
+    - What are the latest [windows](platform) [Transportation](game_tag) games with [Education](game_tag) released [before 2016](release_date)? 
+    - Can you list [Level Editor](game_tag) games with [Card Battler](game_tag) elements on [macOS](platform)? 
+    - Show me all the [Alternate History](game_tag) games that were released [after 2019](release_date). 
+    - What [Story Rich](game_tag) games have the best [PvP](game_tag) mode? 
+    - Show me [World War II Mod](game_tag) with [Dark Fantasy](game_tag). 
+    - I want [steamOS](platform) [Offroad](game_tag) games with [RPG](game_tag) released [in 2023](release_date). 
+    - Can you recommend [Dynamic Narration](game_tag) games with [Skiing](game_tag) mechanics? 
+    - Any [windows](platform) [Text-Based](game_tag) games with [Split Screen](game_tag) released [in 1983](release_date)? 
+    - Show me [Swordplay Boxing](game_tag) games with a [Choices Matter](game_tag) setting. 
+    - Any [Military](game_tag) games with a [Blood](game_tag) style, suitable for kids? 
+    - I'm a fan of [Silly Little Games](developer). Can you recommend their latest games? 
+    - Need [macOS](platform) [Basketball](game_tag) games with [Golf](game_tag) released [after 1993](release_date). 
+    - Show me some [Wrestling](game_tag) games with [Ninja](game_tag). 
+    - I'm looking for [Turn-Based Strategy Transportation](game_tag) games that can be played in short sessions. 
+    - Show me [4X](game_tag) games with a [Naval](game_tag) setting, please. 
+    - I'm searching for [Real-Time with Pause](game_tag) games for [steamOS](platform) and [linux](platform). 
+    - List [Competitive](game_tag) games that are [Mini Golf](game_tag). 
+    - Show me the latest [Alternate History](game_tag) that work on both [windows](platform) and [windows](platform), please. 
+    - I want to see all [Indie](game_tag) games available on [linux](platform). 
+    - I'm looking for [Third-Person Shooter](game_tag) games with [Ambient](game_tag). 
+    - List all the [Beautiful](game_tag) games with [Jet](game_tag) mode. 
+    - Show me the latest [Dungeon Crawler](game_tag) games for [linux](platform). 
+    - I'm looking for [Hunting Basketball](game_tag) games, something like a [Simulation](game_tag). 
+    - Yo, looking for [Politics Football (American)](game_tag) games, but nothing too [Animation & Modeling](game_tag), you know? 
+    - I'm looking for [Football (Soccer) Utilities](game_tag) games that can be played in short sessions. 
+    - I'm a fan of [SilentFuture](developer). Can you recommend their latest games? 
+    - Any recent [Epic Games Inc](developer). games worth checking out? 
+    - I'm a fan of [OZNA STUDIO](developer). What Hacking [games](game_tag) have they made? 
+    - List [Controls](game_tag) games that are [Electronic Music](game_tag). 
+    - I'm looking for a [World War I](game_tag) game that lets you build and manage a [Martial Arts](game_tag). 
+    - I'm a fan of [Gamenergy studio](developer). Can you recommend their latest games? 
+    - Find me [Transhumanism Werewolves](game_tag) games with [Shooter](game_tag) and hauntings. 
+    - Hey there! Any [Female Protagonist Driving](game_tag) games available for [macOS](platform) and [windows](platform)? 
+    - I'm into [PvP](game_tag) games, especially [Design & Illustration](game_tag). Got any? 
+    - I'm looking for something in the [Mystery](game_tag) genre. What's new? 
+    - What [Dark Comedy Linear](game_tag) games do you have that are set in the [Audio Production](game_tag)? 
+    - Can you suggest some [windows](platform) [Medical Sim](game_tag) games with [Anime](game_tag) that came out [during 2015](release_date)? 
+    - Lookin for [Short](game_tag) games on [linux](platform) that got [Basketball](game_tag), any ideas? 
+    - I'm a fan of [Adham Jaber](developer). What Controller [games](game_tag) have they made? 
+    - Show me [Trains](game_tag) games with [Animation & Modeling](game_tag). 
+    - What are the top [linux](platform) [Wrestling](game_tag) games with [Action](game_tag) released [on 2006](release_date)? 
+    - List all [Mining](game_tag) games released [on 1987](release_date). 
+    - Looking for [steamOS](platform) [1990's](game_tag) games with [3D Platformer](game_tag), any new ones? 
+    - I'm searching for [Ninja](game_tag) themed games, any platform works. 
+    - I'm looking for a [Beat 'em up](game_tag) game that's about [Sokoban](game_tag) and [Golf](game_tag), any recommendations? 
+    - List all the [Vikings](game_tag) games released [before 2006](release_date). 
+    - I need a [Military 360 Video](game_tag) game, something really [Local Multiplayer](game_tag). 
+    - I want [Historical Archery](game_tag) games on [windows](platform), any good ones? 
+    - List all [Birds](game_tag) games released [during 2021](release_date). 
+    - Find me the best [Video Genres](game_tag) games with [Cycling](game_tag) feature. 
+    - List all [Instrumental Music](game_tag) games released [on 1983](release_date). 
+    - Tell me about games with the genres [Archery](game_tag) and [2D Fighter](game_tag) that support [Rogue-like](game_tag). 
+    - What are the best [Automation Skateboarding](game_tag) games available right now? 
+    - Can you find [Team Sports Free to Play](game_tag) games for [linux](platform)? 
+    - Looking for [macOS](platform) [Hardware](game_tag) games that have [Agriculture](game_tag) support and were released [at 2003](release_date). 
+    - Any cool [steamOS](platform) [Short](game_tag) with [Time Management](game_tag) launched [on 2007](release_date)? 
+    - Any [Sci-fi](game_tag) games where I can build and manage a city? Preferably with [Runner](game_tag) mode. 
+    - What are the newest [Sub-Genres](game_tag) games for [steamOS](platform)? 
+    - Can you recommend [Sexual Content](game_tag) games set in [Artificial Intelligence](game_tag) cities? 
+    - Can you recommend some [Sailing](game_tag) games that are [Exploration](game_tag) compatible? 
+    - Can you list [Political Sim](game_tag) games with a [Baseball](game_tag) theme? 
+    - I need [Customization](game_tag) games that were released [in 1982](release_date). 
+    - I need a [Stealth](game_tag) with [Volleyball](game_tag) elements and [Hentai](game_tag). 
+    - Any [Utilities Trading Card Game](game_tag) games for [macOS](platform) released [at 2000](release_date)? 
+    - I need a [Lemmings Conspiracy](game_tag) game with [Rogue-lite](game_tag). 
+    - Any [Ninja Skating](game_tag) games that I can play on [windows](platform)? 
+    - Show me [Sniper Baseball](game_tag) with [Turn-Based Strategy](game_tag). 
+    - Can you find [Tabletop Trading](game_tag) games for [windows](platform)? 
+    - What are the latest [Card & Board Genres](game_tag) games that work on [linux](platform)? 
+    - Can you recommend [Motorbike](game_tag) games set in [Gun Customization](game_tag) cities? 
+    - Find me some [Drama Medical Sim](game_tag) games on [macOS](platform). 
+    - Could you suggest some [Outbreak Sim](game_tag) games compatible with [steamOS](platform)? I'm into Alternate [History stuff](game_tag) lately. 
+    - I'm looking for [Motocross](game_tag) games that are [Gaming](game_tag). Any suggestions? 
+    - I want a [Humor](game_tag) game with [Basketball](game_tag) elements and [Games Workshop](game_tag). 
+    - Any [Experience America](game_tag) games out there with a [Quick-Time Events](game_tag)? 
+    - Find me [Tabletop Casual](game_tag) games with [Thriller](game_tag) and hauntings. 
+    - I'm a fan of [Level Editor Dark Comedy](game_tag). Got anything new for steamOS [released](platform) before [1988](release_date)? 
+    - Find me [Runner](game_tag) games that are available on [steamOS](platform). 
+    - Can you show me all the [Demons](game_tag) games that have [LGBTQ+](game_tag) mode? 
+    - I need a [Open World Abstract](game_tag) game with [Skateboarding](game_tag). 
+    - Find me some [Cycling Farming](game_tag) games. 
+    - Find me the latest [Web Publishing](game_tag) games by [Pokies4fun](developer). I love a good scare! 
+    - Any [Gore Psychedelic](game_tag) games with a [Real-Time](game_tag) theme? 
+    - I'm looking for [Roguelike Deckbuilder](game_tag) with [Space Sim](game_tag) set in [Roguevania](game_tag). 
+    - I'm a fan of [Political Sim Trains](game_tag). Got anything new for linux [released](platform) during [1997](release_date)? 
+    - I'm looking for [Parody Challenge](game_tag) games, something like a [Jump Scare](game_tag). 
+    - I need a [Racing Cyberpunk](game_tag) game with [Board Game](game_tag). 
+    - I'm looking for a [Narration](game_tag) game with a [Uncategorized](game_tag) theme, preferably [Tutorial](game_tag). 
+    - What are the latest [Comic Book Conspiracy](game_tag) games with [Volleyball](game_tag)? 
+    - Can you list [Demons](game_tag) games with a [Artificial Intelligence](game_tag) theme? 
+    - Looking for [linux](platform) [Replay Value](game_tag) games that have [Warhammer 40K](game_tag) support and were released [during 1982](release_date). 
+    - Any [linux](platform) [Otome](game_tag) games with [Cozy](game_tag) that came out [after 1999](release_date)? 
+    - I'm looking for [Steampunk Coding](game_tag) games. 
+    - I need a [Building Tabletop](game_tag) game that's good for beginners. Any suggestions? 
+    - Find me [Party-Based RPG](game_tag) games with [Visuals & Viewpoint](game_tag) mode. 
+    - Show me some [macOS](platform) [Mouse only](game_tag) with [Tile-Matching](game_tag) released [during 2009](release_date). 
+    - What's the latest [PvE Linear](game_tag) game with [Cycling](game_tag)? 
+    - I love [Based On A Novel](game_tag). Recommend me some games in that theme, please. 
+    - Lookin for [Sci-fi](game_tag) games on [macOS](platform) that got [Feature Film](game_tag), any ideas? 
+    - Any [Racing](game_tag) games for [windows](platform)? 
+    - Any [windows](platform) [Class-Based](game_tag) games with [Football (Soccer)](game_tag) that came out [on 2008](release_date)? 
+    - Got any [linux](platform) [Dating Sim](game_tag) games with [Bowling](game_tag) that came out [during 1981](release_date)? 
+    - I'm looking for a [Audio Production](game_tag) game that's about [Football (Soccer)](game_tag) and [Lore-Rich](game_tag), any recommendations? 
+    - Hey, I'm looking for [Alternate History](game_tag) games that got released on [windows](platform) recently. 
+    - Lookin for [Mouse only](game_tag) games on [macOS](platform) that got [Action-Adventure](game_tag), any ideas? 
+    - Show me [windows](platform) [Idler](game_tag) games with [Game Development](game_tag) feature launched [during 2016](release_date). 
+    - Find me [Tennis Action-Adventure](game_tag) games with [Psychedelic](game_tag) and hauntings. 
+    - List all [Underground Moddable](game_tag) games with [Dinosaurs](game_tag) support. 
+    - Any [Time Travel](game_tag) games on [steamOS](platform) that are also [Gun Customization](game_tag)? 
+    - Do you have any [Parkour](game_tag) games that are also [Politics](game_tag)? 
+    - I'm looking for [Remake](game_tag) with [Capitalism](game_tag) set in [Photo Editing](game_tag). 
+    - I need [Artificial Intelligence](game_tag) games developed by [Jonathan Moye](developer). 
+    - I need a [Underground Baseball](game_tag) game with [Minigames](game_tag). 
+    - I want a [Mini Golf](game_tag) set in a [Animation & Modeling](game_tag) world. 
+    - Can you recommend some [Level Editor](game_tag) that support [Tutorial](game_tag) gameplay? 
+    - I'm looking for [Roguevania Soundtrack](game_tag) games that can be played in short sessions. 
+    - I'm looking for [War](game_tag) with [Alternate History](game_tag) style graphics and [Golf](game_tag). 
+    - Show me [Nature](game_tag) games that are about [Sailing](game_tag) and [Crafting](game_tag). 
+    - Show me [Difficult](game_tag) games with [Ball Sports](game_tag), thanks. 
+    - I want a [Action RPG Baseball](game_tag) with a [Medical Sim](game_tag) system. 
+    - Any [Match 3 Pirates](game_tag) games that came out [after 2001](release_date)? 
+    - I'm searching for [Job Simulator](game_tag) themed games, any platform works. 
+    - I want [Visual Novel](game_tag) games that are [Card & Board Genres](game_tag). 
+    - Lookin for [Steampunk](game_tag) games on [macOS](platform) that got [Space Sim](game_tag), any ideas? 
+    - I want a [Blood](game_tag) set in a [Coding](game_tag) world. 
+    - Show me the latest [Trivia](game_tag) games, but only those with [Social Deduction](game_tag). 
+    - Yo, any [linux](platform) [Voxel](game_tag) with [BMX](game_tag) released [at 2023](release_date)? 
+    - Got any [Team Sports Science](game_tag) released [after 1983](release_date)? 
+    - Find me [Movie](game_tag) games that are available on [windows](platform). 
+    - Show me [Third-Person Shooter](game_tag) games that are [City Builder](game_tag). 
+    - What are the latest [Racing](game_tag) games that work on [macOS](platform)? 
+    - Hey, I'm looking for [Tactical RPG](game_tag) games that got released on [windows](platform) recently. 
+    - Can you recommend [VR](game_tag) games set in [4X](game_tag) cities? 
+    - What's the latest [macOS](platform) [World War II Skating](game_tag) games released [after 1983](release_date)? 
+    - Any [Hunting](game_tag) games focused on [Motorbike](game_tag) available for [macOS](platform)? 
+    - Any [Ninja](game_tag) games that are also [City Builder](game_tag)? 
+    - Got any [Sniper](game_tag) games with [Vehicular Combat](game_tag) support? 
+    - Can you recommend [Massively Multiplayer](game_tag) games with [Action](game_tag) mechanics? 
+    - What [Driving](game_tag) games have the best [Tutorial](game_tag) art? 
+    - I'm looking for a [Cold War](game_tag) game that's about [Dating Sim](game_tag) and [Scary](game_tag), any recommendations? 
+    - Find me the latest [Cycling](game_tag) games by [Shadow Factory](developer). I love a good scare! 
+    - Yo, what's up? Any cool [Gun Customization](game_tag) games on [windows](platform) I should know about? 
+    - Can you recommend some [Parody Tabletop](game_tag) games? 
+    - Can you find [Sports](game_tag) games with [Ball Sports](game_tag)? 
+    - Any recent [Turn-Based Combat Sailing](game_tag) games for [windows](platform)? 
+    - I need a [Software Training Destruction](game_tag) game that's good for beginners. Any suggestions? 
+    - List all [RPGMaker](game_tag) games released [on 1993](release_date). 
+    - What are the best [Programming](game_tag) games on [windows](platform)? 
+    - What are the latest [steamOS](platform) [Action RPG](game_tag) with [Alternate History](game_tag) released [before 2018](release_date)? 
+    - I'm looking for [Historical](game_tag) games with [MMORPG](game_tag). 
+    - Find me [Animation & Modeling](game_tag) games with a [Challenge](game_tag). 
+    - I want a [Card Battler Dark Humor](game_tag) game with a [Hunting](game_tag) story. 
+    - I'm looking for [Episodic Horror](game_tag) games. 
+    - I'm looking for [Underwater Real Time Tactics](game_tag) games that can be played in short sessions. 
+    - Looking for [Animation & Modeling Science](game_tag) with [Memes](game_tag) on [steamOS](platform). 
+    - List all the [Warhammer 40K](game_tag) games available on [windows](platform). 
+    - Find me [Snowboarding](game_tag) games that are available on [macOS](platform). 
+    - Any [linux](platform) [Immersive Sim](game_tag) games with [Dynamic Narration](game_tag) that came out [in 2021](release_date)? 
+    - Need some [windows](platform) [Rogue-like](game_tag) games with [Football (American)](game_tag), any recommendations? 
+    - Looking for [linux](platform) [Transportation](game_tag) games with [Level Design](game_tag) released [during 1982](release_date). 
+    - Can you recommend some [Automobile Sim Short](game_tag) games? 
+    - Can you recommend some [Noir Music](game_tag) games? 
+    - Any [Based On A Novel Story Rich](game_tag) games that I can play on [macOS](platform)? 
+    - What are the top [windows](platform) [Word Game](game_tag) games with [Game Development](game_tag) released [on 1996](release_date)? 
+    - What's the latest [Dark Humor](game_tag) game with a [Flight](game_tag) setting and [Comedy](game_tag) elements? 
+    - I need [Linear](game_tag) games with good [Baseball](game_tag). 
+    - I need a [Military](game_tag) that's [Customization](game_tag) and has [Conversation](game_tag). 
+    - Show me [Action RPG](game_tag) that have [Football (American)](game_tag) mode and are suitable for kids. 
+    - Show me [windows](platform) [Aliens](game_tag) games with [Party-Based RPG](game_tag) support released [at 1989](release_date). 
+    - List all the [Silent Protagonist](game_tag) games with [Aliens](game_tag) mode. 
+    - Can you suggest some [steamOS](platform) [Interactive Fiction](game_tag) games with [Hobby Sim](game_tag) launched [at 1980](release_date)? 
+    - Hey, I'm in the mood for some [Hacking](game_tag) games. Any recommendations? 
+    - Can you recommend some [Space](game_tag) games that are [Sports](game_tag) compatible? 
+    - Show me [Sokoban Programming](game_tag) with [3D](game_tag). 
+    - I'm a fan of [Hangover Cat Purrroduction](developer). What Survival [Horror games](game_tag) have they made? 
+    - I'm looking for a [Programming](game_tag) game that lets you build and manage a [Illuminati](game_tag). 
+    - Show me [Massively Multiplayer](game_tag) games that are about [Survival](game_tag) and [Mature](game_tag). 
+    - Show me [Mini Golf](game_tag) games that are about [Hunting](game_tag) and [Motorbike](game_tag). 
+    - Find me [Parody FPS](game_tag) games with [Underwater](game_tag) and hauntings. 
+    - Any [Tanks Football (American)](game_tag) games that I can play on [linux](platform)? 
+    - I'm looking for [Music-Based Procedural Generation](game_tag) games that are [Character](game_tag). Any suggestions? 
+    - Can you find [3D Fighter](game_tag) games with [Video Production](game_tag)? 
+    - Show me the latest [Dinosaurs](game_tag) games for [windows](platform). 
+    - I need a [Boxing](game_tag) game that's [Utilities](game_tag) and can be played on [windows](platform) and [steamOS](platform). 
+    - I'm looking for [macOS](platform) [Philosophical](game_tag) games with [Spelling](game_tag), any recent ones? 
+    - Hey, what are the newest [Medieval](game_tag) games in the [Story Rich](game_tag) category? 
+    - Any [windows](platform) [Rogue-like](game_tag) games with [Superhero](game_tag) released [at 1991](release_date)? 
+    - Can you find [Third-Person Shooter Card & Board Genres](game_tag) games for [macOS](platform)? 
+    - Any [macOS](platform) [Colony Sim](game_tag) games with [Nonlinear](game_tag) released [on 1987](release_date)? 
+    - I need [Crafting Naval](game_tag) games for a gaming night. 
+    - I need [Sailing](game_tag) games with [Programming](game_tag). 
+    - List all [Fantasy](game_tag) games released [before 1997](release_date). 
+    - I want a [eSports](game_tag) game about running a [Ninja](game_tag). 
+    - Any [Character Customization Football (Soccer)](game_tag) games with a [Cats](game_tag) theme? 
+    - Show me [Crime](game_tag) that have [Supernatural](game_tag) mode and are suitable for kids. 
+    - Show me [Stealth](game_tag) games available for [macOS](platform), please. 
+    - Any [macOS](platform) [Photo Editing](game_tag) games with [TrackIR](game_tag) released [during 2020](release_date)? 
+    - Any [Trivia Programming](game_tag) games with a [Ninja](game_tag) setting? 
+    - I need a [Snowboarding](game_tag) game that's [Vampire](game_tag) and can be played on [macOS](platform). 
+    - Hey, what are the newest [Music-Based Procedural Generation](game_tag) games in the [Wrestling](game_tag) category? 
+    - Any [Bikes](game_tag) games focused on [Tabletop](game_tag) available for [steamOS](platform)? 
+    - I need [steamOS](platform) [Software Genres](game_tag) games with [Farming Sim](game_tag) released [in 1988](release_date). 
+    - Looking for [windows](platform) [eSports](game_tag) games with [Choices Matter](game_tag), any new ones? 
+    - I need [City Builder](game_tag) games with good [Cycling](game_tag). 
+    - Any [Football (American)](game_tag) games set in space, like with [Tanks](game_tag) and stuff? 
+    - What [Fighting](game_tag) games released [after 2018](release_date) have the best [Loot](game_tag)? 
+    - What [Skating](game_tag) games are there with a [Survival](game_tag)? 
+    - What [Boss Rush](game_tag) games have the best [ATV](game_tag) art? 
+    - I'm interested in [Cozy Sailing](game_tag) games that focus on [Trains](game_tag) and [Mystery](game_tag). 
+    - Got any [linux](platform) [Survival](game_tag) games with [Tanks](game_tag) that came out [at 1994](release_date)? 
+    - Show me [Villain Protagonist](game_tag) games with [Cute](game_tag) and [Golf](game_tag). 
+    - Any [macOS](platform) [Pool](game_tag) games with [Bullet Time](game_tag) released [before 1993](release_date)? 
+    - I need a [Trading](game_tag) with [Football (American)](game_tag) elements and [Hunting](game_tag). 
+    - I'm looking for a game with deep [Time Travel](game_tag) and [Aliens](game_tag), preferably an Ambient. 
+    - Can you recommend some [Survival](game_tag) that support [Skiing](game_tag) gameplay? 
+    - Looking for [macOS](platform) [Tower Defense](game_tag) games that have [Mini Golf](game_tag) support and were released [at 1985](release_date). 
+    - I want [1990's](game_tag) themed games with [Cartoon](game_tag) options. 
+    - Show me the latest [Audio Production](game_tag) games for [linux](platform). 
+    - Are there any new [Time Management](game_tag) games that support [Escape Room](game_tag)? 
+    - Any [Conspiracy Futuristic](game_tag) games out there with a [Detective](game_tag)? 
+    - I need [windows](platform) [Faith](game_tag) games that have [Nostalgia](game_tag) and were released [at 1989](release_date). 
+    - Hey, any [macOS](platform) [Demons](game_tag) games that got [2.5D](game_tag) and came out [during 2011](release_date)? 
+    - Got any [linux](platform) [Fox](game_tag) games with [Cyberpunk](game_tag) that came out [in 1984](release_date)? 
+    - Can you list [Snooker](game_tag) games with [Political](game_tag) elements on [steamOS](platform)? 
+    - What's the latest [Music-Based Procedural Generation JRPG](game_tag) game with [Drama](game_tag)? 
+    - Show me [Text-Based](game_tag) games with [Dwarf](game_tag), thanks. 
+    - What [RPG](game_tag) games released [at 1992](release_date) have the best [Story Rich](game_tag)? 
+    - What are the top [linux](platform) [Dinosaurs](game_tag) games with [Beautiful](game_tag) released [on 2002](release_date)? 
+    - Any [linux](platform) [Parkour](game_tag) games with [Turn-Based Tactics](game_tag) released [during 2004](release_date)? 
+    - Show me the latest [Video Genres](game_tag) that work on both [windows](platform) and [steamOS](platform), please. 
+    - Show me [Tutorial](game_tag) games with [Reboot](game_tag) and [Wrestling](game_tag). 
+    - I'm looking for [Character Tennis](game_tag) games, something like a [Baseball](game_tag). 
+    - What are the latest [Futuristic Memes](game_tag) games with [Stylized](game_tag)? 
+    - Can you show me [Fighting](game_tag) games from the [after 1998](release_date)? 
+    - Show me [Warhammer 40K](game_tag) games with [Open World Survival Craft](game_tag) and [Addictive](game_tag). 
+    - Can you suggest some [steamOS](platform) [NSFW](game_tag) games with [Flight](game_tag) launched [after 1990](release_date)? 
+    - Any [Building](game_tag) games on [linux](platform) that are also [Modern](game_tag)? 
+    - Find me the best [Hacking](game_tag) games with [Futuristic](game_tag) feature. 
+    - I need a [Action](game_tag) with [Immersive Sim](game_tag) elements and [Crafting](game_tag). 
+    - Can you find [Underground](game_tag) games with [Casual](game_tag)? 
+    - What's the latest [Ball Sports Golf](game_tag) game with [Short](game_tag)? 
+    - Can you recommend some [Baseball](game_tag) games that are [Nonlinear](game_tag) compatible? 
+    - Hey, what are the newest [Werewolves](game_tag) games in the [Level Editor](game_tag) category? 
+    - I'm looking for a [Warhammer 40K](game_tag) game that's about [Fast-Paced](game_tag) and [Dark Humor](game_tag), any recommendations? 
+    - Find me a [Bikes](game_tag) that's [Martial Arts](game_tag) and can be played on [windows](platform). 
+    - What [Lovecraftian ATV](game_tag) games do you have that are set in the [Feature Film](game_tag)? 
+    - Any [macOS](platform) [Martial Arts](game_tag) games with [Boxing](game_tag) released [before 2023](release_date)? 
+    - Can you recommend some [Rugby 2D Fighter](game_tag) games? 
+    - Show me [Sailing](game_tag) games that are [Fighting](game_tag). 
+    - Any [World War I](game_tag) games with [Animation & Modeling Video Production](game_tag) or [Dark Humor](game_tag)? 
+    - Looking for [Arcade](game_tag) games from [SMG Studio](developer). 
+    - List all [Bowling](game_tag) games released [after 1996](release_date). 
+    - Yo, got any [macOS](platform) [Cinematic](game_tag) games that hit the market [during 1989](release_date)? 
+    - I need a [Remake](game_tag) with [Bikes](game_tag) elements and [Social Deduction](game_tag). 
+    - What are the latest [Ball Sports](game_tag) games that work on [steamOS](platform)? 
+    - List all the [Software](game_tag) games available on [linux](platform). 
+    - I'm looking for something in the [Point & Click](game_tag) genre. What's new? 
+    - Can you recommend some [Local Co-Op](game_tag) that support [Sports](game_tag) gameplay? 
+    - Show me [Narrative](game_tag) games with [Turn-Based](game_tag) and [Walking Simulator](game_tag). 
+    - I need a [Mars Bikes](game_tag) game with [Comedy](game_tag). 
+    - What's the best [Minigames](game_tag) with a [3D Platformer](game_tag) theme for [steamOS](platform)? 
+    - Any [macOS](platform) [Shoot 'Em Up](game_tag) games with [Anime](game_tag) released [during 2008](release_date)? 
+    - Any [macOS](platform) [Exploration](game_tag) games with [Volleyball](game_tag) released [at 1986](release_date)? 
+    - Got any [Programming Combat](game_tag) games on [windows](platform)? 
+    - I need a [Controller Multiplayer](game_tag) for [steamOS](platform). 
+    - Can you list [RTS](game_tag) games with a [Memes](game_tag) theme? 
+    - I want [Creature Collector](game_tag) themed games with [Old School](game_tag) options. 
+    - Any cool [macOS](platform) [Strategy RPG](game_tag) with [Story](game_tag) launched [at 1996](release_date)? 
+    - Hey, any [linux](platform) [Design & Illustration](game_tag) games that got [Artificial Intelligence](game_tag) and came out [during 1987](release_date)? 
+    - Can you recommend some [Parody](game_tag) games that are [Football (Soccer)](game_tag) compatible? 
+    - Yo, got any cool [Foreign](game_tag) games that came out recently? 
+    - Find me [Physics Strategy](game_tag) games with [Foreign](game_tag) and hauntings. 
+    - Any recent [Automobile Sim Turn-Based Tactics](game_tag) games for [steamOS](platform)? 
+    - Are there any new [Nonlinear](game_tag) games that support [Hunting](game_tag)? 
+    - I want to play a [Motocross](game_tag) game that's focused on [Local Co-Op](game_tag). What do you have? 
+    - Can you recommend some [Transportation](game_tag) that support [Rome](game_tag) gameplay? 
+    - I'm searching for [Point & Click](game_tag) themed games, any platform works. 
+    - Any [macOS](platform) [Skateboarding](game_tag) games with [Exploration](game_tag) launched [on 2010](release_date)? 
+    - Hey, I'm looking for [Arcade](game_tag) games that got released on [macOS](platform) recently. 
+    - Can you suggest a [Turn-Based Tactics](game_tag) game with [Controller](game_tag)? 
+    - Any [Great Soundtrack Bowling](game_tag) games that came out [after 1984](release_date)? 
+    - I need [Minimalist](game_tag) games with [Mars](game_tag). 
+    - I want a game with a [Loot](game_tag), preferably an Dragons [one](game_tag). 
+    - Show me [eSports](game_tag) games that are [Cold War](game_tag). 
+    - Looking for [steamOS](platform) [1980s](game_tag) games with [Driving](game_tag) released [on 1996](release_date). 
+    - Can you recommend [Robots](game_tag) games with [Underwater](game_tag) mechanics? 
+    - Show me [Dystopian](game_tag) games with [Driving](game_tag) on [steamOS](platform). 
+    - What [Werewolves](game_tag) games released [before 1992](release_date) have the best [Trading Card Game](game_tag)? 
+    - What are the top [Aliens](game_tag) games on [steamOS](platform) that have a [Perma Death](game_tag)? 
+    - Do you have any [Politics Crime](game_tag) games set in [Gothic](game_tag)? 
+    - Can you find [Touch-Friendly](game_tag) games with [Martial Arts](game_tag) mode? 
+    - Show me [Dating Sim](game_tag) games with [Female Protagonist](game_tag) on [windows](platform). 
+    - Hey, I'm in the mood for some [Immersive](game_tag) games. Any recommendations? 
+    - Looking for [windows](platform) [Epic](game_tag) games that have [3D Platformer](game_tag) support and were released [in 1997](release_date). 
+    - I want [Agriculture](game_tag) themed games with [Story Rich](game_tag) options. 
+    - Can you find [Steampunk Warhammer 40K](game_tag) games for [linux](platform)? 
+    - Recommend some [Survival](game_tag) games that were released [before 2009](release_date). 
+    - I want [Motocross](game_tag) themed games with [MMORPG](game_tag) options. 
+    - I'm a fan of [Choices Matter Character Customization](game_tag) games. Any good ones on [windows](platform)? 
+    - Got any [Warhammer 40K Casual](game_tag) games on [steamOS](platform)? 
+    - Any [Psychedelic](game_tag) games on [macOS](platform) you'd recommend? 
+    - Looking for [linux](platform) [Trading](game_tag) games with [Realistic](game_tag) launched [during 2023](release_date). 
+    - I'm a fan of [Farming Sim Action Roguelike](game_tag) games. Any good ones on [steamOS](platform)? 
+    - Looking for [steamOS](platform) [Gothic](game_tag) games with [Psychedelic](game_tag), any new ones? 
+    - Any [Ninja](game_tag) games on [linux](platform) that are also [Controller](game_tag)? 
+    - I'm into [Crafting](game_tag) with a [Superhero](game_tag) subplot. Got anything like that? 
+    - Can you recommend a [Artificial Intelligence](game_tag) that's also a [Web Publishing](game_tag)? 
+    - I'm into [Stealth](game_tag) with a [Dark Humor](game_tag) subplot. Got anything like that? 
+    - Looking for [macOS](platform) [Colony Sim](game_tag) games with [Gun Customization](game_tag) released [during 2021](release_date)? 
+    - I'm a fan of [Deertwig Studio](developer). What Platformer [games](game_tag) have they made? 
+    - I want [macOS](platform) [Horses](game_tag) games with [360 Video](game_tag) released [on 1998](release_date). 
+    - Can you suggest some [windows](platform) [Real-Time](game_tag) games with [Archery](game_tag) launched [during 1991](release_date)? 
+    - I'm looking for [Kickstarter](game_tag) games that are [Web Publishing](game_tag). Any suggestions? 
+    - I want a [Tennis Mars](game_tag) game with a [Action-Adventure](game_tag) story. 
+    - Can you find [Hero Shooter Solitaire](game_tag) games for [steamOS](platform)? 
+    - I'm looking for a game with deep [Choices Matter](game_tag) and [Mods](game_tag), preferably an Hunting. 
+    - Can you show me [Birds](game_tag) games from the [in 1987](release_date)? 
+    - Can you show me the latest [Miscellaneous](game_tag) games for [windows](platform)? 
+    - I'm looking for a [Shop Keeper Auto Battler](game_tag) game with [Traditional Roguelike](game_tag) elements. 
+    - List [Interactive Fiction](game_tag) games with [Sailing](game_tag), please. 
+    - I'm looking for [Football (American) Emotional](game_tag) games. 
+    - Need some [steamOS](platform) [Robots](game_tag) games with [Mouse only](game_tag), any recommendations? 
+    - What's the latest [steamOS](platform) [JRPG Asynchronous Multiplayer](game_tag) games released [on 1987](release_date)? 
+    - Yo, got any cool [Crime](game_tag) games that came out recently? 
+    - Any [macOS](platform) [Skateboarding](game_tag) games with [Point & Click](game_tag) launched [before 1993](release_date)? 
+    - Can you recommend some [Action RPG](game_tag) games that are [Shooter](game_tag) compatible? 
+    - Got any [On-Rails Shooter](game_tag) games where I can be a [Golf](game_tag)? 
+    - I'm looking for [macOS](platform) [Stealth](game_tag) games with [Hero Shooter](game_tag), any recent ones? 
+    - I want [Remake Illuminati](game_tag) games on [macOS](platform), any good ones? 
+    - Yo, what's up? Any cool [Intentionally Awkward Controls](game_tag) games on [windows](platform) I should know about? 
+    - Show me [Transhumanism](game_tag) games that are about [Heist](game_tag) and [Comedy](game_tag). 
+    - What [Villain Protagonist](game_tag) games have the best [Colony Sim](game_tag) art? 
+    - What [Drama](game_tag) games have the best [Football (Soccer)](game_tag) art? 
+    - Tell me about games with the genres [Dinosaurs](game_tag) and [Nature](game_tag) that have [Minigames](game_tag). 
+    - Any [linux](platform) [Comic Book](game_tag) games with [Driving](game_tag) that came out [during 1998](release_date)? 
+    - Lookin for [Tennis](game_tag) games on [macOS](platform) that got [Automation](game_tag), any ideas? 
+    - Find me the best [Skiing](game_tag) games with [Otome](game_tag) feature. 
+    - List all [World War I Lovecraftian](game_tag) games with [6DOF](game_tag) support. 
+    - Show me [Memes Walking Simulator](game_tag) with [Sniper](game_tag). 
+    - Show me [Golf](game_tag) games that are set in the [PvE](game_tag). 
+    - Find me the latest [Physics](game_tag) games by [绚丽奈落](developer). I love a good scare! 
+    - What are the latest [linux](platform) [Baseball](game_tag) with [Outbreak Sim](game_tag) released [in 2007](release_date)? 
+    - Hey, I'm in the mood for some [Nonlinear](game_tag) games. Any recommendations? 
+    - Got any [Birds](game_tag) games with [3D Fighter](game_tag) support? 
+    - Got any [linux](platform) [Action-Adventure](game_tag) games with [Magic](game_tag) that came out [before 1988](release_date)? 
+    - What [Sexual Content Sci-fi](game_tag) games do you have that are set in the [Action Roguelike](game_tag)? 
+    - I want [Word Game](game_tag) themed games with [Challenge](game_tag) options. 
+    - Got any [linux](platform) [Mods](game_tag) games with [Space Sim](game_tag) feature released [before 1998](release_date)? 
+    - Any [Flight](game_tag) games on [linux](platform) you'd recommend? 
+    - What [Ambient](game_tag) games have the best [Space Sim](game_tag) art? 
+    - Can you recommend some [Supernatural](game_tag) that support [Co-op](game_tag) gameplay? 
+    - Show me some [Bikes](game_tag) games with [Based On A Novel](game_tag). 
+    - Show me the latest [Golf](game_tag) games for [macOS](platform). 
+    - I want [linux](platform) [Controls](game_tag) games with [Software Genres](game_tag) released [at 2000](release_date). 
+    - I want a [Photo Editing](game_tag) game that's really challenging but has no [Card Battler](game_tag). 
+    - Show me [Programming Spaceships](game_tag) games with [Tennis](game_tag). 
+    - What are the latest [Tabletop](game_tag) games that work on [linux](platform)? 
+    - Any [PvE FMV](game_tag) games that came out [after 2008](release_date)? 
+    - Are there any new [Game Development](game_tag) games that support [Music-Based Procedural Generation](game_tag)? 
+    - Looking for [steamOS](platform) [2D Fighter](game_tag) games with [Superhero](game_tag) released [after 2020](release_date). 
+    - List all [Exploration Choices Matter](game_tag) games with [Aliens](game_tag) support. 
+    - Can you recommend some [Social Deduction](game_tag) that support [Tabletop](game_tag) gameplay? 
+    - Yo, any [windows](platform) [Electronic](game_tag) with [Sports](game_tag) released [at 2004](release_date)? 
+    - Looking for [PvP](game_tag) games on [linux](platform). Any suggestions? 
+    - I'm looking for a [Trading Medieval](game_tag) with an [Tutorial](game_tag) story. 
+    - I want a [Music-Based Procedural Generation Features](game_tag) game with a [Submarine](game_tag) story. 
+    - Can you show me some [Submarine](game_tag) games for [linux](platform) that were released [on 2000](release_date)? 
+    - Find me [Martial Arts Cycling](game_tag) games with [Simulation](game_tag) and hauntings. 
+    - What [City Builder](game_tag) games have the best [ATV](game_tag) mode? 
+    - What [Party-Based RPG](game_tag) games have the best [Naval](game_tag) mode? 
+    - What [Sniper](game_tag) games released [during 2013](release_date) have the best [Utilities](game_tag)? 
+    - I need [steamOS](platform) [Cycling](game_tag) games that have [2D](game_tag) and were released [during 2023](release_date). 
+    - I want to see all [Dark Comedy](game_tag) games available on [windows](platform). 
+    - Any [Wholesome Real Time Tactics](game_tag) games for [macOS](platform) released [on 2015](release_date)? 
+    - I'm looking for a [Collectathon Indie](game_tag) game with [Exploration](game_tag) elements. 
+    - Do you have any [Football (Soccer) Intentionally Awkward Controls](game_tag) games set in [Mars](game_tag)? 
+    - What [Space](game_tag) games are there with a [Hunting](game_tag)? 
+    - What are the latest [War 2D Fighter](game_tag) games with [Interactive Fiction](game_tag)? 
+    - Any [Battle Royale](game_tag) games with a [Inventory Management](game_tag) style, suitable for kids? 
+    - List all [Medieval](game_tag) games developed by [Studio Oleomingus](developer). 
+    - Hey, any [windows](platform) [Exploration](game_tag) games that got [Character Customization](game_tag) and came out [before 2023](release_date)? 
+    - Do you have any [Spectacle fighter](game_tag) games that are also [Episodic](game_tag)? 
+    - Any [linux](platform) [Aliens](game_tag) games with [Jump Scare](game_tag) that came out [before 1999](release_date)? 
+    - What [Movie](game_tag) are available that have [Crime](game_tag) in them? 
+    - Show me [Documentary](game_tag) games with [Utilities](game_tag) apocalypse themes. 
+    - What [Funny](game_tag) games released [during 1998](release_date) have the best [Level Editor](game_tag)? 
+    - Can you recommend [Crime](game_tag) games with [Sci-fi](game_tag) mechanics? 
+    - Show me some [steamOS](platform) [Solitaire](game_tag) games with [Archery](game_tag) launched [at 2014](release_date). 
+    - I'm looking for a [Animation & Modeling](game_tag) game that's about [Pool](game_tag) and [Cyberpunk](game_tag), any recommendations? 
+    - What [Beautiful](game_tag) games have the best [Actions & Activities](game_tag) mode? 
+    - What [Level Editor](game_tag) are available that have [Bikes](game_tag) in them? 
+    - Show me all the [Mining](game_tag) games that were released [before 2014](release_date). 
+    - I'm a fan of [Samu](developer). Can you recommend their latest games? 
+    - I want a game that's like old-school [Old School](game_tag) adventures but with modern graphics. 
+    - Any [windows](platform) [World War I](game_tag) games with [NSFW](game_tag) launched [at 2004](release_date)? 
+    - What's the best [Diplomacy](game_tag) game that's also [Sailing](game_tag)? 
+    - Show me [Massively Multiplayer](game_tag) games that are about [Franchises](game_tag) and [Team Sports](game_tag). 
+    - Can you recommend a [Horror](game_tag) that's also a [Warhammer 40K](game_tag)? 
+    - Any [Gaming Fantasy Utilities](game_tag) games out there? 
+    - List games with the genres [Medieval](game_tag) and [Agriculture](game_tag) that support [360 Video](game_tag). 
+    - I want a [Simulation](game_tag) game with [Flight](game_tag) elements and [Snowboarding](game_tag). 
+    - What's the latest [Emotional](game_tag) game with a [Crafting](game_tag) setting and [Top-Down Shooter](game_tag) elements? 
+    - Can you recommend some [Skating](game_tag) that support [Fox](game_tag) gameplay? 
+    - I want a game with a [Artificial Intelligence](game_tag), preferably an Benchmark [one](game_tag). 
+    - Any [linux](platform) [Choose Your Own Adventure](game_tag) games with [Intentionally Awkward Controls](game_tag) released [during 1986](release_date)? 
+    - I need [Automation](game_tag) games with [Submarine](game_tag). 
+    - I'm looking for a [Underwater](game_tag) game with a [Horror](game_tag) theme, preferably [Short](game_tag). 
+    - Can you find [Stylized](game_tag) games with [Voxel](game_tag)? 
+    - What are the best [Wrestling](game_tag) games for [steamOS](platform) involving [Swordplay](game_tag)? 
+    - I need a [Life Sim Choose Your Own Adventure](game_tag) game with [Tennis](game_tag). 
+    - I love [Acetate123](developer) games! What's new from them for [macOS](platform)? 
+    - Show me [Steampunk](game_tag) that have [Immersive Sim](game_tag) mode and are suitable for kids. 
+    - I need [Underwater Resource Management](game_tag) games that are [Top-Down](game_tag). 
+    - Lookin for [Survival](game_tag) games on [windows](platform) that got [Motorbike](game_tag), any ideas? 
+    - I'm a fan of [Paul Bird](developer). List their games, please. 
+    - Can you suggest some [macOS](platform) [Animation & Modeling](game_tag) games with [Narration](game_tag) that came out [at 1981](release_date)? 
+    - Any [Visuals & Viewpoint Nonlinear](game_tag) games with [Management](game_tag) mode for [macOS](platform)? 
+    - Show me [Boss Rush Linear](game_tag) games with a [Replay Value](game_tag) setting. 
+    - Yo, got any [Anime](game_tag) games that dropped [on 2010](release_date)? 
+    - What are the latest [Bullet Time Visual Novel](game_tag) games with [Action-Adventure](game_tag)? 
+    - I need a [Multiple Endings](game_tag) game that's easy to play with a [Football (Soccer)](game_tag). 
+    - Show me [windows](platform) [Parkour](game_tag) games with [Design & Illustration](game_tag) feature launched [after 1989](release_date). 
+    - What are the top [Resource Management](game_tag) games for [windows](platform) right now? 
+    - I'm into [Action](game_tag) with a [Medical Sim](game_tag) subplot. Got anything like that? 
+    - I want [World War II](game_tag) games with [Vampire](game_tag) support. 
+    - I'm looking for a [Mechs](game_tag) game that lets you build and manage a [Philosophical](game_tag). 
+    - Show me all the [Gore](game_tag) games for [macOS](platform). 
+    - Any [Stealth Replay Value](game_tag) games that I can play on [macOS](platform)? 
+    - Any [On-Rails Shooter](game_tag) games where I can build and manage a city? Preferably with [Sci-fi](game_tag) mode. 
+    - Can you find [Satire](game_tag) that have [Voice Control](game_tag)? 
+    - Any [windows](platform) [Simulation](game_tag) games with [Local Co-Op](game_tag) launched [after 1988](release_date)? 
+    - I need [Nudity](game_tag) games that were released [after 1993](release_date). 
+    - I'm into [Spectacle fighter](game_tag) games, especially [Level Editor](game_tag). Got any? 
+    - I need a [Trains](game_tag) with [Scary](game_tag) elements and [1990's](game_tag). 
+    - I'm looking for a [Tools](game_tag) game with a [Hunting](game_tag) theme, preferably [Sniper](game_tag). 
+    - I need a [Martial Arts Cartoon](game_tag) game with [Fighting](game_tag). 
+    - I need [macOS](platform) [Comic Book](game_tag) games that have [Fishing](game_tag) and were released [before 1986](release_date). 
+    - List all [Gun Customization](game_tag) games developed by [PDS Games](developer). 
+    - I'm into [Military](game_tag) with a [Sports](game_tag) subplot. Got anything like that? 
+    - I'm looking for [Gun Customization Classic](game_tag) on [windows](platform), got any? 
+    - I want to see all [Relaxing](game_tag) games available on [linux](platform). 
+    - Recommend some [Exploration](game_tag) games that were released [before 1985](release_date). 
+    - Show me the latest [Fantasy](game_tag) games for [linux](platform). 
+    - Looking for [windows](platform) [Game Development](game_tag) games with [On-Rails Shooter](game_tag) released [in 1986](release_date). 
+    - I want a [Underwater](game_tag) game with [Class-Based](game_tag) elements and [Villain Protagonist](game_tag). 
+    - Are there any new [Shooter](game_tag) games that support [Fantasy](game_tag)? 
+    - Show me all the [First-Person](game_tag) games that were released [on 2005](release_date). 
+    - I'm looking for a [Game Development](game_tag) game with a [Time Manipulation](game_tag) theme, preferably [Turn-Based Tactics](game_tag). 
+    - Show me [Dark Comedy](game_tag) games with [Football (Soccer)](game_tag) apocalypse themes. 
+    - Looking for [Trains](game_tag) games from [Nukearts Studio](developer). 
+    - I want [windows](platform) [Noir](game_tag) games with [Humor](game_tag) released [on 1998](release_date). 
+    - Any [steamOS](platform) [Quick-Time Events](game_tag) games with [Sports](game_tag) released [on 2016](release_date)? 
+    - List games with the genres [Point & Click](game_tag) and [Cold War](game_tag) that support [Voxel](game_tag). 
+    - Show me some [windows](platform) [Match 3](game_tag) games with [Investigation](game_tag) launched [on 1998](release_date). 
+    - Show me [Procedural Generation](game_tag) games with [Dynamic Narration](game_tag) and [America](game_tag). 
+    - Show me [Motorbike](game_tag) games with [Rock Music](game_tag). 
+    - Show me [RPGMaker Snowboarding](game_tag) games with [Mini Golf](game_tag). 
+    - I want a [Fighting](game_tag) game with [Horses](game_tag) elements and [Board Game](game_tag). 
+    - List [MOBA](game_tag) games that are [Foreign](game_tag). 
+    - Any [Warhammer 40K](game_tag) games on [windows](platform) you'd recommend? 
+    - Show me [Prism Game Studios Ltd](developer). [Hunting](game_tag) games, especially those with [Movie](game_tag). 
+    - Show me [Open World](game_tag) games that are set in the [Stealth](game_tag). 
+    - I need a [Building Building](game_tag) game that's good for beginners. Any suggestions? 
+    - Any [Tactical RPG Mods](game_tag) games with [Automation](game_tag) graphics? 
+    - Find me some [Photo Editing Match 3](game_tag) games on [windows](platform). 
+    - Do you have any [Swordplay Spectacle fighter](game_tag) games set in [Mining](game_tag)? 
+    - Any [Narration Music Medical Sim](game_tag) games out there? 
+    - List all the [Programming](game_tag) games released [at 2020](release_date). 
+    - Any [Inventory Management Lovecraftian](game_tag) games for [linux](platform) released [before 2007](release_date)? 
+    - List games with the categories [LGBTQ+](game_tag) and [Dinosaurs](game_tag). 
+    - I need [Mod Bikes](game_tag) games with [Controller](game_tag). 
+    - I'm looking for [Survival Casual](game_tag) games. 
+    - Find me the best [Rogue-lite](game_tag) games with [Logic](game_tag) feature. 
+    - Can you find [Time Travel Violence](game_tag) games for [steamOS](platform)? 
+    - Any recent [2D Platformer Historical](game_tag) games for [windows](platform)? 
+    - Do you have any [Grand Strategy](game_tag) games that are also [Skating](game_tag)? 
+    - Need some [steamOS](platform) [Agriculture](game_tag) games with [Walking Simulator](game_tag), any recommendations? 
+    - Any [Artificial Intelligence Soundtrack](game_tag) games with a [MMORPG](game_tag) setting? 
+    - Can you suggest a [Match 3](game_tag) game with [Dynamic Narration](game_tag)? 
+    - Need [macOS](platform) [Alternate History](game_tag) games with [Thriller](game_tag) released [at 1992](release_date). 
+    - I want a [Interactive Fiction Alternate History](game_tag) game with a [World War II](game_tag) story. 
+    - List all [Villain Protagonist](game_tag) games developed by [Cygames Inc.](developer). 
+    - Looking for [Satire Relaxing](game_tag) with [War](game_tag) on [macOS](platform). 
+    - Find me [Bikes Skateboarding](game_tag) games with [Mini Golf](game_tag) and hauntings. 
+    - Any [Dating Sim](game_tag) games with [Cycling Boss Rush](game_tag) or [1990's](game_tag)? 
+    - What are the latest [Class-Based](game_tag) games with [Snooker](game_tag) in them? 
+    - What are the latest [Idler](game_tag) games with [Card & Board Genres](game_tag) for [windows](platform)? 
+    - Looking for [macOS](platform) [Hero Shooter](game_tag) games with [Choose Your Own Adventure](game_tag) released [during 1995](release_date), got any? 
+    - Need [macOS](platform) [Stylized](game_tag) games with [Rogue-like](game_tag) released [in 2019](release_date). 
+    - What [Turn-Based Tactics](game_tag) games are there with a [Action-Adventure](game_tag)? 
+    - Looking for [windows](platform) [Investigation](game_tag) games with [Hunting](game_tag) launched [at 1986](release_date). 
+    - List games with the categories [Tutorial](game_tag) and [2D](game_tag). 
+    - Show me some [Escape Room](game_tag) games with [Indie](game_tag). 
+    - I want a [Dark Comedy Role-Playing Genres](game_tag) with a [Science Fiction](game_tag) system. 
+    - What are the best [Isometric Perma Death](game_tag) with [Motorbike](game_tag)? 
+    - I need [Experimental](game_tag) games that were released [after 1983](release_date). 
+    - Need [steamOS](platform) [Level Editor](game_tag) games with [Ambient](game_tag) released [on 2010](release_date). 
+    - I'm looking for [Gun Customization Transportation](game_tag) games. 
+    - Any [Golf Destruction](game_tag) games with a [Fox](game_tag) theme? 
+    - Any [First-Person Thriller](game_tag) games set in a [Hobby Sim](game_tag)? 
+    - Hey there! Any [Twin Stick Shooter Adventure](game_tag) games available for [linux](platform) and [windows](platform)? 
+    - What [Programming](game_tag) games have the best [Pinball](game_tag) mode? 
+    - What [Sports Sports](game_tag) games do you have that are set in the [Lore-Rich](game_tag)? 
+    - Can you recommend [Action Roguelike](game_tag) games set in [Cozy](game_tag) cities? 
+    - Show me [Demons](game_tag) games with a [World War II](game_tag) setting, please. 
+    - I'm a fan of [Football (American) Wholesome](game_tag) games. Any good ones on [windows](platform)? 
+    - Lookin for [Game Development](game_tag) games on [macOS](platform) that got [Trading](game_tag), any ideas? 
+    - Looking for [macOS](platform) [Offroad](game_tag) games with [Dating Sim](game_tag), any hot titles? 
+    - What [Cats](game_tag) games released [in 1989](release_date) have the best [Roguevania](game_tag)? 
+    - Any [Football (Soccer)](game_tag) games that support [Video Production](game_tag)? 
+    - I'm into [Hockey](game_tag) games. Any good [Controller](game_tag) out there? 
+    - Any [Wrestling Bowling Stealth](game_tag) games out there? 
+    - List games with the genres [Character](game_tag) and [Superhero](game_tag) that support [Steampunk](game_tag). 
+    - I'm looking for a [Football (Soccer) Programming](game_tag) with an [Puzzle-Platformer](game_tag) story. 
+    - I need [Sexual Content](game_tag) games with [Fantasy](game_tag). 
+    - Can you list [Mystery](game_tag) games with a [Multiple Endings](game_tag) theme? 
+    - Show me [macOS](platform) [Dark Comedy](game_tag) games with [Action-Adventure](game_tag) feature launched [at 1983](release_date). 
+    - What [Adult Content](game_tag) games have the best [Assassin](game_tag) mode? 
+    - Hey, any [linux](platform) [Naval Combat](game_tag) games that got [Controller](game_tag) and came out [during 2004](release_date)? 
+    - I'm looking for something in the [Bullet Time](game_tag) genre. What's new? 
+    - Any [linux](platform) [Gun Customization](game_tag) games with [Transhumanism](game_tag) launched [on 2022](release_date)? 
+    - Show me [Football (Soccer)](game_tag) that have [Story Rich](game_tag) mode and are suitable for kids. 
+    - I want a [Rhythm](game_tag) game that's really challenging but has no [Vehicular Combat](game_tag). 
+    - Find me some [Horror Dating Sim](game_tag) games on [steamOS](platform). 
+    - Show me [Trivia](game_tag) games that are about [Grid-Based Movement](game_tag) and [Epic](game_tag). 
+    - Got any [Werewolves Dark Fantasy](game_tag) games that are set in the [Rogue-like](game_tag)? 
+    - Show me [Mechs](game_tag) that have [Metroidvania](game_tag) mode and are suitable for kids. 
+    - I'm into [Physics](game_tag) games. Got any that were released [during 1994](release_date)? 
+    - I'm looking for [Skateboarding Warhammer 40K](game_tag) games that can be played in short sessions. 
+    - List all [Story Rich](game_tag) games developed by [CDIS Lab.](developer). 
+    - Hey, any [steamOS](platform) [Music-Based Procedural Generation](game_tag) games that got [Offroad](game_tag) and came out [during 1991](release_date)? 
+    - List all [Soundtrack](game_tag) games released [on 2021](release_date). 
+    - I want a game with a [Futuristic](game_tag), preferably an Stealth [one](game_tag). 
+    - I want [Rogue-lite](game_tag) games that are [Horror](game_tag). 
+    - What are the latest [Time Management War](game_tag) games with [Miscellaneous](game_tag)? 
+    - I want a game that's like old-school [Bullet Time](game_tag) adventures but with modern graphics. 
+    - List all the [Humor](game_tag) games with [Level Editor](game_tag) mode. 
+    - Any [Perma Death Fishing](game_tag) games that I can play on [steamOS](platform)? 
+    - Show me [Medical Sim](game_tag) games with [Action RPG](game_tag), thanks. 
+    - Looking for [linux](platform) [Sokoban](game_tag) games that have [Underground](game_tag) support and were released [before 1991](release_date). 
+    - Looking for [steamOS](platform) [Dinosaurs](game_tag) games with [Narration](game_tag) launched [at 1994](release_date). 
+    - Find me [Rogue-lite](game_tag) games that are available on [macOS](platform). 
+    - I need [windows](platform) [Tutorial](game_tag) games with [Time Manipulation](game_tag) released [in 1992](release_date). 
+    - Got any [Artificial Intelligence](game_tag) games where I can be a [Warhammer 40K](game_tag)? 
+    - What are the newest [Bowling](game_tag) games for [windows](platform)? 
+    - Looking for [steamOS](platform) [Fighting](game_tag) games with [Mini Golf](game_tag) released [before 2017](release_date)? 
+    - Hey there! Any [Open World Science](game_tag) games available for [windows](platform) and [windows](platform)? 
+    - Any [Magic](game_tag) games with a [Automation](game_tag) style, suitable for kids? 
+    - I want a [Warhammer 40K](game_tag) game that's really challenging but has no [Movie](game_tag). 
+    - I need a [Golf](game_tag) that's [Investigation](game_tag) and has [Naval](game_tag). 
+    - Can you find [MOBA](game_tag) games with [Narration](game_tag)? 
+    - What are the best [Basketball](game_tag) games on [windows](platform)? 
+    - Show me all the [Supernatural](game_tag) games that were released [at 1994](release_date). 
+    - Any [Third Person Programming Snooker](game_tag) games out there? 
+    - Any [Grid-Based Movement Side Scroller](game_tag) games for [windows](platform) released [on 2014](release_date)? 
+    - I'm looking for [Sports Animation & Modeling](game_tag) games. 
+    - Need some [windows](platform) [Games Workshop](game_tag) games with [Card Game](game_tag), any recommendations? 
+    - I'm looking for a [Board Game First-Person](game_tag) game with [Mods](game_tag) elements. 
+    - I want [Demons](game_tag) games with [Turn-Based Strategy](game_tag) support. 
+    - Show me the latest [Spaceships](game_tag) games for [linux](platform). 
+    - Can you show me [Immersive Sim](game_tag) games from the [before 1989](release_date)? 
+    - Any [PvE](game_tag) games that are also [Spectacle fighter](game_tag)? 
+    - I'm a fan of [727 Not Hound](developer). Can you recommend their latest games? 
+    - What are the latest [linux](platform) [Cute](game_tag) with [Outbreak Sim](game_tag) released [during 1984](release_date)? 
+    - Show me [macOS](platform) [Artificial Intelligence](game_tag) games with [Gaming](game_tag) support released [in 2016](release_date). 
+    - Show me [Parkour](game_tag) games that are set in the [Baseball](game_tag). 
+    - Can you recommend some [Hunting](game_tag) that support [Hacking](game_tag) gameplay? 
+    - I want a [Tennis Automobile Sim](game_tag) game with a [Jump Scare](game_tag) story. 
+    - Any [Sequel](game_tag) games that support [Tile-Matching](game_tag)? 
+    - Show me the latest [Uncategorized](game_tag) games for [macOS](platform). 
+    - What are the best [Reboot](game_tag) games for [macOS](platform) involving [Capitalism](game_tag)? 
+    - I need a [Colorful Programming](game_tag) game, something really [Outbreak Sim](game_tag). 
+    - I want [Episodic](game_tag) themed games with [Golf](game_tag) options. 
+    - Looking for [linux](platform) [Drama](game_tag) games that have [Mechs](game_tag) support and were released [before 2011](release_date). 
+    - I want [Choices Matter Genres](game_tag) games on [linux](platform), any good ones? 
+    - Any [windows](platform) [Medieval](game_tag) games with [Reboot](game_tag) released [during 1980](release_date)? 
+    - Can you find [Horses](game_tag) that have [Team-Based](game_tag)? 
+    - I'm looking for a game with deep [Transportation](game_tag) and [Psychedelic](game_tag), preferably an Pool. 
+    - Hey, I'm looking for [Based On A Novel](game_tag) games that got released on [windows](platform) recently. 
+    - What are the latest [Asymmetric VR Card Battler](game_tag) games with [Real-Time](game_tag)? 
+    - I'm looking for a [World War I](game_tag) with [PvP](game_tag) and [2D Platformer](game_tag). 
+    - What are the top [Abstract](game_tag) games on [linux](platform) that have a [Submarine](game_tag)? 
+    - Can you show me some [Character](game_tag) games for [windows](platform) that were released [before 1985](release_date)? 
+    - Any [Conspiracy](game_tag) games for [linux](platform)? 
+    - I want [steamOS](platform) [Word Game](game_tag) games with [Design & Illustration](game_tag) released [on 2023](release_date). 
+    - I'm a fan of [Movie Card Battler](game_tag) games. Any good ones on [windows](platform)? 
+    - Any recent [Oblom studio](developer) games worth checking out? 
+    - Show me [Motocross Text-Based](game_tag) games with [Nudity](game_tag). 
+    - List games with the genres [Automation](game_tag) and [Snooker](game_tag) that support [Electronic](game_tag). 
+    - I need a [Interactive Fiction](game_tag) with [War](game_tag) elements and [Jet](game_tag). 
+    - Show me [Tanks](game_tag) games with [Violence](game_tag). 
+    - Any [Combat Sports Replay Value](game_tag) games that came out [on 1996](release_date)? 
+    - Show me the latest [Adult Content](game_tag) games, but only those with [Singleplayer](game_tag). 
+    - What are the latest [Turn-Based Combat Skateboarding](game_tag) with [Controller](game_tag) and [Epic](game_tag)? 
+    - Any [Steam Machine Fishing](game_tag) games with a [Transportation](game_tag) theme? 
+    - I'm looking for [Narration](game_tag) games that are [Team-Based](game_tag). Any suggestions? 
+    - I'm looking for [Tennis Otome](game_tag) games, something like a [Choices Matter](game_tag). 
+    - Got any [windows](platform) [Unforgiving](game_tag) games with [Archery](game_tag) feature released [at 1980](release_date)? 
+    - List all the [Isometric](game_tag) games available on [steamOS](platform). 
+    - Show me all the [Board Game](game_tag) games for [linux](platform). 
+    - Any [windows](platform) [Illuminati](game_tag) games with [Rogue-like](game_tag) that came out [on 1987](release_date)? 
+    - I'm looking for a [Atmospheric](game_tag) game with a [Photo Editing](game_tag) theme, preferably [Martial Arts](game_tag). 
+    - I want a [Music-Based Procedural Generation](game_tag) game that's really challenging but has no [Psychological Horror](game_tag). 
+    - List all [Extraction Shooter Cute](game_tag) games with [Political](game_tag) support. 
+    - List all the [Trains](game_tag) games with [Hardware](game_tag) mode. 
+    - Any [Real Time Tactics](game_tag) games on [windows](platform) with [Mythology](game_tag)? 
+    - Show me [Fishing](game_tag) games with [Mature](game_tag), thanks. 
+    - What [Parody](game_tag) games released [during 1984](release_date) have the best [Zombies](game_tag)? 
+    - Show me [Archery](game_tag) games with [Dragons](game_tag), thanks. 
+    - I need a [Military](game_tag) game that's good for [Photo Editing](game_tag), any suggestions? 
+    - I want a [Hunting Side Scroller](game_tag) game with a [Controls](game_tag) story. 
+    - I'm searching for [Volleyball](game_tag) games for [macOS](platform) and [steamOS](platform). 
+    - Got any [Ambient](game_tag) games with [World War II](game_tag) support? 
+    - I want [Utilities Turn-Based Combat](game_tag) games on [linux](platform), any good ones? 
+    - Got any [steamOS](platform) [Shooter](game_tag) games with [God Game](game_tag) that came out [during 1989](release_date)? 
+    - Yo, looking for [Tutorial Trading](game_tag) games, but nothing too [Utilities](game_tag), you know? 
+    - What are the best [Boxing 2D Fighter](game_tag) with [Point & Click](game_tag)? 
+    - I'm looking for [linux](platform) [Controller](game_tag) games with [Base Building](game_tag), any recent ones? 
+    - Looking for [macOS](platform) [Fishing](game_tag) games with [Hack and Slash](game_tag) launched [during 2001](release_date). 
+    - Got any [LEGO](game_tag) games that work on [linux](platform)? 
+    - I'm into [Jet](game_tag) games. Got any that were released [after 2003](release_date)? 
+    - Hey, what are the newest [Party-Based RPG](game_tag) games in the [Stealth](game_tag) category? 
+    - Any [Feature Film Martial Arts](game_tag) games with [Survival](game_tag) elements? 
+    - Show me [Fuyu Games AB](developer) [Voice Control](game_tag) games, especially those with [Bowling](game_tag). 
+    - Got any [Comedy Cold War](game_tag) games on [linux](platform)? 
+    - Looking for [Transhumanism](game_tag) games on [macOS](platform). Any suggestions? 
+    - Any [FMV](game_tag) games with a [Great Soundtrack](game_tag) style, suitable for kids? 
+    - Any [Fantasy](game_tag) games where I can build and manage a city? Preferably with [Football (American)](game_tag) mode. 
+    - Show me [Video Production](game_tag) that have [Software Training](game_tag) mode and are suitable for kids. 
+    - I'm looking for [Artificial Intelligence](game_tag) games by [MPC VR](developer) on [windows](platform). 
+    - What are the best [Sexual Content](game_tag) games on [linux](platform)? 
+    - Any recent [Y.Kageyama](developer) games worth checking out? 
+    - Any [Time Management](game_tag) games on [windows](platform) that are also [Survival](game_tag)? 
+    - Show me [Boxing](game_tag) games with [Detective](game_tag) apocalypse themes. 
+    - Looking for [steamOS](platform) [Turn-Based Tactics](game_tag) games with [Top-Down](game_tag), any hot titles? 
+    - Any [macOS](platform) [Psychological Horror](game_tag) games with [Medieval](game_tag) released [on 2017](release_date)? 
+    - I'm a fan of [Albireo Games](developer). What Clicker [games](game_tag) have they made? 
+    - What [Isometric Snow](game_tag) games do you have that are set in the [Tutorial](game_tag)? 
+    - Show me [macOS](platform) [MMORPG](game_tag) games with [Software](game_tag) feature launched [before 2011](release_date). 
+    - Show me the latest [Asynchronous Multiplayer](game_tag) games for [macOS](platform). 
+    - I want [Simulation Football (American)](game_tag) games on [steamOS](platform), any good ones? 
+    - Any [Escape Room Psychedelic](game_tag) games that came out [at 1989](release_date)? 
+    - What's the latest [Inventory Management Sci-fi](game_tag) game with [Assassin](game_tag)? 
+    - What [Vikings](game_tag) are available that have [Tower Defense](game_tag) in them? 
+    - Show me all the [Naval Combat](game_tag) games for [macOS](platform). 
+    - Got any [Snowboarding](game_tag) games with [Mahjong](game_tag) support? 
+    - Can you suggest some [macOS](platform) [Trivia](game_tag) games with [Dark Fantasy](game_tag) launched [in 2022](release_date)? 
+    - I'm searching for [Feature Film](game_tag) games for [steamOS](platform) and [windows](platform). 
+    - Looking for [linux](platform) [Visual Novel](game_tag) games with [Character Customization](game_tag) released [at 2019](release_date)? 
+    - What are the latest [macOS](platform) [Politics](game_tag) with [Story Rich](game_tag) released [at 2019](release_date)? 
+    - Show me [macOS](platform) [Romance](game_tag) games with [Mars](game_tag) support released [at 2016](release_date). 
+    - Any [Transhumanism Boxing](game_tag) games with [Rock Music](game_tag) graphics? 
+    - What [Time Travel](game_tag) games released [during 1986](release_date) have the best [Conspiracy](game_tag)? 
+    - What [World War I](game_tag) games have the best [Lore-Rich](game_tag) mode? 
+    - Need [macOS](platform) [Sub-Genres](game_tag) games with [Dungeon Crawler](game_tag) launched [at 1989](release_date). 
+    - What's the latest [linux](platform) [Nonlinear Faith](game_tag) games released [on 2005](release_date)? 
+    - Hey, I'm looking for [Old School](game_tag) games that got released on [linux](platform) recently. 
+    - List all [Class-Based](game_tag) games released [in 2016](release_date). 
+    - Looking for [macOS](platform) [Heist](game_tag) games with [Real Time Tactics](game_tag) launched [in 2023](release_date). 
+    - Looking for [Tactical RPG](game_tag) games from [Sledgehammer Games](developer). 
+    - I'm searching for [World War I](game_tag) themed games, any platform works. 
+    - Can you find [3D Vision Programming](game_tag) games for [linux](platform)? 
+    - What are the latest [Team-Based Dwarf](game_tag) games with [Wholesome](game_tag)? 
+    - What are the latest [steamOS](platform) [Card Game](game_tag) with [FMV](game_tag) released [before 2006](release_date)? 
+    - I want a [Trading Card Game Scary](game_tag) game with a [Transhumanism](game_tag) story. 
+    - I'm looking for [Score Attack](game_tag) games by [IndigoWare](developer) on [steamOS](platform). 
+    - I want a [Shooter](game_tag) game about running a [Western](game_tag). 
+    - Any [Card Game](game_tag) games with a [Replay Value](game_tag) style, suitable for kids? 
+    - I want a [Bullet Time Electronic Music](game_tag) game with a [Capitalism](game_tag) story. 
+    - What [Hardware](game_tag) games are there with a [Documentary](game_tag)? 
+    - Any [macOS](platform) [Colorful](game_tag) games with [Futuristic](game_tag) released [in 1985](release_date)? 
+    - Show me some [steamOS](platform) [Software Genres](game_tag) games with [Action-Adventure](game_tag) launched [after 2013](release_date). 
+    - Yo, got any cool [LEGO](game_tag) games that came out recently? 
+    - Any [Stealth Otome](game_tag) games with a [Moddable](game_tag) theme? 
+    - I need a [Beautiful Female Protagonist](game_tag) game with [Photo Editing](game_tag). 
+    - Any [Real-Time with Pause](game_tag) games set in space, like with [Thriller](game_tag) and stuff? 
+    - Show me all the [Horror](game_tag) games that were released [after 2022](release_date). 
+    - Show me some [Time](game_tag) games with a [Mining](game_tag) theme. 
+    - Are there any new [Strategy](game_tag) games that support [Western](game_tag)? 
+    - Any [Parody](game_tag) games with [Tennis Sniper](game_tag) or [Level Editor](game_tag)? 
+    - I'm looking for a [Cold War Exploration](game_tag) with an [Outbreak Sim](game_tag) story. 
+    - What are the latest [Franchises](game_tag) games with [Extraction Shooter](game_tag) for [macOS](platform)? 
+    - Looking for [macOS](platform) [Martial Arts](game_tag) games with [Naval](game_tag) launched [on 2009](release_date). 
+    - Show me [windows](platform) [Drama](game_tag) games with [Education](game_tag) feature launched [at 2009](release_date). 
+    - Any [Replay Value](game_tag) games focused on [Golf](game_tag) available for [windows](platform)? 
+    - Looking for [macOS](platform) [Photo Editing](game_tag) games with [Gambling](game_tag) released [on 2002](release_date). 
+    - I want a [Actions & Activities](game_tag) game with [VR](game_tag) elements and [Political Sim](game_tag). 
+    - I'm in the mood for something with [Mythology](game_tag) and [Stealth](game_tag). Any Kickstarter [Tile-Matching you'd](game_tag) recommend? 
+    - Can you find [Aliens](game_tag) games with [Video Genres](game_tag)? 
+    - Show me [macOS](platform) [Sci-fi](game_tag) games with [Cold War](game_tag) launched [in 2006](release_date). 
+    - Can you find [Social Deduction Tennis](game_tag) games for [macOS](platform)? 
+    - Find me the latest [Tennis](game_tag) games by [The Binary Mill](developer). I love a good scare! 
+    - Need some [windows](platform) [Animation & Modeling](game_tag) games with [Flight](game_tag), any recommendations? 
+    - Hey, I'm in the mood for some [Genres](game_tag) games. Any recommendations? 
+    - I'm looking for [Dog Submarine](game_tag) games. 
+    - Got any [Satire Spelling](game_tag) released [during 1988](release_date)? 
+    - List all the [Visual Novel](game_tag) games with [Naval](game_tag) mode. 
+    - What are the best [World War II](game_tag) games for [steamOS](platform) involving [Perma Death](game_tag)? 
+    - Any recent [Rideon Works Co Ltd](developer), games worth checking out? 
+    - I want a [Lovecraftian](game_tag) game that's really challenging but has no [Party-Based RPG](game_tag). 
+    - List [Party Game](game_tag) games with [Investigation](game_tag), please. 
+    - I'm searching for [Snooker](game_tag) games for [windows](platform) and [steamOS](platform). 
+    - What [Exploration](game_tag) games are there with a [Instrumental Music](game_tag)? 
+    - Any [Sports](game_tag) games for [macOS](platform)? 
+    - I need a [Conversation](game_tag) game that's easy to play with a [Economy](game_tag). 
+    - I'm looking for [Hunting Sports](game_tag) games, something like a [Automation](game_tag). 
+    - What are the best [Basketball](game_tag) games for [linux](platform) involving [Dating Sim](game_tag)? 
+    - Can you recommend [Comic Book](game_tag) games with [Utilities](game_tag) mechanics? 
+    - Looking for [linux](platform) [Asymmetric VR](game_tag) games with [Retro](game_tag) launched [before 2002](release_date). 
+    - Can you suggest some [steamOS](platform) [Soundtrack](game_tag) games with [Simulation](game_tag) launched [at 2002](release_date)? 
+    - Show me some [macOS](platform) [Mythology](game_tag) with [Dark Humor](game_tag) released [during 2008](release_date). 
+    - I want a [NSFW](game_tag) game that's really challenging but has no [Transhumanism](game_tag). 
+    - Can you recommend a [Auto Battler Military](game_tag) game with a [Racing](game_tag) theme? 
+    - Hey, I'm looking for [Snow](game_tag) games that got released on [steamOS](platform) recently. 
+    - Show me [Co-op Campaign](game_tag) games with [Game Development](game_tag) and [Character Customization](game_tag). 
+    - List all [Futuristic](game_tag) games developed by [Spicy](developer). 
+    - I'm looking for [Baseball Cozy](game_tag) games, something like a [Volleyball](game_tag). 
+    - Any [Turn-Based Tactics](game_tag) games for [macOS](platform)? 
+    - List all [Hunting Inventory Management](game_tag) games with [Software Genres](game_tag) support. 
+    - Looking for [linux](platform) [Gun Customization](game_tag) games with [Dinosaurs](game_tag), any hot titles? 
+    - I'm looking for [LGBTQ+ Hunting](game_tag) games that can be played in short sessions. 
+    - List all the [Web Publishing](game_tag) games available on [linux](platform). 
+    - I'm looking for [Stealth](game_tag) with [Naval Combat](game_tag) set in [Hand-drawn](game_tag). 
+    - I love [threeW](developer) games! What's new from them for [steamOS](platform)? 
+    - Any [Snowboarding Noir](game_tag) games for [steamOS](platform) released [in 1988](release_date)? 
+    - What [America](game_tag) games released [during 2010](release_date) have the best [Naval](game_tag)? 
+    - Find me the latest [Baseball](game_tag) games by [Rocket Boy Games](developer). I love a good scare! 
+    - Any [windows](platform) [Tactical](game_tag) games with [Multiple Endings](game_tag) released [after 2007](release_date)? 
+    - I'm looking for a [Walking Simulator Dark Fantasy](game_tag) with an [Card Battler](game_tag) story. 
+    - Can you recommend some [CRPG](game_tag) games that are [Lemmings](game_tag) compatible? 
+    - I'm into [FMV](game_tag) games. Any good [Exploration](game_tag) out there? 
+    - Find me some [Mechs Agriculture](game_tag) games. 
+    - Can you suggest some [windows](platform) [Psychological Horror](game_tag) games with [Stealth](game_tag) that came out [during 1989](release_date)? 
+    - What [Boxing](game_tag) are available that have [Parkour](game_tag) in them? 
+    - What's new in [linux](platform) [Co-op](game_tag) games with [Match 3](game_tag) released [before 1982](release_date)? 
+    - What's the latest [Dark Comedy](game_tag) game with a [Wargame](game_tag) setting and [Post-apocalyptic](game_tag) elements? 
+    - Any [macOS](platform) [Early Access](game_tag) games with [Remake](game_tag) that came out [before 2023](release_date)? 
+    - Hey, what are the newest [Colony Sim](game_tag) games in the [Combat Sports](game_tag) category? 
+    - What are the latest [Extraction Shooter Wrestling](game_tag) with [Memes](game_tag) and [Puzzle-Platformer](game_tag)? 
+    - I need [Stealth](game_tag) games developed by [Webfoot](developer). 
+    - Can you recommend a [Software Training](game_tag) that's also a [Space Sim](game_tag)? 
+    - I'm looking for a [Martial Arts](game_tag) game with a [CRPG](game_tag) theme, preferably [Tile-Matching](game_tag). 
+    - Got any [Flight](game_tag) games where I can be a [Baseball](game_tag)? 
+    - What [Soundtrack](game_tag) games have the best [BMX](game_tag) mode? 
+    - Can you find [Players Turn-Based Tactics](game_tag) games for [macOS](platform)? 
+    - I need [Hunting](game_tag) games with [Atmospheric](game_tag). 
+    - Any [Football (Soccer)](game_tag) games that are also [Top-Down](game_tag)? 
+    - I need a [Hobby Sim Violence](game_tag) with [Addictive](game_tag) gameplay. 
+    - I want [Visual Novel Action-Adventure](game_tag) games on [macOS](platform), any good ones? 
+    - I love [Garden of Dreams](developer) games! What's new from them for [macOS](platform)? 
+    - What are the latest [Warhammer 40K Science](game_tag) with [Rome](game_tag) and [Tanks](game_tag)? 
+    - Hey, I'm in the mood for some [Hacking](game_tag) games. Any recommendations? 
+    - Show me [BMX](game_tag) games with [Tennis](game_tag) and [Emotional](game_tag). 
+    - What are the latest [1980s Addictive](game_tag) games with [Time Management](game_tag)? 
+    - Show me [6DOF Arcade](game_tag) games with [Rhythm](game_tag) graphics. 
+    - Can you recommend [Cold War](game_tag) games set in [Grand Strategy](game_tag) cities? 
+    - What are the best [Underground Immersive](game_tag) with [Turn-Based Combat](game_tag)? 
+    - Do you have any [TrackIR](game_tag) games that are also [1980s](game_tag)? 
+    - Any [Casual](game_tag) games for [macOS](platform)? 
+    - Show me [Crafting](game_tag) games that are set in the [Lore-Rich](game_tag). 
+    - What are the latest [Politics](game_tag) games with [Dog](game_tag) for [windows](platform)? 
+    - Any [Violence Baseball](game_tag) games out there with a [World War I](game_tag)? 
+    - Show me the latest [Real-Time](game_tag) games for [macOS](platform). 
+    - What are the best [Beautiful](game_tag) games for [steamOS](platform) involving [Medical Sim](game_tag)? 
+    - Can you show me all the [Romance](game_tag) games that have [Dark](game_tag) mode? 
+    - I want a [Role-Playing Genres](game_tag) game with [Third-Person Shooter](game_tag) elements and [Mining](game_tag). 
+    - Any [GameMaker Story Rich](game_tag) games out there with a [Vehicular Combat](game_tag)? 
+    - Show me [windows](platform) [Crime](game_tag) games with [Archery](game_tag) support released [at 1994](release_date). 
+    - Any [Investigation](game_tag) games where I can build and manage a city? Preferably with [Asymmetric VR](game_tag) mode. 
+    - I want [Swordplay](game_tag) games with [Trading Card Game](game_tag) support. 
+    - I'm looking for a [Dinosaurs](game_tag) game with a [Satire](game_tag) theme, preferably [Comedy](game_tag). 
+    - Yo, any [linux](platform) [Gothic](game_tag) with [Military](game_tag) released [on 1994](release_date)? 
+    - Can you recommend some [Survival Horror Warhammer 40K](game_tag) games? 
+    - Show me [Physics](game_tag) games available for [linux](platform), please. 
+    - Any [Fishing Artificial Intelligence](game_tag) games that came out [after 2022](release_date)? 
+    - I'm looking for [steamOS](platform) [Ninja](game_tag) games with [Boxing](game_tag), any recent ones? 
+    - What are the latest [Basketball Fishing](game_tag) games with [Real-Time with Pause](game_tag)? 
+    - List all [Demons Wrestling](game_tag) games with [Archery](game_tag) support. 
+    - Show me [Golf Photo Editing](game_tag) games with [Flight](game_tag) graphics. 
+    - I'm in the mood for something with [Otome](game_tag) and [Football (American)](game_tag). Any Precision [Platformer Dating Sim you'd](game_tag) recommend? 
+    - Show me [linux](platform) [Competitive](game_tag) games with [Cyberpunk](game_tag) launched [during 1994](release_date). 
+    - Can you find [Colorful Conversation](game_tag) games for [macOS](platform)? 
+    - Are there any new [Historical](game_tag) games that support [Party Game](game_tag)? 
+    - What are the top [Science](game_tag) games for [windows](platform) right now? 
+    - I'm looking for a [Horror](game_tag) game with a [Addictive](game_tag) theme, preferably [1980s](game_tag). 
+    - Yo, got any [Superhero](game_tag) games that dropped [in 1985](release_date)? 
+    - Any [steamOS](platform) [Coding](game_tag) games with [Pirates](game_tag) launched [before 1981](release_date)? 
+    - I'm looking for [Medieval](game_tag) games by [Alessandra Mercante](developer) on [steamOS](platform). 
+    - I need a [Card Game](game_tag) with [Hacking](game_tag) elements and [Psychedelic](game_tag). 
+    - I want a [Perma Death Satire](game_tag) game with a [First-Person](game_tag) story. 
+    - I'm looking for [Heist](game_tag) with [Story](game_tag) set in [Education](game_tag). 
+    - Can you find [Classic](game_tag) that have [Puzzle-Platformer](game_tag)? 
+    - Show me [Job Simulator Nature](game_tag) games with [World War II](game_tag) graphics. 
+    - What's the best [Agriculture](game_tag) with a [Pixel Graphics](game_tag) theme for [linux](platform)? 
+    - List all [Alternate History Coding](game_tag) games with [Real Time Tactics](game_tag) support. 
+    - Do you have any [Trading Card Game](game_tag) games that are also [Politics](game_tag)? 
+    - I want [Jet Roguelike Deckbuilder](game_tag) games on [linux](platform), any good ones? 
+    - I love [Foreign](game_tag). Recommend me some games in that theme, please. 
+    - Need some [windows](platform) [Collectathon](game_tag) games with [Birds](game_tag), any recommendations? 
+    - I want a [Logic](game_tag) game that's really challenging but has no [Hex Grid](game_tag). 
+    - Any [Deckbuilding](game_tag) games on [windows](platform) you'd recommend? 
+    - Any [macOS](platform) [Asynchronous Multiplayer](game_tag) games with [Combat](game_tag) launched [before 2002](release_date)? 
+    - Any [steamOS](platform) [Bullet Time](game_tag) games with [Education](game_tag) launched [during 1991](release_date)? 
+    - I'm looking for a [Romance](game_tag) game that lets you build and manage a [Sub-Genres](game_tag). 
+    - Any [steamOS](platform) [Martial Arts](game_tag) games with [Time](game_tag) released [in 1996](release_date)? 
+    - Got any [Level Design](game_tag) games with [Bikes](game_tag) support? 
+    - Looking for [windows](platform) [Political](game_tag) games with [Level Design](game_tag) launched [on 1987](release_date). 
+    - What are the latest [Cult Classic Dark Fantasy](game_tag) games with [Split Screen](game_tag)? 
+    - Looking for [Sports](game_tag) games on [linux](platform). Any suggestions? 
+    - What are the top [Hex Grid](game_tag) games on [windows](platform) that have a [Dog](game_tag)? 
+    - I want to play a [Wargame](game_tag) game that's focused on [Violent](game_tag). What do you have? 
+    - I want [macOS](platform) [Nostalgia](game_tag) games with [Warhammer 40K](game_tag) released [after 2017](release_date). 
+    - Show me the latest [Design & Illustration](game_tag) games for [linux](platform). 
+    - Show me [Software Controls](game_tag) games with a [Rock Music](game_tag) setting. 
+    - Got any [Fantasy](game_tag) games where I can be a [Mods](game_tag)? 
+    - Show me the latest [Level Editor](game_tag) games for [macOS](platform). 
+    - List all the [Game Development](game_tag) games with [Fox](game_tag) mode. 
+    - I want a [Parkour Psychological](game_tag) with a [Twin Stick Shooter](game_tag) system. 
+    - Looking for [macOS](platform) [Local Multiplayer](game_tag) games with [Team-Based](game_tag), any new ones? 
+    - Show me the latest [Trivia](game_tag) that work on both [windows](platform) and [windows](platform), please. 
+    - Need [macOS](platform) [Casual](game_tag) games with [Steam Machine](game_tag) launched [during 1981](release_date). 
+    - I need a [Zombies](game_tag) game that's [Snowboarding](game_tag) and can be played on [steamOS](platform) and [windows](platform). 
+    - Show me [Electronic Social Deduction](game_tag) games with [Action](game_tag). 
+    - What's the latest [Birds](game_tag) game with a [Epic](game_tag) setting and [Hidden Object](game_tag) elements? 
+    - What are the latest [PvP](game_tag) games that work on [steamOS](platform)? 
+    - List games with the genres [Mystery Dungeon](game_tag) and [Real-Time with Pause](game_tag) that support [Cinematic](game_tag). 
+    - I want [Cartoon](game_tag) games that are [Romance](game_tag). 
+    - Find me [Character Customization](game_tag) games with a [Bullet Time](game_tag). 
+    - Heya, any [Action](game_tag) themed [Class-Based](game_tag) games on [macOS](platform)? 
+    - Any [Time Attack Mystery Dungeon](game_tag) games for [macOS](platform) released [on 2020](release_date)? 
+    - Heya, any [Tactical RPG](game_tag) themed [Visual Novel](game_tag) games on [steamOS](platform)? 
+    - Do you have any [America Trivia](game_tag) games set in [Parody](game_tag)? 
+    - Do you have any [Moddable](game_tag) games that are also [Investigation](game_tag)? 
+    - Hey, what are the newest [Alternate History](game_tag) games in the [Grand Strategy](game_tag) category? 
+    - I'm looking for [Realistic Humor](game_tag) games, something like a [Demons](game_tag). 
+    - What are the latest [Crime](game_tag) games with [Gun Customization](game_tag) in them? 
+    - Can you recommend [Skiing](game_tag) games set in [Utilities](game_tag) cities? 
+    - What [Photo Editing](game_tag) are available that have [Skating](game_tag) in them? 
+    - Show me some [steamOS](platform) [Parody](game_tag) with [Economy](game_tag) released [after 2023](release_date). 
+    - What are the newest [Martial Arts](game_tag) games for [linux](platform)? 
+    - Can you find [Twin Stick Shooter Video Production](game_tag) games for [macOS](platform)? 
+    - Could you suggest some [Role-Playing Genres](game_tag) games compatible with [macOS](platform)? I'm into Post-apocalyptic [stuff](game_tag) lately. 
+    - I need a [Surreal](game_tag) game that's easy to play with a [Martial Arts](game_tag). 
+    - I want [Musou Military](game_tag) games on [macOS](platform), any good ones? 
+    - I want [windows](platform) [Based On A Novel](game_tag) games with [Epic](game_tag) released [before 2008](release_date). 
+    - I need a [America](game_tag) game that's [Naval Combat](game_tag) and can be played on [linux](platform) and [windows](platform). 
+    - I want [Arena Shooter](game_tag) themed games with [MMORPG](game_tag) options. 
+    - I want to play a [GameMaker](game_tag) game that's focused on [Martial Arts](game_tag). What do you have? 
+    - Show me [windows](platform) [Underwater](game_tag) games with [Linear](game_tag) feature launched [on 2002](release_date). 
+    - Show me some [RTS](game_tag) games with a [Alternate History](game_tag) theme. 
+    - Can you recommend some [PvE Motorbike](game_tag) games? 
+    - Can you recommend a [Singleplayer Football (American)](game_tag) game with a [Flight](game_tag) theme? 
+    - Any [Dinosaurs Otome](game_tag) games out there with a [Souls-like](game_tag)? 
+    - Show me the latest [Adult Content](game_tag) that work on both [linux](platform) and [linux](platform), please. 
+    - What are the best [Video Production](game_tag) games for [macOS](platform) involving [Futuristic](game_tag)? 
+    - Show me [Job Simulator](game_tag) games with [Software Training](game_tag) and [Elf](game_tag). 
+    - Any [windows](platform) [PvE](game_tag) games with [World War I](game_tag) launched [at 1987](release_date)? 
+    - Can you recommend some [Gaming](game_tag) that support [Baseball](game_tag) gameplay? 
+    - Show me the latest [Baseball](game_tag) games, but only those with [Typing](game_tag). 
+    - I'm looking for [Dog](game_tag) games with [Gun Customization](game_tag). 
+    - Show me the latest [Basketball](game_tag) games, but only those with [Fishing](game_tag). 
+    - Can you find [ATV](game_tag) that have [Wrestling](game_tag)? 
+    - I'm a fan of [Baseball Bullet Time](game_tag). Got anything new for linux [released](platform) at [2006](release_date)? 
+    - Can you find [Basketball](game_tag) that have [Mining](game_tag)? 
+    - Need some [macOS](platform) [Party-Based RPG](game_tag) games with [Horror](game_tag), any recommendations? 
+    - Show me [kylaCpp](developer) [Wrestling](game_tag) games, especially those with [Ball Sports](game_tag). 
+    - I'm into [Alternate History](game_tag) games, especially [Experience](game_tag). Got any? 
+    - I'm in the mood for something with [Third-Person Shooter](game_tag) and [Humor](game_tag). Any Game [Development Players you'd](game_tag) recommend? 
+    - Any [Mythology](game_tag) games for [linux](platform)? 
+    - Show me [2D Platformer](game_tag) games with [Spaceships](game_tag). 
+    - I need a [Epic Space](game_tag) game, something really [Grid-Based Movement](game_tag). 
+    - Can you find [Tanks Audio Production](game_tag) games for [steamOS](platform)? 
+    - Hey, what are the newest [Cinematic](game_tag) games in the [Sports](game_tag) category? 
+    - Any [Swordplay Video Production Rome](game_tag) games out there? 
+    - I want [Bowling](game_tag) themed games with [Martial Arts](game_tag) options. 
+    - Can you show me [Football (American)](game_tag) games from the [before 2008](release_date)? 
+    - Got any [Adult Content Mechs](game_tag) games that are set in the [Choices Matter](game_tag)? 
+    - Do you have any [Sports Episodic](game_tag) games set in [Top-Down Shooter](game_tag)? 
+    - I need a [Western](game_tag) game that's good for [Cold War](game_tag), any suggestions? 
+    - What are the best [Jet](game_tag) games on [linux](platform)? 
+    - Find me [Bowling Photo Editing](game_tag) games with [Spaceships](game_tag) and hauntings. 
+    - I want to see all [Hacking](game_tag) games available on [macOS](platform). 
+    - I need a [Detective](game_tag) game that's [Fox](game_tag) and can be played on [windows](platform) and [windows](platform). 
+    - What are the latest [linux](platform) [Investigation](game_tag) with [Audio Production](game_tag) released [before 2016](release_date)? 
+    - I want [linux](platform) [Video Genres](game_tag) games with [Comedy](game_tag) released [in 2003](release_date). 
+    - Could you suggest some [Audio Production](game_tag) games compatible with [macOS](platform)? I'm into Typing [stuff](game_tag) lately. 
+    - Show me [Bullet Hell](game_tag) games with [Sports](game_tag), thanks. 
+    - I want a [Looter Shooter Procedural Generation](game_tag) game with a [Zombies](game_tag) story. 
+    - Can you list [Female Protagonist](game_tag) games with [4 Player Local](game_tag) elements on [windows](platform)? 
+    - What are the best [Narrative Trivia](game_tag) with [Hockey](game_tag)? 
+    - Need [macOS](platform) [Memes](game_tag) games with [Spectacle fighter](game_tag) launched [at 1994](release_date). 
+    - I'm looking for [Sailing Skating](game_tag) on [steamOS](platform), got any? 
+    - Can you suggest a [Creature Collector](game_tag) game with [Great Soundtrack](game_tag)? 
+    - What are the best [Comedy Hobby Sim](game_tag) with [Visuals & Viewpoint](game_tag)? 
+    - List all [Photo Editing](game_tag) games released [before 1995](release_date). 
+    - I'm searching for [Education](game_tag) games for [linux](platform) and [linux](platform). 
+    - Any [Memes Political](game_tag) games that I can play on [macOS](platform)? 
+    - Any [Female Protagonist Tennis](game_tag) games with [Motorbike](game_tag) mode for [steamOS](platform)? 
+    - Show me the latest [Fantasy](game_tag) that work on both [linux](platform) and [linux](platform), please. 
+    - What are the newest [Video Genres](game_tag) games for [windows](platform)? 
+    - Find me [Trains Mods](game_tag) games with [Puzzle](game_tag) and hauntings. 
+    - Any [Genres 6DOF](game_tag) games with [Wrestling](game_tag) graphics? 
+    - Got any [steamOS](platform) [War](game_tag) games with [Replay Value](game_tag) that came out [after 2015](release_date)? 
+    - Show me [Mining](game_tag) games that are [Flight](game_tag). 
+    - What are the top [linux](platform) [War](game_tag) games with [Combat Sports](game_tag) released [at 2008](release_date)? 
+    - I'm looking for [Trading Card Game](game_tag) games that are [Management](game_tag). Any suggestions? 
+    - I want a game with a [2D Platformer](game_tag), preferably an Photo [Editing one](game_tag). 
+    - Any [Role-Playing Genres Post-apocalyptic](game_tag) games set in a [2D Fighter](game_tag)? 
+    - Can you recommend a [TrackIR](game_tag) that's also a [Board Game](game_tag)? 
+    - I need a [Fishing](game_tag) game that's easy to play with a [Hack and Slash](game_tag). 
+    - Show me [linux](platform) [Psychological Horror](game_tag) games with [Split Screen](game_tag) launched [in 1993](release_date). 
+    - Any [Psychedelic Grand Strategy](game_tag) games that came out [in 2013](release_date)? 
+    - I'm into [Inventory Management](game_tag) games, especially [Combat](game_tag). Got any? 
+    - Find me the latest [Mars](game_tag) games by [Afterburn](developer). I love a good scare! 
+    - Can you find [Boxing](game_tag) games with [Card Game](game_tag)? 
+    - Can you recommend some [Politics](game_tag) that support [Martial Arts](game_tag) gameplay? 
+    - Hey, I'm in the mood for some [Fast-Paced](game_tag) games. Any recommendations? 
+    - What [Snooker Actions & Activities](game_tag) games do you have that are set in the [Naval](game_tag)? 
+    - Any [Features Software](game_tag) games with [Aliens](game_tag) elements? 
+    - Got any [Action RPG](game_tag) games with [Wrestling](game_tag) support? 
+    - I'm looking for [Role-Playing Genres](game_tag) with [Atmospheric](game_tag) set in [Documentary](game_tag). 
+    - Any [Werewolves Kickstarter](game_tag) games out there with a [War](game_tag)? 
+    - Can you suggest some [windows](platform) [Video Genres](game_tag) games with [Board Game](game_tag) launched [during 1987](release_date)? 
+    - Any [steamOS](platform) [Blood](game_tag) games with [Naval](game_tag) that came out [after 2020](release_date)? 
+    - Can you show me some [Party-Based RPG](game_tag) games for [linux](platform) that were released [before 1993](release_date)? 
+    - Show me [Cycling](game_tag) games with a [Werewolves](game_tag) setting, please. 
+    - I'm looking for [Gambling Detective](game_tag) games. 
+    - I need [steamOS](platform) [Moddable](game_tag) games with [Visual Novel](game_tag) released [at 1994](release_date). 
+    - Can you suggest a [Motorbike](game_tag) game with [Funny](game_tag) and [Life Sim](game_tag)? 
+    - I'm looking for [Military Medical Sim](game_tag) games, something like a [1980s](game_tag). 
+    - I want [Dinosaurs](game_tag) games that are [Stealth](game_tag). 
+    - I'm searching for [Episodic](game_tag) games for [steamOS](platform) and [steamOS](platform). 
+
 
 - intent: ReqGameInfo
   examples: |

@@ -92,12 +92,12 @@ class RecommendGame(Action):
                 dispatcher.utter_message(f'You should try {data_row[1]}, what do you think?')
 
                 conn.close()
-                return [return_slots]
+                return return_slots
             else:
                 dispatcher.utter_message(template="uteer_recom_not_found")
 
                 conn.close()
-                return [return_slots]
+                return return_slots
 
 
 class RequestInfo(Action):
@@ -153,4 +153,50 @@ class RequestInfo(Action):
                 dispatcher.utter_message(template="uteer_recom_not_found")
                 conn.close()
                 return []
+
+
+class BuyGame(Action):
+
+    def name(self) -> Text:
+        return "action_buy_game"
+    
+    def run(self,
+             dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             
+            conn = sqlite3.connect(path_to_game_info_db)
+
+            game_title = tracker.get_slot('game_title')
+
+            print('\n::SLOTS::')
+            print('game_title', game_title)
+        
+        
+            query ='''SELECT name
+            FROM game_info 
+            WHERE name LIKE \'%{game_title}%\' '''
+
+            cur = conn.cursor() 
+            res_query = cur.execute(query)
+            data_row = res_query.fetchone()
+
+            return_slots = [SlotSet('platform', None),
+                            SlotSet('genre', None),
+                            SlotSet('category', None),
+                            SlotSet('developer', None),
+                            SlotSet('release_date', None),
+                            SlotSet('game_tag', None)]
+
+            print('DB response: ',data_row)
+
+            if data_row:
+                dispatcher.utter_message(template="utter_affirm_buy")
+
+                conn.close()
+                return [return_slots]
+            else:
+                dispatcher.utter_message(template="utter_deny_buy")
+
+                conn.close()
+                return return_slots
