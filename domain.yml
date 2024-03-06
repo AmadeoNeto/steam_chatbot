@@ -29,6 +29,7 @@ entities:
 actions:
   - action_recommend_game
   - action_request_info
+  - action_buy_game
 
 slots:
   game_title:
@@ -100,29 +101,20 @@ slots:
 
 
 responses:
-  utter_BuyGame:
-  - text: "Ok, so do you wanna buy {game_title}. Can I proceed with the purchase?"
-
-  utter_ReqShowGame:
-    - text: 'So do you wanna play a game with genre: {genre} publisher: {publisher} developer: {developer} release_date: {release_date} game_tag: {game_tag}'
-
-  utter_affirm:
-  - text: "Ok"
-
-  utter_deny:
-  - text: "How dare you"
-
   utter_affirm_buy:
   - text: "Great! {game_title} purchased successfully!"
 
   utter_deny_buy:
-  - text: "Oh sorry! I dont find {game_title}. It may not be on our store."
+  - text: "Oh sorry! Would you like to buy any other game?"
 
   # uteer_recom_found:
   # - text: ""
 
   uteer_recom_not_found:
-  - text: "Sorry! I do not found any game like this."
+  - text: "Sorry! I did not found any game like this."
+
+  uteer_confirm_buy:
+  - text: "That's awesome! Are you sure you want to buy {game_title}?"
 
 session_config:
   session_expiration_time: 60
