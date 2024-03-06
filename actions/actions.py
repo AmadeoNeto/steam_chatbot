@@ -19,20 +19,8 @@ from transformers import pipeline
 path_to_game_info_db = r"steam_base.db"
 
 # Load the pre-trained question answering pipeline
-qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad", tokenizer="distilbert-base-uncased")
-
-# class ActionHelloWorld(Action):
-
-#     def name(self) -> Text:
-#         return "action_hello_world"
-
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-#         dispatcher.utter_message(text="Hello World!")
-
-#         return []
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad",
+                        tokenizer="distilbert-base-uncased")
 
 
 class RecommendGame(Action):
@@ -148,11 +136,11 @@ class RequestInfo(Action):
                 dispatcher.utter_message(text = response)
 
                 conn.close()
-                return []
+                return [SlotSet('game_title', None)]
             else:
                 dispatcher.utter_message(template="uteer_recom_not_found")
                 conn.close()
-                return []
+                return [SlotSet('game_title', None)]
 
 
 class BuyGame(Action):
@@ -194,7 +182,7 @@ class BuyGame(Action):
                 dispatcher.utter_message(template="utter_affirm_buy")
 
                 conn.close()
-                return [return_slots]
+                return return_slots
             else:
                 dispatcher.utter_message(template="utter_deny_buy")
 
