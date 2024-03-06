@@ -40,7 +40,7 @@ class RecommendGame(Action):
             categories = tracker.get_slot('category')
             # publisher = tracker.get_slot('publisher')
             developer = tracker.get_slot('developer')
-            release_date = tracker.get_slot('release_date')
+            release_date = tracker.get_slot('release_date').split(" ")[-1]
             game_tag = tracker.get_slot('game_tag')
 
             print('\n::SLOTS::')
