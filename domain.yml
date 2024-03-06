@@ -116,7 +116,7 @@ responses:
   - text: "Great! {game_title} purchased successfully!"
 
   utter_deny_buy:
-  - text: "Oh sorry! May you give me the game title again?"
+  - text: "Oh sorry! I dont find {game_title}. It may not be on our store."
 
   # uteer_recom_found:
   # - text: ""
