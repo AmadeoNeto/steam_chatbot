@@ -101,7 +101,7 @@ slots:
 
 responses:
   utter_BuyGame:
-  - text: "Ok, so do you wanna buy {game_title}"
+  - text: "Ok, so do you wanna buy {game_title}. Can I proceed with the purchase?"
 
   utter_ReqShowGame:
     - text: 'So do you wanna play a game with genre: {genre} publisher: {publisher} developer: {developer} release_date: {release_date} game_tag: {game_tag}'
@@ -111,6 +111,12 @@ responses:
 
   utter_deny:
   - text: "How dare you"
+
+  utter_affirm_buy:
+  - text: "Great! {game_title} purchased successfully!"
+
+  utter_deny_buy:
+  - text: "Oh sorry! May you give me the game title again?"
 
   # uteer_recom_found:
   # - text: ""

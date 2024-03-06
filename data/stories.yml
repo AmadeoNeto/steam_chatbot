@@ -9,26 +9,26 @@ stories:
   - intent: affirm
   - action: utter_affirm
 
-- story: sad path 1
-  steps:
-  - intent: ReqShowGame
-  - action: action_recommend_game
-  - intent: deny
-  - action: utter_deny
+# - story: sad path 1
+#   steps:
+#   - intent: ReqShowGame
+#   - action: action_recommend_game
+#   - intent: deny
+#   - action: utter_deny
 
-- story: happy path 2
-  steps:
-  - intent: ReqShowGame
-  - action: action_recommend_game
-  - intent: affirm
-  - action: utter_affirm
+# - story: happy path 2
+#   steps:
+#   - intent: ReqShowGame
+#   - action: action_recommend_game
+#   - intent: affirm
+#   - action: utter_affirm
 
-- story: sad path 2
-  steps:
-  - intent: ReqShowGame
-  - action: action_recommend_game
-  - intent: deny
-  - action: utter_deny
+# - story: sad path 2
+#   steps:
+#   - intent: ReqShowGame
+#   - action: action_recommend_game
+#   - intent: deny
+#   - action: utter_deny
 
 - story: user ask another game
   steps:
@@ -42,15 +42,14 @@ stories:
   - intent: BuyGame
   - action: utter_BuyGame
   - intent: deny
-  - action: utter_deny
+  - action: utter_deny_buy
 
 - story: buy game happy
   steps:
   - intent: BuyGame
   - action: utter_BuyGame
   - intent: affirm
-  - action: utter_affirm
-
+  - action: utter_affirm_buy
 
 - story: req game info
   steps:
