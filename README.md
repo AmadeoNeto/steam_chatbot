@@ -1,5 +1,6 @@
 # Steam Chatbot
 ##### Projeto desenvolvido para a disciplina | IF704 — Processamento de Linguagem Natural | Computer Science - UFPE
+##### Equipe: Amadeo Tato (atcn) | Cauê Addae (casg)
 ##### Link do Video: 
 ---
 
