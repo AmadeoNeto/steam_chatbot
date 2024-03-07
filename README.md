@@ -1,6 +1,6 @@
 # Steam Chatbot
 ##### Projeto desenvolvido para a disciplina | IF704 — Processamento de Linguagem Natural | Computer Science - UFPE
-
+##### Link do Video: 
 ---
 
 O SteamCB é um chatbot voltado para o dóminio de jogos do marketplace da steam. Conversando com o SteamDB o usuário **consegue** _comprar_, _buscar_ e _descobrir_ novos _jogos_, bem como também fazer _Q&A_ sobre os mais variados jogos de seu interesse. 
