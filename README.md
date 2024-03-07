@@ -22,7 +22,7 @@ Segue a tabela com as intenções suportadas pelo SteamCB e bem como suas respec
 |:-----------------:	|------------------------------------------------------	|------------------------------------------------------------	|
 |   **_BuyGame_**   	| _Comprar um jogo_                                    	| _game_title_                                               	|
 | **_ReqShowGame_** 	| _Pedir sugestão de um jogo_                          	| _game_title, game_tag, release_date,  developer, platform_ 	|
-| **_ReqGameInfo_** 	| _Q&A sobre informações textuais não estruturadas de um jogo_ 	| None                                                       	|
+| **_ReqGameInfo_** 	| _Q&A sobre informações textuais não estruturadas de um jogo_ 	| _game_title_                                                      	|
 |    **_Affirm_**   	| _Confirmar uma intenção, ação ou informação_         	| None                                                       	|
 |     **_Deny_**    	| _Negar uma intenção, ação ou informação_             	| None                                                       	|
 
