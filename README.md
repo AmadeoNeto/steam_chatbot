@@ -37,10 +37,12 @@ Usamos o [Steam Store Games dataset](https://www.kaggle.com/datasets/nikdavis/st
 - [Lamma2](https://llama.meta.com/)
 - [Mixtral 8x7B](https://chat.mistral.ai/chat)
 
-Devido a limitações requisições por parte das APIs dos LLMs e também por limitações de hardware tivemos ampliar o dataset replicando os dialogos de intenções enquanto alteravamos os _slots_ das entidades com dados extraidos do Steam Store Games Dataset. Usamos o AutoTokenizer do HuggingFace e o Tokenizer do Spacy para criar o tokens do dataset.
+Devido a limitações requisições por parte das APIs dos LLMs e também por limitações de hardware tivemos ampliar o dataset replicando os dialogos de intenções enquanto alteravamos os _slots_ das entidades com dados extraidos do Steam Store Games Dataset. Usamos o AutoTokenizer do HuggingFace e o Tokenizer do Spacy para criar o tokens do dataset. 
+
+Os datasets de extração e de classificação estão em `/collabs/datasets`
 
 ### Classificador e Extrator
-Os notebooks para os modelos de extratores e classificadores estão em `/models/collabs/`. 
+Os notebooks para os modelos de extratores e classificadores estão em `/collabs/`. 
 
 Quanto ao classificador fora utilizados Linear SVM, CNN, BI-LSTM e o DistilBERT (transformer). Porém, o melhor classificador foi o DIETClassifier do framework rasa. 
 
